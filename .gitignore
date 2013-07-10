@@ -36,3 +36,20 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Jekyll #
+##########
+Gemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+bbin/
+gh-pages/
+site/_site/
+coverage
+.ruby-version

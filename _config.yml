@@ -1,0 +1,11 @@
+name: Travis Neilson
+description: travis writes and designs things that matter to him.
+url: http://travisneilson.com
+
+permalink: /:title/
+
+exclude:  [
+  'style.sass',
+  'README.md',
+  '.gitignore'  
+]

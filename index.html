@@ -1,0 +1,53 @@
+---
+layout: default
+home: true
+---
+
+
+{% include side-bar.html %}
+
+
+
+<div class="home-wrap">
+
+  <div class="loop-wrap">
+    {% for post in site.posts %}
+      <a class="unit" href="{{ post.url }}" 
+        style="height: {{ post.height }};">
+        <h2>{{ post.title }}</h2>
+        <em>{{ post.date | date: "%b %d, %Y" }}</em>
+        <span class="icon-arrow-right"></span>
+        <div class="cover-image" style="background-image: url({{ post.cover }});"></div>
+      </a>
+    {% endfor %}
+  </div><!-- /.loop-wrap-->
+  
+  
+  <div class="about-wrap" style="display: none;">
+    {% include home-about.html %}
+  </div><!-- /.about-wrap-->
+  
+  
+  <div class="work-positioner">
+    <div class="behance work-wrap">
+      <h3><a href="http://www.behance.net/travisneilson">This section is powered by Behance</a></h3>
+      <div class="projects"></div>
+    </div><!-- /.behance-wrap-->
+    
+    
+    <div class="dribbble work-wrap">
+      <h3><a class="dribbble" href="http://dribbble.com/travisneilson">Work Samples via Dribble</a></h3>
+      <div class="shots"></div>
+    </div>
+  </div><!--/.work-positioner-->
+  
+  
+  <div class="taste-wrap instagram">
+    {% include home-instagram.html %}
+  </div>
+  
+  
+</div><!-- /.home-wrap-->    
+
+
+{% include home-mailinglist.html %}

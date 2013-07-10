@@ -1,0 +1,97 @@
+.work-positioner 
+  position: relative
+  margin: 35px 20px 20px 215px
+  padding-bottom: 20px
+  display: none
+
+.work-wrap
+  width: 880px
+  margin: 0 auto
+
+  @media screen and (max-width: 1140px)
+    width: 660px
+
+
+  .work-positioner:after,
+  .projects:after,
+  .shots:after
+    content: ''
+    display: block
+    clear: both
+
+  h3 
+    text-align: center
+    background-color: #fff
+    border-radius: 3px
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1)
+    clear: both
+    margin: 40px 0
+
+    a 
+      display: inline-block
+      height: 91px
+      width: 535px
+      background-image: url('/assets/img/behance-logo.gif')
+      text-indent: -999px
+      overflow: hidden
+      margin: 50px
+
+  &.dribbble h3 a 
+    background-image: url('/assets/img/dribbble-logo.gif')
+
+  &.dribbble .shots a
+    box-shadow: 0px 158px 0px #ea4c89 inset, 0px 1px 3px rgba(0,0,0,0.4)
+
+  .projects a,
+  .shots a 
+    float: left
+    display: block
+    position: relative
+    width: 200px
+    overflow: hidden
+    margin: 0px 7px 14px 7px
+    border: 3px solid white
+    background-color: white
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-size: 12px
+    color: #1769FF
+    color: #aaa
+    background-image: url('/assets/img/opppen.gif')
+    background-repeat: no-repeat
+    background-position: 220px 172px
+    +transition(all 0.1s)
+    box-shadow: 0px 158px 0px #05f inset, 0px 1px 3px rgba(0,0,0,0.4)
+    
+    p
+      padding-left: 5px
+      white-space: nowrap
+      overflow: hidden
+      margin: 10px 0 5px
+      
+    &:hover
+      background-position: 185px 172px
+
+  span
+    position: absolute
+    text-align: center
+    top: 57px
+    left: 50px
+    right: 50px
+    color: white
+    font-weight: bold
+    opacity: 0
+    +transition(all 0.1s)
+    pointer-events: none
+
+  a:hover span 
+    opacity: 1
+
+  img 
+    display: block
+    width: 202px
+    height: 158px
+    +transition(all 0.1s)
+    width: 100%
+
+  a:hover img
+    opacity:  0.2

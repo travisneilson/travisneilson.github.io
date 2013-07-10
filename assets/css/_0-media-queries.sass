@@ -1,0 +1,159 @@
+@include max-screen(480px)
+
+  html, body
+    height: auto
+  
+  .unit .cover-image
+    top: 40px !important
+  
+  .tn-nav-wrap .blurb,
+  .tn-nav-wrap .back-message
+    display: none
+  
+  /* ok, now let's try something else    */
+  
+  .home header
+    position: relative
+    width: 100%
+    text-align: center
+  
+  .home header .icon-tn-logo
+    height: 60px
+    font-size: 90px
+    width: auto
+    padding: 35px
+    float: left
+    margin: 0
+    position: relative
+    top: -25px
+  
+  .home header .main-blurb
+    padding: 45px 20px 25px 0
+    text-align: left
+    font-size: 16px
+    line-height: 1.1
+    height: 39px
+    text-indent: -11px
+  
+  .home header nav ul
+    padding: 0 10%
+  
+  .home header nav ul:before,
+  .home header nav ul:after
+    content: " "
+    display: table
+  
+  .home header nav ul:after
+    clear: both
+      
+  .home header nav ul.cf
+    *zoom: 1
+  
+  .home header nav ul li
+    float: left
+    width: 50%
+    padding: 0
+  
+  .home header nav ul li a
+    font-size: 20px
+    padding: 10px
+    display: inline-block
+  
+  .home header nav span.icon-caret-left 
+    display: none
+  
+  .home header .elsewheres
+    position: relative
+    bottom: auto
+    right: auto
+    padding-bottom: 20px
+  
+  .mailinglist-small
+    margin: 0
+  
+  .mailinglist-small input
+    width: 240px
+    margin: 0
+    text-align: center
+    font-size: 14px
+  
+  .home header .elsewheres 
+    display: block
+  
+  .home-wrap .loop-wrap 
+    margin: 38px
+  
+  .work-positioner
+    margin: 0px
+  
+  .work-wrap
+    width: auto
+  
+  .work-wrap h3
+    margin: 0 10px
+  
+  .work-wrap h3 a
+    width: auto
+    display: block
+    background-size: 180px
+    background-repeat: no-repeat
+    background-position: center
+  
+  .work-wrap .projects a, .work-wrap .shots a
+    width: 140px
+    height: 140px
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4)
+  
+  .dribbble.work-wrap .shots a
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4)
+  
+  .work-wrap img 
+    height: auto
+  
+  .taste-wrap
+    margin: 0px
+  
+  .ig-wrap 
+    padding-top: 20px
+  
+  .instagram-placeholder
+    width: auto
+    float: none
+    box-shadow: none
+    text-align: center
+  
+  .instagram-placeholder a
+    width: 300px
+    height: 300px
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4)
+    display: inline-block
+  
+  .about-wrap 
+    height: auto
+    height: 100%
+  
+    .about-container
+      width: auto
+      @include position(relative, auto auto auto auto)
+      padding: 200px 20px 20px 20px
+      
+    .backstretch
+      margin-top: 420px
+      
+  
+  ul.social-icons 
+    float: right
+  
+    li
+      margin: 0 8px 8px 0
+      float: none
+      
+  
+  h1.name
+    font-size: 60px
+  
+  .home header .mailinglist-small input[type="email"]
+    width: 100%
+    text-align: left
+    padding-left: 30px
+    @include box-sizing(border-box)

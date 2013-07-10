@@ -1,0 +1,128 @@
+.about-wrap
+  position: relative
+  height: 100%
+
+.backstretch
+  background: url(/assets/img/travis-pic.jpg)
+  background-size: cover
+  background-position: center center
+  height: 100%
+  width: 100%
+  position: absolute
+  top: 0px
+  left: 0px
+
+h1.name
+  font-family: 'Lato', helvetica, arial, serif
+  font-weight: 300
+  background: rgba(0, 0, 0, 0.8)
+  color: white
+  font-size: 80px
+  display: inline-block
+  z-index: 1
+  margin: 0px
+  line-height: 60px
+  position: absolute
+  padding-bottom: 7px
+
+h1.first
+  letter-spacing: .4em
+  top: 20px
+  right: 16%
+
+.s  
+  letter-spacing: normal
+
+h1.last 
+  letter-spacing: .1em
+  top: 70px
+  right: 7%
+
+h1.last:first-letter 
+  color: #bb1f3e
+
+.about-container 
+  width: 420px
+  position: absolute
+  top: 170px
+  right: 80px
+
+  p
+    font-family: 'Lato', helvetica, arial, serif
+    font-weight: 300
+    color: #333
+    font-size: 14px
+    letter-spacing: .1em
+    line-height: 1.8
+    margin-bottom: 10px
+
+.about-lead
+  display: inline-block
+  background: white
+  color: #bb1f3e
+  text-transform: uppercase
+  font-size: 12.5px
+  line-height: 14px
+  font-weight: 400
+
+ul.social-icons 
+  list-style-type: none
+  margin: 0px
+  padding: 0px
+
+  li 
+    margin: 0px 10px 10px 0px
+    padding: 0px
+    float: left
+
+    a
+      background-color: rgba(255,255,255,0.6)
+      color: #bb1f3e
+      color: rgba(0,0,0,0.5)
+      height: 29px
+      width: 29px
+      display: inline-block
+      line-height: 30px
+      text-align: center
+      font-size: 16px
+      border-radius: 50%
+      +transition(all 150ms)
+      box-shadow: none
+      
+      &.social-facebook:hover
+        color: #3B5998
+      &.social-twitter:hover
+        color: #4099FF
+      &.social-behance:hover
+        color: #1769ff
+      &.social-dribbble:hover
+        color: #ea4c89
+      &.social-instagram:hover
+        color: #3f729b
+      &.social-github:hover
+        color: #4183c4
+      &.social-linkedin:hover
+        color: #4875B4
+      &.social-email:hover
+        color: #3B5998
+      &.social-rss:hover
+        color: #EE8833
+    
+      &:hover 
+        +transform(scale(1.4))
+
+
+@media (max-width:1150px)
+  .about-container
+    right: 5%
+
+@media (max-width:1040px)
+  .about-container
+    width: 300px
+  
+
+@media (max-width:745px) 
+  .about-container 
+    width: 260px
+  h1.name
+    font-size: 60px
