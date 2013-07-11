@@ -25,6 +25,8 @@
   {% endif %}
   
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="screen" />
+  {% if page.type =="post" %}{{ page.styles }}{% endif %}
+  
   <script src="/assets/js/scripts-ck.js" type="text/javascript"></script>
   
 </head>
