@@ -10,13 +10,36 @@ body {
     border-radius: 50%;
     background: white;
     position: absolute;
-    top: 0px;
+    top: 20px;
     right: 50%;
     left: 50%;
     margin-left: -150px;
     margin-right: 150px;
-    text-align: center;
-    line-height: 300px; }
+    text-align: center; }
+    .days .stamp h1 {
+      color: #999999;
+      margin: 80px 0 0 0;
+      font-size: 130px;
+      -webkit-text-fill-color: transparent;
+      background: -webkit-linear-gradient(transparent, transparent), url(/assets/post-assets/040-up/img/stripe.gif) repeat;
+      background: -o-linear-gradient(transparent, transparent);
+      -webkit-background-clip: text; }
+    .days .stamp span {
+      font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 18px;
+      color: #999999;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: #eeeeee;
+      line-height: 30px;
+      border-radius: 50%;
+      margin-top: 40px;
+      cursor: pointer; }
+      .days .stamp span:hover {
+        color: #666666; }
   .days .circle {
     width: 100px;
     height: 100px;

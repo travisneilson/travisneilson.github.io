@@ -10,9 +10,9 @@ function getTxt() {
     
     var d = jQuery.parseJSON(newData),
         dNum = d.length;
-            
-    for (var i = 0; i < dNum; i++) {
-      
+
+    //for (var i = 0; i < dNum; i++) {
+    for (var i = dNum-1; i > 0; --i) {
       var steps = d[i].totalSteps,
           calories = d[i].caloriesBurned,
           active = d[i].percentOfTimeActive,
