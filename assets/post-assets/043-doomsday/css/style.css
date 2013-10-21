@@ -5,20 +5,22 @@
   font-style: normal; }
 
 body {
-  background-color: #222222; }
+  background: url(../img/trav.jpg) center center no-repeat fixed;
+  background-size: cover; }
 
 .doomsday {
   font-family: "function";
   text-align: center;
   font-size: 300px;
-  color: #cccccc;
+  color: rgba(255, 255, 255, 0.4);
   text-transform: uppercase;
   line-height: 0.8; }
 
 .question {
   font-size: 50px;
   padding: 50px 0 100px;
-  color: white; }
+  color: #3bd3d3;
+  color: black; }
 
 @media screen and (max-width: 768px) {
   [class^="stripe"] {
