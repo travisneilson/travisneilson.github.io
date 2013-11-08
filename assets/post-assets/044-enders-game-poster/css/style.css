@@ -47,6 +47,28 @@ body {
     display: inline-block; }
     .enders-game-poster .buy-now:hover {
       background: black; }
+  .enders-game-poster .e-thumb {
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+    background-color: black;
+    margin: 0px 10px 20px 0px;
+    background-size: 150% auto;
+    background-position: top center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer; }
+    .enders-game-poster .e-thumb:hover {
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3), 0px 0px 0px 3px black inset; }
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.8) center center no-repeat;
+  background-size: 50% auto;
+  cursor: url(../img/close.png), auto; }
 
 @media screen and (max-width: 768px) {
   .enders-game-poster {

@@ -51,7 +51,26 @@ body
       background: #000
 
 
+  
+  .e-thumb
+    +size(100 70)
+    display: inline-block
+    background-color: #000
+    margin: 0px 10px 20px 0px
+    background-size: 150% auto
+    background-position: top center
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3)
+    cursor: pointer
+    
+    &:hover
+      box-shadow: 0px 2px 3px rgba(0,0,0,0.3), 0px 0px 0px 3px black inset
 
+  
+.overlay
+  +position(fixed, 0px 0px 0px 0px)
+  background: rgba(0,0,0,0.8) center center no-repeat
+  background-size: 50% auto
+  cursor: url(../img/close.png), auto
 
 
 
