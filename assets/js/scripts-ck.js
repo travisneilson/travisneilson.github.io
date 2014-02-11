@@ -610,7 +610,7 @@ $(function() {
     });
     
     function clickedAbout() {
-      arrHome = 87;
+      arrHome = 60;
       $('.icon-caret-left').css('top', arrHome + 'px' );
       $('.about-link').parent().addClass('active').siblings().removeClass('active');
       $('.home-wrap > div').fadeOut('fast').filter('.about-wrap').fadeIn('fast');
