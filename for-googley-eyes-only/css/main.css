@@ -79,7 +79,7 @@ strong {
   font-weight: bold; }
 
 hr {
-  border: solid #dddddd;
+  border: solid #ddd;
   border-width: 1px 0 0;
   clear: both;
   margin: 10px 0 30px;
@@ -247,7 +247,7 @@ nav.controls {
       margin-left: -11px; }
     nav.controls .menu ul li {
       padding: 5px 20px;
-      box-shadow: 0px -1px 0px whitesmoke inset;
+      box-shadow: 0px -1px 0px #f5f5f5 inset;
       font-size: 16px;
       color: #666; }
       nav.controls .menu ul li:hover {
@@ -263,7 +263,7 @@ nav.controls {
         nav.controls .menu ul li:last-child.active {
           box-shadow: 4px 0px 0px #0099cc inset; }
       nav.controls .menu ul li.active {
-        box-shadow: 0px -1px 0px whitesmoke inset, 4px 0px 0px #0099cc inset;
+        box-shadow: 0px -1px 0px #f5f5f5 inset, 4px 0px 0px #0099cc inset;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px; }
   nav.controls .menu:hover ul {
@@ -332,7 +332,7 @@ section {
     position: relative;
     -webkit-transition: all 1.5s ease-in-out 0s; }
     .step1 .plate0 .logo {
-      left: 400px; }
+      margin-left: 400px; }
 
 .plate1 {
   top: 1500px;
@@ -361,7 +361,7 @@ section {
         top: 500px;
         left: -180px;
         left: -800px;
-        border: 4px solid white;
+        border: 4px solid #fff;
         -webkit-transition: all 0.6s cubic-bezier(0.175, 0.205, 0, 1.285) 1.4s;
         opacity: 0; }
         .step1 .plate1 .content-container h1 span {
@@ -496,7 +496,7 @@ section {
       background-image: url(../img/icon-link.png);
       background-repeat: no-repeat;
       background-position: 50% 100px;
-      -webkit-transition: all 0.2s ease-in-out 0s; }
+      -webkit-transition: all .2s ease-in-out 0s; }
       .plate3 .content-container .portfolio-link:hover {
         background-position: 50% 20px; }
       .plate3 .content-container .portfolio-link.behance {
@@ -519,7 +519,7 @@ section {
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-position: 110px 70px;
       -webkit-mask-size: 200px 200px;
-      -webkit-transition: all 0.5s ease-in-out 0s; }
+      -webkit-transition: all .5s ease-in-out 0s; }
       .plate3 .content-container .project1 .text-container {
         margin-left: 400px;
         margin-top: 100px;
@@ -544,7 +544,7 @@ section {
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-position: 250px 230px;
       -webkit-mask-size: 200px 200px;
-      -webkit-transition: all 0.5s ease-in-out 0s; }
+      -webkit-transition: all .5s ease-in-out 0s; }
       .plate3 .content-container .project2 .text-container {
         margin: 5px;
         margin-top: 60px; }
@@ -572,7 +572,7 @@ section {
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-position: 390px 20px;
       -webkit-mask-size: 270px 270px;
-      -webkit-transition: all 0.5s ease-in-out 0s; }
+      -webkit-transition: all .5s ease-in-out 0s; }
       .plate3 .content-container .project3 .text-container {
         position: absolute;
         width: 350px;
