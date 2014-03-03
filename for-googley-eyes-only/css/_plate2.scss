@@ -1,0 +1,89 @@
+.plate2 {
+  overflow: auto;
+  top: 1000px;
+  left: 2000px;
+  -webkit-transform: rotate(-70deg);
+  -webkit-transform-origin: top left;
+  /*background: lightgreen;*/
+  
+  .content-container {
+  
+    h1 {
+      margin-bottom: 50px;
+    }
+    
+    ul {
+      position: relative;
+      
+      &:before {
+        content:'';
+        display: block;
+        background-color: white;
+        width: 5px;
+        position: absolute;
+        top: 0;
+        left: 38px;
+        bottom: 0;
+        
+      }
+      
+      li {
+        padding-bottom: 50px;
+        position: relative;
+        margin-left: 110px;
+        
+        &:last-child { padding-bottom: 100px; }
+        
+        &:before {
+          $size: 80px;
+          content: "";
+          display: block;
+          width: $size;
+          height: $size;
+          border-radius: 50%;
+          background-color: white;
+          background-position: center center;
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 0;
+          left: -$size - 30;       
+        }
+        
+        &.job-tubular:before { background-image: url(../img/job-tubular.png); }
+        &.job-britely:before { background-image: url(../img/job-britely.png); }
+        &.job-sparkart:before { background-image: url(../img/job-sparkart.png); }
+        &.job-braintrust:before { background-image: url(../img/job-braintrust.png); }
+        &.job-freelance:before { background-image: url(../img/logo.svg); background-size: 50px 50px; }
+        
+        h2 {
+          font-size: 32px;
+          
+          small { font-size: 24px; }
+        }
+        
+        strong {
+          display: block;
+          font-size: 16px;
+          
+          a {
+            color: #65c5f7;
+            text-decoration: none;
+          }
+        }
+        
+        em {
+          display: block;
+          font-size: 14px;
+          color: #666;
+          
+          span { color: #999; margin-left: 10px; display: inline-block; }
+        }
+        
+        p {
+          font-size: 16px;
+          width: 400px;
+        }
+      }
+    }
+  }
+}
