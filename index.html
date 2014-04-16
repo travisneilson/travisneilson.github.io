@@ -12,6 +12,7 @@ home: true
 
   <div class="loop-wrap">
     {% for post in site.posts %}
+      {% unless post.draft %}
       <a class="unit" href="{{ post.url }}" 
         style="height: {{ post.height }};">
         <h2>{{ post.title }}</h2>
@@ -19,6 +20,7 @@ home: true
         <span class="icon-arrow-right"></span>
         <div class="cover-image" style="background-image: url({{ post.cover }});"></div>
       </a>
+      {% endunless %}
     {% endfor %}
   </div><!-- /.loop-wrap-->
   
