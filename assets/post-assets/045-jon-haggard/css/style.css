@@ -54,6 +54,11 @@ body.jon-article {
       color: white;
       font-size: 128px;
       font-family: "franklin", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .jon-haggard .hero h1 aside {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 12px; }
   .jon-haggard p {
     margin: 0 100px 20px 220px; }
     .jon-haggard p.tn {
@@ -62,13 +67,13 @@ body.jon-article {
       font-weight: 600;
       line-height: 1.4;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-      .jon-haggard p.tn.sep:before {
-        content: "";
-        display: block;
-        width: 100px;
-        height: 1px;
-        background: #cccccc;
-        margin: 50px 0; }
+    .jon-haggard p.sep:before {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 1px;
+      background: #cccccc;
+      margin: 50px 0; }
     .jon-haggard p.em {
       font-size: 24px;
       margin-left: 150px; }
