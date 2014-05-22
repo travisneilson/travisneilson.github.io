@@ -24,6 +24,7 @@ html, body {
 		overflow: hidden;
 		position: absolute;
 		-webkit-transition: all 200ms ease-in-out;
+		left: 0%;
 		}
 		
 		
