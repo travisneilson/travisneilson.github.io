@@ -52,9 +52,9 @@ body.jon-article {
       left: 30px;
       color: white;
       font-size: 128px;
-      font-family: "franklin", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      font-family: "franklin", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
       .jon-haggard .hero h1 aside {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
         text-transform: uppercase;
         letter-spacing: 3px;
         font-size: 12px; }
@@ -65,12 +65,12 @@ body.jon-article {
       font-size: 16px;
       font-weight: 600;
       line-height: 1.4;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
     .jon-haggard p.sep:before {
       content: "";
       display: block;
-      width: 100px;
       height: 1px;
+      width: 100px;
       background: #cccccc;
       margin: 50px 0; }
     .jon-haggard p.em {
@@ -78,20 +78,20 @@ body.jon-article {
       margin-left: 150px; }
     .jon-haggard p.pull-quote {
       margin: 50px 30px 50px;
-      font-family: "franklin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "franklin", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 80px;
       line-height: 1;
       text-align: center; }
       .jon-haggard p.pull-quote:before, .jon-haggard p.pull-quote:after {
         content: "";
         display: block;
-        width: 100px;
         height: 1px;
+        width: 100px;
         background: #cccccc;
         margin: 50px auto; }
   .jon-haggard .gallery-title {
     font-size: 12px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     letter-spacing: 1px; }
     .jon-haggard .gallery-title:before {
       content: "—"; }
@@ -100,11 +100,9 @@ body.jon-article {
     margin-left: 220px;
     height: 200px;
     margin-bottom: 20px;
-    -webkit-transition: all 0.15s ease-out 0;
-    -moz-transition: all 0.15s ease-out 0;
-    -ms-transition: all 0.15s ease-out 0;
-    -o-transition: all 0.15s ease-out 0;
-    transition: all 0.15s ease-out 0; }
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s; }
     .jon-haggard .gallery .gallery-item {
       position: absolute;
       left: -20px;
@@ -122,11 +120,9 @@ body.jon-article {
       transform-origin: top left;
       opacity: 0;
       pointer-events: none;
-      -webkit-transition: all 0.15s ease-out 0;
-      -moz-transition: all 0.15s ease-out 0;
-      -ms-transition: all 0.15s ease-out 0;
-      -o-transition: all 0.15s ease-out 0;
-      transition: all 0.15s ease-out 0; }
+      -webkit-transition: all 0.15s ease-out 0s;
+      -moz-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s; }
       .jon-haggard .gallery .gallery-item.current {
         left: 0px;
         -webkit-animation: galleryMove 300ms ease-in forwards;
@@ -151,23 +147,19 @@ body.jon-article {
 
   to {
     -moz-transform: scale(1) translate(0px, 0px); } }
-@-ms-keyframes galleryMove {
-  from {
-    -ms-transform: scale(0.3) translate(-100%, 0px); }
-
-  to {
-    -ms-transform: scale(1) translate(0px, 0px); } }
-@-o-keyframes galleryMove {
-  from {
-    -o-transform: scale(0.3) translate(-100%, 0px); }
-
-  to {
-    -o-transform: scale(1) translate(0px, 0px); } }
 @keyframes galleryMove {
   from {
+    -webkit-transform: scale(0.3) translate(-100%, 0px);
+    -moz-transform: scale(0.3) translate(-100%, 0px);
+    -ms-transform: scale(0.3) translate(-100%, 0px);
+    -o-transform: scale(0.3) translate(-100%, 0px);
     transform: scale(0.3) translate(-100%, 0px); }
 
   to {
+    -webkit-transform: scale(1) translate(0px, 0px);
+    -moz-transform: scale(1) translate(0px, 0px);
+    -ms-transform: scale(1) translate(0px, 0px);
+    -o-transform: scale(1) translate(0px, 0px);
     transform: scale(1) translate(0px, 0px); } }
 @media screen and (max-width: 768px) {
   .enders-game-poster {

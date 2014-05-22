@@ -4,7 +4,7 @@
 
   header
     background-color: #fff
-    +position(fixed, 0px 0 0px 0px)
+    +position(fixed, 0px null 0px 0px)
     width: 195px
     text-align: right
     z-index: 3
@@ -36,7 +36,7 @@
       position: relative
       
       .icon-caret-left
-        +position(absolute, 3px 10px 0 0)
+        +position(absolute, 3px 10px null null)
         +transition
     
     ul
@@ -57,7 +57,7 @@
     .elsewheres
       list-style: none
       margin: 0
-      +position(absolute, 0 30px 10px 0)
+      +position(absolute, null 30px 10px null)
       font-size: 11px
       
       a
@@ -90,7 +90,7 @@
         text-transform: none
         line-height: 1
         -webkit-font-smoothing: antialiased
-        +position(absolute, 35px 0 0 38px)
+        +position(absolute, 35px null null 38px)
       
       &.focused:before
         content: "\e00a"

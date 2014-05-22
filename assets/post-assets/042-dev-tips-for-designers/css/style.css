@@ -3,20 +3,16 @@ html, body {
 
 body {
   background-color: white;
-  background-image: -webkit-gradient(radial, center center, 0, center center, 460, color-stop(0%, white), color-stop(100%, #dddddd));
-  background-image: -webkit-radial-gradient(50% 50%, ellipse cover, white, #dddddd);
-  background-image: -moz-radial-gradient(50% 50%, ellipse cover, white, #dddddd);
-  background-image: -ms-radial-gradient(50% 50%, ellipse cover, white, #dddddd);
-  background-image: -o-radial-gradient(50% 50%, ellipse cover, white, #dddddd);
-  background-image: radial-gradient(50% 50%, ellipse cover, white, #dddddd); }
+  background-image: -webkit-radial-gradient(white, #dddddd);
+  background-image: radial-gradient(  white, #dddddd); }
 
 [class^="stripe"] {
   position: absolute;
   position: fixed;
   background: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-  width: 300px;
   height: 50px;
+  width: 300px;
   z-index: 0; }
   [class^="stripe"].stripe1 {
     top: 50px;
@@ -101,9 +97,7 @@ article.devtips {
   article.devtips header {
     text-align: center; }
     article.devtips header h2 {
-      color: transparent;
-      font: 0/0 a;
-      text-shadow: none;
+      overflow: hidden;
       background-image: url(../img/DT-logo.svg);
       background-position: top center;
       background-repeat: no-repeat;
@@ -112,6 +106,11 @@ article.devtips {
       height: 136px;
       display: block;
       margin: 0 auto 30px; }
+      article.devtips header h2:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 100%; }
     article.devtips header h3 {
       font-weight: 300;
       margin: 40px 0 0 0;
@@ -143,11 +142,9 @@ article.devtips {
     font-size: 20px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), -5px 5px 0px rgba(0, 0, 0, 0.6);
     position: relative;
-    -webkit-transition: all 0.15s ease-out 0;
-    -moz-transition: all 0.15s ease-out 0;
-    -ms-transition: all 0.15s ease-out 0;
-    -o-transition: all 0.15s ease-out 0;
-    transition: all 0.15s ease-out 0; }
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s; }
     article.devtips .go-btn:hover {
       box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), -10px 10px 0px rgba(0, 0, 0, 0.6);
       background: #fff141;

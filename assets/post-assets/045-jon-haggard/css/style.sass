@@ -1,7 +1,5 @@
-@import '../../../css/plugins/bourbon'
+@import '../../../css/plugins/plugin-dir'
 @import 'font'
-
-// post styles here...
 
 
 body.jon-article
@@ -35,7 +33,7 @@ body.jon-article
     
     h1
       margin: 0
-      +position(absolute, 0 0 40% 30px)
+      +position(absolute, null null 40% 30px)
       color: white
       font-size: 128px
       font-family: "franklin", $helvetica
@@ -59,7 +57,7 @@ body.jon-article
     &.sep:before
       content: ''
       display: block
-      +size(100 1)
+      +size(100px 1px)
       background: #ccc
       margin: 50px 0
       
@@ -78,7 +76,7 @@ body.jon-article
       &:after
         content: ''
         display: block
-        +size(100 1)
+        +size(100px 1px)
         background: #ccc
         margin: 50px auto
         
