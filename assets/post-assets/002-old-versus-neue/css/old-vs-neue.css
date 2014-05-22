@@ -28,13 +28,13 @@
 *************************/
 
 body {
-	background-image: url(http://travisneilson.com/legacy/v5/wp-content/upLoads/neue_texture_bg.gif);
+	background-image: url(../img/neue_texture_bg.gif);
 	background-repeat: repeat;
 	}
 	
 
 .article_title {
-	background-image: url(http://travisneilson.com/legacy/v5/wp-content/upLoads/neue_article_title.gif);
+	background-image: url(../img/neue_article_title.gif);
 	background-position: center center;
 	background-repeat: no-repeat;
 	height:433px;
@@ -139,7 +139,7 @@ body {
 	}
 
 .notes_wrap {
-	background-image: url(http://travisneilson.com/legacy/v5/wp-content/upLoads/neue_notes-arrow.jpg);
+	background-image: url(../img/neue_notes-arrow.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-color: #777777;
