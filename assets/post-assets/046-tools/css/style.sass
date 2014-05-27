@@ -4,15 +4,22 @@
 
 body.tools-article
   background-color: white
+  padding-bottom: 100px
 
   .bunny
-    background: 
-      image: url(../img/bunny2.png)
-      size: cover
-      position: center center
-      repeat: no-repeat
+    position: relative
     height: 70%
     width: 100%
+    overflow: hidden
+    
+    > div
+      background: 
+        image: url(../img/bunny2.png)
+        size: cover
+        position: center center
+        repeat: no-repeat
+      +position(absolute, 0px 0px 0px 0px)
+      +transition
 
   article
     position: relative
@@ -20,6 +27,20 @@ body.tools-article
     margin: 0 auto
     padding: 0 30px 100px
     +box-sizing(border-box)
+    +clearfix
+    
+    li
+      font-size: 21px
+      padding-right: 20px
+      list-style: square
+      color: #ccc
+      
+      a
+        font-weight: bold
+      
+      p
+        font-size: 14px
+        color: #555
   
   h2
     font:
@@ -28,9 +49,32 @@ body.tools-article
       weight: normal
     margin: -80px 0px 50px
     color: hsl(240, 36%, 28%)
-    
-
-
-
   
-@import '0-media-queries'
+  h3
+    font:
+      family: marker, sans-serif
+      size: 80px
+      weight: normal
+    color: hsl(240, 36%, 28%)
+    margin: 50px 0 0
+  
+  
+  .intro
+    font-size: 24px
+  
+  section:not(.intro)
+    width: 50%
+    float: left
+  section:nth-child(2n+3)
+    clear: left
+  
+  
+
+
++max-screen(939px)
+  body.tools-article article
+    max-width: 680px
+    
+    section:not(.intro)
+      width: auto
+      float: none
