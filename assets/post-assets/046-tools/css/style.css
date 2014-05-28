@@ -51,14 +51,16 @@ body.tools-article {
     font-family: marker, sans-serif;
     font-size: 120px;
     font-weight: normal;
-    margin: -80px 0px 50px;
-    color: #2e2e61; }
+    margin: -55px 0px 50px;
+    color: #2e2e61;
+    line-height: 0.8em; }
   body.tools-article h3 {
     font-family: marker, sans-serif;
     font-size: 80px;
     font-weight: normal;
     color: #2e2e61;
-    margin: 50px 0 0; }
+    margin: 50px 0 20px;
+    line-height: 0.8em; }
   body.tools-article .intro {
     font-size: 24px; }
   body.tools-article section:not(.intro) {
@@ -73,3 +75,13 @@ body.tools-article {
     body.tools-article article section:not(.intro) {
       width: auto;
       float: none; } }
+@media screen and (max-width: 599px) {
+  body.tools-article h2 {
+    font-size: 85px;
+    margin-top: -40px; }
+
+  body.tools-article h3 {
+    font-size: 65px; }
+
+  body.tools-article .intro {
+    font-size: 20px; } }
