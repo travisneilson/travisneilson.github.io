@@ -10,6 +10,7 @@ body.tools-article {
     position: relative;
     height: 70%;
     width: 100%;
+    min-height: 200px;
     overflow: hidden; }
     body.tools-article .bunny > div {
       background-image: url(../img/bunny2.png);
