@@ -61,8 +61,11 @@ body.tools-article {
     color: #2e2e61;
     margin: 50px 0 20px;
     line-height: 0.8em; }
-  body.tools-article .intro {
+  body.tools-article .intro, body.tools-article .close {
     font-size: 24px; }
+  body.tools-article .close {
+    padding-top: 50px;
+    clear: both; }
   body.tools-article section:not(.intro) {
     width: 50%;
     float: left; }
