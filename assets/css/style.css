@@ -354,6 +354,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+* {
+  -webkit-appearance: none; }
+
 .home {
   background-color: #EBEBEB; }
   .home header {
@@ -785,7 +788,7 @@ ul.social-icons {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 400;
     font-size: 60px;
-    margin: 40px 80px; }
+    margin: 40px 0 80px; }
   .notes-wrap .lead {
     font-size: 18px;
     margin: 0 auto 20px;
