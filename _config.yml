@@ -11,3 +11,10 @@ exclude:  [
 ]
 
 port: 8000
+
+sass:
+    sass_dir: assets/css
+
+collections:
+  notes:
+    output: true

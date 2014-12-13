@@ -1,0 +1,39 @@
+<div class="">
+
+  <h2>Notes.</h2>
+  
+  <p class="lead muted">Notes are weekly email messages that come directly to your inbox. Most of the notes I send will never be available anywhere else. Don’t miss out. <strong>You should sign up.</strong></p>
+  
+  {% include notes-form.html %}
+  
+  
+  
+  
+  
+  <div class="note-sample-wrap">
+    
+    <p class="muted">A small selection of previous notes that I’ve made public.</p>
+    
+  {% for note in site.notes %}
+    
+    <a class="note-link" href="{{note.url}}">
+      <div class="note-name">{{note.note-name}}
+        <div class="note-time">{{note.note-time}}</div>
+      </div>
+      
+      <div class="note-pre-header">{{note.note-pre-header}}</div>
+      <div class="note-stat">{{note.note-stat}}</div>
+      <div class="cta">Read This Note</div>
+    </a>
+    
+  {% endfor %}
+  
+    <div class="note-link more-soon">
+
+      <div class="note-pre-header">More soon...</div>
+
+    </div>
+  
+  </div>
+  
+</div>
