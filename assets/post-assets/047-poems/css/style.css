@@ -334,6 +334,7 @@ html, body {
     height: 32px;
     width: 32px;
     position: absolute;
+    display: block;
     -webkit-transform: translate(-8px, -8px);
     -moz-transform: translate(-8px, -8px);
     -ms-transform: translate(-8px, -8px);
