@@ -1,5 +1,9 @@
 $(function() {
-
+  
+  $('.poem-target').click(function() {
+    return false;
+  });
+  
 });
 
 
