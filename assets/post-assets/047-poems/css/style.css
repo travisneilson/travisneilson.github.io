@@ -221,7 +221,8 @@ html, body {
   height: auto !important; }
 
 .thirty-two-poems-article {
-  position: relative; }
+  position: relative;
+  overflow: scroll; }
   .thirty-two-poems-article .poem-actions {
     position: fixed;
     top: 0px;
