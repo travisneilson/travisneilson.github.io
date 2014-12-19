@@ -7,7 +7,8 @@ html, body
 
 .thirty-two-poems-article
   position: relative
-  overflow: scroll
+  overflow-x: scroll
+  overflow-y: hidden
   
   .poem-actions
     +position(fixed, 0px 0px null null)
@@ -86,6 +87,10 @@ html, body
     display: block
     //background: rgba(255, 0,0,0.3)
     +transform(translate(-8px, -8px))
+    z-index: 1
+    
+    &:hover
+      z-index: 2
     
     &:hover .poem-baloon
       opacity: 1
@@ -104,7 +109,30 @@ html, body
       border-radius: 0px 150px 150px 150px
       +position(absolute, 50% auto auto 50%)
       +transform-origin(top left)
-  
+    
+    &:before
+      content: ''
+      display: block
+      +position(absolute, 50% null null 50%)
+      +size(30px)
+      border-radius: 50%
+      border: solid 2px #00aeef
+      margin-left: -17px
+      margin-top: -17px
+      opacity: 0
+      +animation(affordances 10s linear infinite)
+    
+    &.delay-1:before
+      +animation-delay(3s)
+      
+    &.delay-2:before
+      +animation-delay(5s)
+    
+    &.delay-3:before
+      +animation-delay(7s)
+      
+      
+      
   .p-0
     top: 155px
     left: 40px
@@ -284,5 +312,14 @@ html, body
   
   100%
     +transform(scale(1))
-    
+
+
++keyframes(affordances)
+  0%
+    +transform(scale(0))
+  8%
+    opacity: 0.4
+  10%
+    +transform(scale(1))
+    opacity: 0
     
