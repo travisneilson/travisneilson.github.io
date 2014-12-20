@@ -628,6 +628,7 @@ html, body {
   background: white;
   box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.5);
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   z-index: 10;
   -webkit-animation: bounce-open 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
   -moz-animation: bounce-open 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
