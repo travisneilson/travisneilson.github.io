@@ -218,17 +218,17 @@
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 html, body {
-  height: auto !important; }
+  height: 100%;
+  width: 100%; }
 
 .thirty-two-poems-article {
-  position: relative;
-  overflow-x: scroll;
-  overflow-y: hidden; }
+  position: relative; }
   .thirty-two-poems-article .poem-actions {
     position: fixed;
     top: 0px;
     right: 0px;
-    font-size: 25px; }
+    font-size: 25px;
+    z-index: 1; }
     .thirty-two-poems-article .poem-actions > a {
       display: inline-block;
       padding-right: 20px;
@@ -248,10 +248,16 @@ html, body {
         -webkit-transition: all 0.15s ease-out 0s;
         -moz-transition: all 0.15s ease-out 0s;
         transition: all 0.15s ease-out 0s; }
+  .thirty-two-poems-article .grid-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden; }
   .thirty-two-poems-article .svg-grid {
     background-image: url(../img/poetry.svg);
     background-size: cover;
-    margin-top: 50px;
+    top: 50px;
     height: 432px;
     width: 1632px;
     -webkit-transform-origin: top left;
@@ -608,5 +614,112 @@ html, body {
     -o-transform: scale(1);
     transform: scale(1);
     opacity: 0; } }
+.thirty-two-poems-article .action-container {
+  width: 600px;
+  height: calc(100% - 150px);
+  margin-top: 10px;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -330px;
+  border: 5px solid #00aeef;
+  background: white;
+  box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.5);
+  overflow: scroll;
+  z-index: 10;
+  -webkit-animation: bounce-open 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-animation: bounce-open 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation: bounce-open 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+@media(max-width: 660px) {
+  .thirty-two-poems-article .action-container {
+    width: calc(100% - 90px);
+    margin: 10px;
+    left: auto;
+    top: 0px; } }
+  .thirty-two-poems-article .action-container.hide {
+    display: none; }
+  .thirty-two-poems-article .action-container h4 {
+    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    font-weight: 400; }
+  .thirty-two-poems-article .action-container .close-comments {
+    color: #00aeef;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer; }
+
+@-webkit-keyframes hello {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3); }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05); }
+  65% {
+    -webkit-transform: scale(0.9); }
+  80% {
+    -webkit-transform: scale(1.01); }
+  90% {
+    -webkit-transform: scale(0.97); }
+  100% {
+    -webkit-transform: scale(1); } }
+@-moz-keyframes hello {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.3); }
+  50% {
+    opacity: 1;
+    -moz-transform: scale(1.05); }
+  65% {
+    -moz-transform: scale(0.9); }
+  80% {
+    -moz-transform: scale(1.01); }
+  90% {
+    -moz-transform: scale(0.97); }
+  100% {
+    -moz-transform: scale(1); } }
+@keyframes hello {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3); }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05); }
+  65% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9); }
+  80% {
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01); }
+  90% {
+    -webkit-transform: scale(0.97);
+    -moz-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    -o-transform: scale(0.97);
+    transform: scale(0.97); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
 
 /*# sourceMappingURL=style.css.map */

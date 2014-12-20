@@ -90,12 +90,13 @@ $(function() {
   noClicky();
   sound();
   scrolly();
+  actionContiners();
   
 });
 
 
 function scrolly() {
-  $("body").mousewheel(function(event, delta) {
+  $(".grid-container").mousewheel(function(event, delta) {
     this.scrollLeft -= (delta * 30);
     event.preventDefault();
   });
@@ -110,9 +111,30 @@ function noClicky() {
 
 function sound() {
   $('.poem-target').mouseenter(function() {
-    
-    var randNum = Math.floor(Math.random() * 5);
     setTimeout(function() {$('audio')[0].play();}, 150);
-    
   });
+  
+  $('.poem-icn-question-circle, .poem-icn-comments').click(function() {
+    setTimeout(function() {$('audio')[0].play();}, 150);
+  });
+}
+
+function actionContiners() {
+  
+  $('.close-comments').click(function() {
+    $(this).parents('.action-container').addClass('hide');
+  });
+  
+  $('.poem-icn-question-circle').click(function() {
+    $('.what-container').removeClass('hide');
+    $('.comments-container').addClass('hide');
+    return false;
+  });
+  
+  $('.poem-icn-comments').click(function() {
+    $('.comment-container').removeClass('hide');
+    $('.what-container').addClass('hide');
+    return false;
+  });
+  
 }

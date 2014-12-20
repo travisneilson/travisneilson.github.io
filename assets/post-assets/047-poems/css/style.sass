@@ -3,16 +3,16 @@
 @import 'animation'
 
 html, body
-  height: auto !important
+  //height: auto !important
+  +size(100%)
 
 .thirty-two-poems-article
   position: relative
-  overflow-x: scroll
-  overflow-y: hidden
   
   .poem-actions
     +position(fixed, 0px 0px null null)
     font-size: 25px
+    z-index: 1
     
     > a
       display: inline-block
@@ -37,12 +37,18 @@ html, body
         +transition()
         
       
+  .grid-container
+    +size(100%)
+    position: relative
+    overflow-x: auto
+    overflow-y: hidden
+  
   
   .svg-grid
     background:
       image: url(../img/poetry.svg)
       size: cover
-    margin-top: 50px 
+    top: 50px 
     +size(1632px 432px)
     +transform-origin(top left)
     position: relative
@@ -283,14 +289,6 @@ html, body
     left: 1576px
 
 
-  
-  
-  
-  
-
-
-
-
 +keyframes(bounce-open)
   0%
     opacity: 0
@@ -322,4 +320,68 @@ html, body
   10%
     +transform(scale(1))
     opacity: 0
+    
+.thirty-two-poems-article
+
+  .action-container
+    width: 600px
+    height: calc(100% - 150px)
+    margin-top: 10px
+    padding: 30px
+    +position(absolute, 0 null null 50%)
+    margin-left: -330px
+    border: 5px solid #00aeef
+    background: white
+    box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.5)
+    overflow: scroll
+    z-index: 10
+    
+    +animation(bounce-open 0.5s $ease-in-back)
+    +animation-fill-mode(forwards)
+    
+    @media(max-width: 660px)
+      width: calc(100% - 90px)
+      margin: 10px
+      left: auto
+      top: 0px
+    
+    &.hide
+      display: none
+    
+    h4
+      font-family: $monospace
+      font-weight: 400
+    
+    .close-comments
+      color: #00aeef
+      +position(absolute, 10px 10px null null)
+      cursor: pointer
+    
+    
+    
+
++keyframes(hello)
+  0%
+    opacity: 0
+    +transform(scale(.3))
+  
+  50%
+    opacity: 1
+    +transform(scale(1.05))
+  
+  65% 
+    +transform(scale(.9))
+  
+  
+  80% 
+    +transform(scale(1.01))
+  
+  90% 
+    +transform(scale(0.97))
+  
+  100%
+    +transform(scale(1))
+    
+    
+    
     
