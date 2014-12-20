@@ -252,8 +252,9 @@ html, body {
     height: 100%;
     width: 100%;
     position: relative;
-    overflow-x: auto;
-    overflow-y: hidden; }
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; }
   .thirty-two-poems-article .svg-grid {
     background-image: url(../img/poetry.svg);
     background-size: cover;
