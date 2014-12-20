@@ -53,8 +53,11 @@ html, body
     +size(1632px 432px)
     +transform-origin(top left)
     position: relative
-    
     font-family: $monospace
+    +transform(scale(0.8))
+    
+    @media(min-height: 550px)
+      +transform(scale(1))
     
     @media(min-height: 650px)
       +transform(scale(1.3))
@@ -138,6 +141,12 @@ html, body
     &.delay-3:before
       +animation-delay(7s)
       
+    .starter-arrow
+      position: relative
+      top: 5px
+      left: -4px
+      color: #999
+      +animation(backforth 1.5s ease-in-out infinite)
       
       
   .p-0
@@ -386,4 +395,8 @@ html, body
     
     
     
-    
++keyframes(backforth)
+  0%, 100%
+    left: -4px
+  50%
+    left: -10px

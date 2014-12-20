@@ -91,6 +91,7 @@ $(function() {
   sound();
   scrolly();
   actionContiners();
+  byeArrow();
   
 });
 
@@ -138,3 +139,13 @@ function actionContiners() {
   });
   
 }
+
+function byeArrow() {
+  
+  $('.poem-target').mouseenter(function(){
+    $(this).find('.starter-arrow').remove();
+  });
+  
+}
+
+
