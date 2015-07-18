@@ -1,6 +1,6 @@
 .plate0 {
   padding-top: 100px;
-  
+
   h1 {
     margin-left: 200px;
     position: relative;
@@ -8,7 +8,7 @@
     line-height: 40px;
     font-size: 40px;
     }
-    
+
   .logo {
     content: "";
     display: block;
@@ -24,8 +24,8 @@
     margin-left: -3px;
     margin-left: 200px;
     position: relative;
-    -webkit-transition: all 1.5s ease-in-out 0s;
-    
+    -webkit-transition: all 1s ease-in-out 0s;
+
     .step1 & {
       margin-left: 400px;
     }
