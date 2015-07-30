@@ -36,8 +36,8 @@ $(function() {
     var $this = $(this);
     if ($this.hasClass('target1')) { $('.project1').addClass('unmasked').siblings().not('h1').hide(); }
     else if ($this.hasClass('target2')) {
-      $('.project2').addClass('unmasked').siblings().not('h1').hide(); 
-      $('.project2 .graphic').css('background-image','url(../img/project2b.gif)');
+      $('.project2').addClass('unmasked').siblings().not('h1').hide();
+      $('.project2 .graphic').css('background-image','url(/for-googley-eyes-only/img/project2b.gif)');
     }
     else if ($this.hasClass('target3')) { $('.project3').addClass('unmasked').siblings().not('h1').hide(); }
   });
@@ -45,7 +45,7 @@ $(function() {
   $('.close-project').click(function() {
     $(this).parent().parent().parent().removeClass('unmasked');
     $('.plate3 .content-container').children().show(200);
-    $('.project2 .graphic').css('background-image','url(../img/project2b.jpg)');
+    $('.project2 .graphic').css('background-image','url(/for-googley-eyes-only/img/project2b.jpg)');
     return false;
   });
 
