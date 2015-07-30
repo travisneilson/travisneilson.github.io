@@ -5,9 +5,14 @@
     margin-left: 200px;
     position: relative;
     color: #999;
-    line-height: 40px;
-    font-size: 40px;
+    line-height: 1;
+    //font-size: 40px;
+
+    strong {
+      display: block;
+      color: #000
     }
+  }
 
   .logo {
     content: "";

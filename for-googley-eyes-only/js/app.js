@@ -1,12 +1,12 @@
 $(function() {
-  
+
   viewSize();
-  
+
   $('.next-btn').click(function() {
     if ($article.hasClass('step0')) { step1(); }
     else if ($article.hasClass('step1')) { step2(); }
     else if ($article.hasClass('step2')) { step3(); }
-    else { step0(); }  
+    else { step0(); }
   });
 
   $(document).keydown(function(e){
@@ -17,34 +17,38 @@ $(function() {
          else { step0(); }
       }
   });
-  
+
   $(document).keydown(function(e){
       if (e.keyCode == 39) {
          $('.next-btn').click();
       }
   });
-  
+
   $menuItem.click(function() {
     var $this = $(this),
         newStep = $this.data('step');
-        
+
     $this.addClass('active').siblings().removeClass('active');
-    $('article').removeClass().addClass(newStep);    
+    $('article').removeClass().addClass(newStep);
   });
-  
+
   $('.project-target').click(function() {
     var $this = $(this);
-    if ($this.hasClass('target1')) {$('.project1').addClass('unmasked').siblings().not('h1').hide();}
-    else if ($this.hasClass('target2')) { $('.project2').addClass('unmasked').siblings().not('h1').hide(); }
+    if ($this.hasClass('target1')) { $('.project1').addClass('unmasked').siblings().not('h1').hide(); }
+    else if ($this.hasClass('target2')) {
+      $('.project2').addClass('unmasked').siblings().not('h1').hide(); 
+      $('.project2 .graphic').css('background-image','url(../img/project2b.gif)');
+    }
     else if ($this.hasClass('target3')) { $('.project3').addClass('unmasked').siblings().not('h1').hide(); }
   });
-  
+
   $('.close-project').click(function() {
     $(this).parent().parent().parent().removeClass('unmasked');
     $('.plate3 .content-container').children().show(200);
+    $('.project2 .graphic').css('background-image','url(../img/project2b.jpg)');
     return false;
   });
-  
+
 }); //END.Ready
 
 
