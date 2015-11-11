@@ -1197,7 +1197,8 @@ footer {
   min-width: 300px; }
   .panel.panel--smaller {
     max-width: 270px;
-    min-width: auto; }
+    min-width: auto;
+    width: 270px;}
 
 .panel.option-list {
   padding: 20px 0; }
