@@ -1,0 +1,85 @@
+
+.section-about
+  //outline: 1px solid blue
+
+.section-about .main-panel
+  max-width: 700px
+  margin-left: 170px
+  margin-top: 50px
+  background: none
+  box-shadow: none
+
+  @media (max-width: 599px)
+    margin-left: 0px
+    margin-right: 40px
+    padding-top: 0
+
+  @media (max-width: 430px)
+    // height: 220px
+
+
+  .face
+    padding-top: 75%
+    background-image: url(../img/travis-neilson.jpg)
+    background-size: cover
+    background-position: center
+    box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1)
+
+
+  .title
+    width: 605px
+    top: -22px
+    left: 172px
+    transition: width 300ms ease-in-out, left 300ms ease-in-out
+
+    @media (max-width: 1032px)
+      left: -40px
+      width: 550px
+
+    @media (max-width: 780px)
+      left: -40px
+      width: 400px
+      top: -50px
+
+    @media (max-width: 430px)
+      width: 310px
+
+
+
+  .blurb
+    width: 290px
+    margin-left: -78px
+    margin-top: -280px
+    position: relative
+    margin-bottom: 320px
+
+    @media (max-width: 785px)
+      margin-left: -120px
+      margin-top: -150px
+      margin-bottom: 0px
+
+    @media (max-width: 599px)
+      margin-left: 40px
+      margin-right: -40px
+      width: auto
+      background: white
+      padding: 20px
+      box-shadow: 0px 40px 34px -30px rgba(0, 0, 0, 0.2)
+      margin-top: -20px
+
+    @media (max-width: 430px)
+      //top: 200px
+
+
+  .cta
+    position: absolute
+    top: 100%
+    left: 80px
+    margin-top: 25px
+
+    @media (max-width: 1000px)
+      display: none
+
+  .section-number
+    @media (max-width: 599px)
+      display: none

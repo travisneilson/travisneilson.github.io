@@ -1,0 +1,27 @@
+html.layout-home
+  body
+    font-family: 'Roboto', sans-serif
+    //background-color: hsl(180, 24%, 96%)
+    background-color: hsl(180, 24%, 94%)
+    padding: 44px
+    position: relative
+    @media(min-width: 1048px)
+      background-image: url(../img/grid-05.png)
+      background-repeat: repeat-y
+      background-position: center
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      border: white solid 24px
+      pointer-events: none
+
+  section
+    max-width: 960px
+    margin: 0 auto
+    padding: 1px 0
