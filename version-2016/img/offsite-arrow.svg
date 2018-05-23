@@ -1,0 +1,9 @@
+<svg class="offsite-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="-3421 2967 60 60">
+  <defs><style>.a{fill:none;}.b{fill:#fff;}</style></defs>
+    <g transform="translate(-3803 2349)">
+      <rect width="60" height="60" transform="translate(382 618)"/>
+      <g transform="translate(412 664.971) rotate(-135)"><path class="a" d="M0,0H24V24H0Z"/>
+      <path class="b actual-arrow" d="M20,12l-1.41-1.41L13,16.17V4H11V16.17L5.42,10.58,4,12l8,8Z"/>
+    </g>
+  </g>
+</svg>

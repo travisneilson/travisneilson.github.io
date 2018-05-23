@@ -1,0 +1,100 @@
+doctype html
+html.layout-home
+  head
+    meta(charset='utf-8')
+    title Travis Neilson dot com
+    meta(name='description', content='Travis specializes in making things for human people. By day he crafts digital interfaces at Google. By night he educates others through video, audio, and the written word.')
+    meta(name='author', content='Travis Neilson')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet")
+    link(rel='stylesheet', href='css/style.css')
+  body
+    
+    section.section-1.section-about
+      .main-panel
+        .face
+        .section-number 01
+        .title
+          include img/title-tn.svg
+        .blurb <strong>Travis specializes in making things</strong> for human people. By day he crafts digital interfaces at Google. By night he educates others through video, audio, and the written word.
+        a(href="#video").cta
+          include img/arrow-down.svg
+    
+    
+    a(id="video")
+    section.section-2.section-video
+      .main-panel
+        .section-number 02
+        .title
+          include img/title-video.svg
+        a(href="https://www.youtube.com/user/DevTipsForDesigners").video-thumb
+          img(src="img/yt-play-btn.png") 
+        .blurb <strong>Over 300 videos and 6 million views.</strong> Travis has published a new video every Monday morning, teaching people about design and development for the web.
+        a(href="https://www.youtube.com/user/DevTipsForDesigners").cta-wrap
+          .cta Watch on YouTube
+          include img/offsite-arrow.svg
+    
+    
+    section.section-3.section-podcast
+      .main-panel
+        .section-number 03
+        
+        div(style="height: 1px;")
+        
+        .podcast-player
+          img(src="img/logo-tl@2x.png")
+          .text-container
+            .podcast-title
+              .sub Recent Episode
+              .ep-title The Full Process Designer
+            .playhead
+              <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/14311?style=light' width='100%'></iframe>
+                
+        .title
+          include img/title-podcast.svg
+        
+        .blurb <strong>Travis and his best friend Carlos</strong> talk late into the night, exploring new ideas for creative professionals. They argue over concepts, share secrects, and interview their industry heroes.
+        a(href="http://travandlos.com").cta-wrap
+          .cta Listen Now
+          include img/offsite-arrow.svg
+    
+    
+    section.section-4.section-notes
+      .main-panel
+        .section-number 04
+        .title
+          include img/title-notes.svg
+        img(src="img/note-img.png" class="note-img")
+        .blurb <strong>Travis sends email “notes”</strong> on creative living, surviving in the creative industry, and observations about the way we work to people who are interested in a better way of thinking.
+        .note-samples
+          ul
+            li <strong>+ Sample notes</strong>
+            li: a(href="http://us6.campaign-archive2.com/?u=2abae111d44df144b3b3986bc&id=d6657a0a85") Ultimate Motivation
+            li: a(href="http://us6.campaign-archive2.com/?u=2abae111d44df144b3b3986bc&id=e49e06cdf7&e=[UNIQID]") The Pillars of Creation
+            li: a(href="http://us6.campaign-archive2.com/?u=2abae111d44df144b3b3986bc&id=43066ab0cb&e=[UNIQID]") Work-Life Balance is a Joke
+          a(href="http://tinyletter.com/travisneilson").cta-wrap
+            .cta Subscribe
+            include img/offsite-arrow.svg
+        
+    
+    section.section-5.section-contact
+      .main-panel
+        .section-number 05
+        .title
+          include img/title-social.svg
+        .icons
+          a(href="https://twitter.com/travisneilson")
+            include img/twitter-2.svg
+          a(href="https://www.instagram.com/travisneilson/")
+            include img/instagram-2.svg
+          a(href="https://www.dribbble.com/travisneilson/")
+            include img/dribbble-2.svg
+          a(href="http://behance.com/travisneilson")
+            include img/behance-2.svg
+          //- a(href="mailto:travisneilson+fromwebsite@gmail.com")
+          //-   include img/email-2.svg
+        
+    
+    //script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js')
+    //script(src="http://remysharp.com/downloads/jquery.inview.js")
+    //script(src='js/app.js')

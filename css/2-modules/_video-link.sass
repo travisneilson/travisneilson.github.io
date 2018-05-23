@@ -1,0 +1,30 @@
+.video-link
+  float: left
+  position: relative
+  display: inline-block
+
+  &:hover
+    animation: ctabounce1 400ms ease-in-out forwards
+
+    &:after
+      animation: ctabounce2 450ms ease-in-out forwards
+
+  &:after
+    content: ''
+    position: absolute
+    top: 25%
+    left: 35%
+    width: 30%
+    height: 50%
+    background-image: url(../images/icon-yt-play-btn.svg)
+    background-position: center
+    background-size: contain
+    background-repeat: no-repeat
+    transition: all 150ms ease-in-out
+    pointer-events: none
+
+  img
+    max-width: 100%
+    display: block
+    border-radius: 8px
+    box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)

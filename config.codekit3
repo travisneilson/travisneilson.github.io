@@ -7,7 +7,7 @@
 		"uuidString": "9F4D84CB-CB01-4276-95CE-2666C0D3AA6B"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -49,6 +49,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/0-tools\/_tricks-grid.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_tricks-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/1-base\/_type.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -62,46 +75,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_1-about-section.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/css\/_1-about-section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/2-modules\/_2-video-section.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/css\/_2-video-section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/2-modules\/_3-podcast-section.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/css\/_3-podcast-section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/2-modules\/_4-notes-section.sass": {
+	"\/css\/2-modules\/_breadcrumb.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -109,12 +83,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/css\/_4-notes-section.css",
+		"oAP": "\/css\/css\/_breadcrumb.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_5-social-section.sass": {
+	"\/css\/2-modules\/_callout-box.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -122,12 +96,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/css\/_5-social-section.css",
+		"oAP": "\/css\/css\/_callout-box.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_panels.sass": {
+	"\/css\/2-modules\/_end-cta.sass": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -135,7 +109,59 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/css\/_panels.css",
+		"oAP": "\/css\/css\/_end-cta.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/2-modules\/_menu.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/2-modules\/_page-border-decoration.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_page-border-decoration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/2-modules\/_pagination.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_pagination.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/2-modules\/_video-link.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_video-link.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -153,15 +179,83 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/css\/about-panel.css": {
+	"\/css\/3-layouts\/_more.sass": {
 		"aP": 1,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/css\/about-panel-min.css",
+		"oA": 1,
+		"oAP": "\/css\/css\/_more.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-layouts\/_podcasts.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_podcasts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-layouts\/_podcasts_old.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_podcasts_old.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-layouts\/_speaking.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_speaking.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-layouts\/_videos.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_videos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-layouts\/_writings.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_writings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/css\/style.css": {
 		"aP": 1,
@@ -171,7 +265,7 @@
 		"oA": 2,
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/css\/style.sass": {
 		"aP": 1,
@@ -186,327 +280,913 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/img\/arrow-down.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/arrow-down.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/behance-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/behance-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/behance.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/behance.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/dribbble-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/dribbble-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/dribbble.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/dribbble.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/email-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/email-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/email.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/email.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/grid-05.png": {
+	"\/images\/adobe-logo.png": {
 		"ft": 32768,
-		"iS": 1005,
+		"iS": 2655,
 		"oA": 0,
-		"oAP": "\/img\/grid-05.png",
+		"oAP": "\/images\/adobe-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-1.png": {
+		"ft": 32768,
+		"iS": 134009,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/grid.png": {
-		"ft": 32768,
-		"iS": 656,
-		"oA": 0,
-		"oAP": "\/img\/grid.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/instagram-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/instagram-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/logo-tl.png": {
-		"ft": 32768,
-		"iS": 23025,
-		"oA": 0,
-		"oAP": "\/img\/logo-tl.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logo-tl@2x.png": {
-		"ft": 32768,
-		"iS": 52301,
-		"oA": 0,
-		"oAP": "\/img\/logo-tl@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/note-img.png": {
-		"ft": 32768,
-		"iS": 55389,
-		"oA": 0,
-		"oAP": "\/img\/note-img.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/note-img@2x.png": {
-		"ft": 32768,
-		"iS": 176695,
-		"oA": 0,
-		"oAP": "\/img\/note-img@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/offsite-arrow.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/offsite-arrow.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-contact.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/title-contact.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-more.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/title-more.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-notes.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/title-notes.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-other.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/title-other.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-podcast.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/title-podcast.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-social.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/title-social.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-tn.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/title-tn.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/title-video.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/title-video.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/trav2.jpg": {
+	"\/images\/art-directed-thumbs\/post-10.jpg": {
 		"ft": 16384,
-		"iS": 169188,
+		"iS": 50847,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/trav2.jpg",
+		"oAP": "\/images\/art-directed-thumbs\/post-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/trav3.jpg": {
+	"\/images\/art-directed-thumbs\/post-11.jpg": {
 		"ft": 16384,
-		"iS": 4480473,
+		"iS": 25969,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/trav3.jpg",
+		"oAP": "\/images\/art-directed-thumbs\/post-11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/trav4.jpg": {
-		"ft": 16384,
-		"iS": 4599474,
-		"oA": 0,
-		"oAP": "\/img\/trav4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/travis-neilson.jpg": {
-		"ft": 16384,
-		"iS": 940015,
-		"oA": 0,
-		"oAP": "\/img\/travis-neilson.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/twitter-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/twitter-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/yt-play-btn.png": {
+	"\/images\/art-directed-thumbs\/post-12.png": {
 		"ft": 32768,
-		"iS": 3298,
+		"iS": 235652,
 		"oA": 0,
-		"oAP": "\/img\/yt-play-btn.png",
+		"oAP": "\/images\/art-directed-thumbs\/post-12.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-2.jpg": {
+		"ft": 16384,
+		"iS": 15403,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-3.jpg": {
+		"ft": 16384,
+		"iS": 10111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-4.jpg": {
+		"ft": 16384,
+		"iS": 52195,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-5.jpg": {
+		"ft": 16384,
+		"iS": 80123,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-6.gif": {
+		"ft": 4194304,
+		"iS": 14245,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/art-directed-thumbs\/post-7.png": {
+		"ft": 32768,
+		"iS": 140836,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-8.jpg": {
+		"ft": 16384,
+		"iS": 17193,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/art-directed-thumbs\/post-9.jpg": {
+		"ft": 16384,
+		"iS": 62253,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/art-directed-thumbs\/post-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bg-stripe.png": {
+		"ft": 32768,
+		"iS": 847,
+		"oA": 0,
+		"oAP": "\/images\/bg-stripe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bg-stripe2.png": {
+		"ft": 32768,
+		"iS": 137,
+		"oA": 0,
+		"oAP": "\/images\/bg-stripe2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/book-placeholder-2.png": {
+		"ft": 32768,
+		"iS": 1139815,
+		"oA": 0,
+		"oAP": "\/images\/book-placeholder-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/book-placeholder-3.png": {
+		"ft": 32768,
+		"iS": 293006,
+		"oA": 0,
+		"oAP": "\/images\/book-placeholder-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/book-placeholder-4.png": {
+		"ft": 32768,
+		"iS": 274245,
+		"oA": 0,
+		"oAP": "\/images\/book-placeholder-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cvr-temp.png": {
+		"ft": 32768,
+		"iS": 53753,
+		"oA": 0,
+		"oAP": "\/images\/cvr-temp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dann-petty.jpg": {
+		"ft": 16384,
+		"iS": 9002,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/dann-petty.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/dawn.png": {
+		"ft": 32768,
+		"iS": 65291,
+		"oA": 0,
+		"oAP": "\/images\/dawn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Group 37.png": {
+		"ft": 32768,
+		"iS": 2568,
+		"oA": 0,
+		"oAP": "\/images\/Group 37.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-amazon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/icon-amazon.ico",
+		"oF": 0
+		},
+	"\/images\/icon-amazon.png": {
+		"ft": 32768,
+		"iS": 3963,
+		"oA": 0,
+		"oAP": "\/images\/icon-amazon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-behance.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-behance.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-eye.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-eye.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-list-point.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-list-point.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-mail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-mail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-patreon.png": {
+		"ft": 32768,
+		"iS": 6083,
+		"oA": 0,
+		"oAP": "\/images\/icon-patreon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-play-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-play-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-play-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-play-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-play-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-play-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-play.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-play.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-quote.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/icon-quote.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icon-yt-play-btn.png": {
+		"ft": 32768,
+		"iS": 2263,
+		"oA": 0,
+		"oAP": "\/images\/icon-yt-play-btn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icon-yt-play-btn.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-yt-play-btn.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/ig-fake-icons.jpg": {
+		"ft": 16384,
+		"iS": 3011,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-fake-icons.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-songs-1.jpg": {
+		"ft": 16384,
+		"iS": 10553,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-songs-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-songs-2.jpg": {
+		"ft": 16384,
+		"iS": 8656,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-songs-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-songs-3.jpg": {
+		"ft": 16384,
+		"iS": 13472,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-songs-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-trash-2.jpg": {
+		"ft": 16384,
+		"iS": 18662,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-trash-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-trash-4.jpg": {
+		"ft": 16384,
+		"iS": 78685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-trash-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-trash-5.jpg": {
+		"ft": 16384,
+		"iS": 78220,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/ig-trash-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ig-trav.png": {
+		"ft": 32768,
+		"iS": 1419347,
+		"oA": 0,
+		"oAP": "\/images\/ig-trav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo-aiga.jpg": {
+		"ft": 16384,
+		"iS": 3462,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-aiga.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-dt.jpg": {
+		"ft": 16384,
+		"iS": 20040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-dt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-epic-1.jpg": {
+		"ft": 16384,
+		"iS": 12605,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-epic-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-epic-2.jpg": {
+		"ft": 16384,
+		"iS": 13275,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-epic-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-epic.jpg": {
+		"ft": 16384,
+		"iS": 94316,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-epic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/logo-tl.jpg": {
+		"ft": 16384,
+		"iS": 24364,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-tl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-tl.png": {
+		"ft": 32768,
+		"iS": 54545,
+		"oA": 0,
+		"oAP": "\/images\/logo-tl.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/menu-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/menu-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/notes-vid-cvr1.jpg": {
+		"ft": 16384,
+		"iS": 23299,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/notes-vid-cvr1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/1-tools-not-rules.jpg": {
+		"ft": 16384,
+		"iS": 31438,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/1-tools-not-rules.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/10-sell-yourself.jpg": {
+		"ft": 16384,
+		"iS": 5889,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/10-sell-yourself.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/11-the-nothing-word.jpg": {
+		"ft": 16384,
+		"iS": 22098,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/11-the-nothing-word.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/12-travis-is-a-child.jpg": {
+		"ft": 16384,
+		"iS": 70588,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/12-travis-is-a-child.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/2-imposter-syndrome.jpg": {
+		"ft": 16384,
+		"iS": 9579,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/2-imposter-syndrome.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/3-in-defense-of-the-ordinary.jpg": {
+		"ft": 16384,
+		"iS": 52555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/3-in-defense-of-the-ordinary.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/4-discover-and-make.jpg": {
+		"ft": 16384,
+		"iS": 17532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/4-discover-and-make.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/5-pleasure-purpose-happiness.jpg": {
+		"ft": 16384,
+		"iS": 145464,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/5-pleasure-purpose-happiness.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/6-think-to-talk.jpg": {
+		"ft": 16384,
+		"iS": 110928,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/6-think-to-talk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/7-what-are-you-willing-to-suffer-with.jpg": {
+		"ft": 16384,
+		"iS": 47161,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/7-what-are-you-willing-to-suffer-with.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/8-a-case-for-bravery.jpg": {
+		"ft": 16384,
+		"iS": 9764,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/8-a-case-for-bravery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/podcast-episodes\/9-full-process-designer.jpg": {
+		"ft": 16384,
+		"iS": 9775,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/podcast-episodes\/9-full-process-designer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/reacting to notes-cvr.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/reacting to notes-cvr.psd",
+		"oF": 0
+		},
+	"\/images\/thumb-speaking.jpg": {
+		"ft": 16384,
+		"iS": 34164,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/thumb-speaking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/thumb-videos.jpg": {
+		"ft": 16384,
+		"iS": 28582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/thumb-videos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/title-more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/title-more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/title-podcasts.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/title-podcasts.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/title-speaking.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/title-speaking.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/title-tn.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/title-tn.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/title-videos.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/title-videos.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/title-writings.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/images\/title-writings.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/travis-face.jpg": {
+		"ft": 16384,
+		"iS": 33903,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/travis-face.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/travis-face@2x.jpg": {
+		"ft": 16384,
+		"iS": 119285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/travis-face@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/yt_logo.png": {
+		"ft": 32768,
+		"iS": 20462,
+		"oA": 0,
+		"oAP": "\/images\/yt_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/includes\/_mailchimpform.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/includes\/_mailchimpform.html",
+		"oF": 0
+		},
+	"\/includes\/_menu.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/includes\/_menu.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/includes\/_page-head.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/includes\/_page-head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/includes\/_pagination.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/includes\/_pagination.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -519,42 +1199,80 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/js\/app.js": {
+	"\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/min\/app-min.js",
+		"oAP": "\/js\/min\/functions-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/jquery-3.1.0.min.js": {
+	"\/js\/zepto.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/min\/jquery-3.1.0.min-min.js",
+		"oAP": "\/js\/min\/zepto-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/min\/app-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/min\/min\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/tn-type.ai": {
+	"\/more\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/tn-type.ai",
+		"oAP": "\/more\/index.html",
 		"oF": 0
+		},
+	"\/more\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/more\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/notes\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/notes\/index.html",
+		"oF": 0
+		},
+	"\/podcasts\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/podcasts\/index.html",
+		"oF": 0
+		},
+	"\/podcasts\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/podcasts\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/speaking\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/speaking\/index.html",
+		"oF": 0
+		},
+	"\/speaking\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/speaking\/index.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/version-2015\/2010\/01\/07\/default-switch.html": {
 		"cB": 0,
@@ -911,6 +1629,7 @@
 	"\/version-2015\/assets\/img\/about-bg.jpg": {
 		"ft": 16384,
 		"iS": 44118,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/about-bg.jpg",
 		"oF": 0,
@@ -921,6 +1640,7 @@
 	"\/version-2015\/assets\/img\/about-face-2.jpg": {
 		"ft": 16384,
 		"iS": 44118,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/about-face-2.jpg",
 		"oF": 0,
@@ -931,6 +1651,7 @@
 	"\/version-2015\/assets\/img\/article-bg.jpg": {
 		"ft": 16384,
 		"iS": 22779,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/article-bg.jpg",
 		"oF": 0,
@@ -973,6 +1694,7 @@
 	"\/version-2015\/assets\/img\/design-img\/be-2.jpg": {
 		"ft": 16384,
 		"iS": 48234,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/be-2.jpg",
 		"oF": 0,
@@ -983,6 +1705,7 @@
 	"\/version-2015\/assets\/img\/design-img\/be-3.jpg": {
 		"ft": 16384,
 		"iS": 6568,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/be-3.jpg",
 		"oF": 0,
@@ -993,6 +1716,7 @@
 	"\/version-2015\/assets\/img\/design-img\/be-4.jpg": {
 		"ft": 16384,
 		"iS": 19546,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/be-4.jpg",
 		"oF": 0,
@@ -1003,6 +1727,7 @@
 	"\/version-2015\/assets\/img\/design-img\/be-5.jpg": {
 		"ft": 16384,
 		"iS": 44764,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/be-5.jpg",
 		"oF": 0,
@@ -1024,6 +1749,7 @@
 	"\/version-2015\/assets\/img\/design-img\/drib-1.jpg": {
 		"ft": 16384,
 		"iS": 39390,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/drib-1.jpg",
 		"oF": 0,
@@ -1034,6 +1760,7 @@
 	"\/version-2015\/assets\/img\/design-img\/drib-2.jpg": {
 		"ft": 16384,
 		"iS": 12066,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/drib-2.jpg",
 		"oF": 0,
@@ -1055,6 +1782,7 @@
 	"\/version-2015\/assets\/img\/design-img\/drib-4.jpg": {
 		"ft": 16384,
 		"iS": 45715,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/drib-4.jpg",
 		"oF": 0,
@@ -1065,6 +1793,7 @@
 	"\/version-2015\/assets\/img\/design-img\/drib-5.jpg": {
 		"ft": 16384,
 		"iS": 14665,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/drib-5.jpg",
 		"oF": 0,
@@ -1075,6 +1804,7 @@
 	"\/version-2015\/assets\/img\/design-img\/drib-6.jpg": {
 		"ft": 16384,
 		"iS": 14608,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/design-img\/drib-6.jpg",
 		"oF": 0,
@@ -1095,6 +1825,7 @@
 	"\/version-2015\/assets\/img\/mentoring-bg.jpg": {
 		"ft": 16384,
 		"iS": 88810,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/mentoring-bg.jpg",
 		"oF": 0,
@@ -1105,6 +1836,7 @@
 	"\/version-2015\/assets\/img\/notes-bg.jpg": {
 		"ft": 16384,
 		"iS": 19539,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/notes-bg.jpg",
 		"oF": 0,
@@ -1115,6 +1847,7 @@
 	"\/version-2015\/assets\/img\/podcast-bg.jpg": {
 		"ft": 16384,
 		"iS": 38370,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/podcast-bg.jpg",
 		"oF": 0,
@@ -1147,6 +1880,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-10.jpg": {
 		"ft": 16384,
 		"iS": 50847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-10.jpg",
 		"oF": 0,
@@ -1157,6 +1891,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-11.jpg": {
 		"ft": 16384,
 		"iS": 25969,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-11.jpg",
 		"oF": 0,
@@ -1178,6 +1913,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-2.jpg": {
 		"ft": 16384,
 		"iS": 15403,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-2.jpg",
 		"oF": 0,
@@ -1188,6 +1924,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-3.jpg": {
 		"ft": 16384,
 		"iS": 10111,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-3.jpg",
 		"oF": 0,
@@ -1198,6 +1935,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-4.jpg": {
 		"ft": 16384,
 		"iS": 52195,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-4.jpg",
 		"oF": 0,
@@ -1208,6 +1946,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-5.jpg": {
 		"ft": 16384,
 		"iS": 80123,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-5.jpg",
 		"oF": 0,
@@ -1237,6 +1976,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-8.jpg": {
 		"ft": 16384,
 		"iS": 17193,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-8.jpg",
 		"oF": 0,
@@ -1247,6 +1987,7 @@
 	"\/version-2015\/assets\/img\/posts\/thumbnails\/post-9.jpg": {
 		"ft": 16384,
 		"iS": 62253,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/posts\/thumbnails\/post-9.jpg",
 		"oF": 0,
@@ -1257,6 +1998,7 @@
 	"\/version-2015\/assets\/img\/testimonial-avatars\/andrew.jpg": {
 		"ft": 16384,
 		"iS": 19764,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/testimonial-avatars\/andrew.jpg",
 		"oF": 0,
@@ -1267,6 +2009,7 @@
 	"\/version-2015\/assets\/img\/testimonial-avatars\/gareth.jpg": {
 		"ft": 16384,
 		"iS": 12987,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/testimonial-avatars\/gareth.jpg",
 		"oF": 0,
@@ -1277,6 +2020,7 @@
 	"\/version-2015\/assets\/img\/testimonial-avatars\/joey.jpg": {
 		"ft": 16384,
 		"iS": 11747,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/testimonial-avatars\/joey.jpg",
 		"oF": 0,
@@ -1287,6 +2031,7 @@
 	"\/version-2015\/assets\/img\/testimonial-avatars\/kim.jpg": {
 		"ft": 16384,
 		"iS": 14629,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/testimonial-avatars\/kim.jpg",
 		"oF": 0,
@@ -1297,6 +2042,7 @@
 	"\/version-2015\/assets\/img\/testimonial-avatars\/lj.jpg": {
 		"ft": 16384,
 		"iS": 5727,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/testimonial-avatars\/lj.jpg",
 		"oF": 0,
@@ -1307,6 +2053,7 @@
 	"\/version-2015\/assets\/img\/testimonial-avatars\/mary.jpg": {
 		"ft": 16384,
 		"iS": 18136,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/testimonial-avatars\/mary.jpg",
 		"oF": 0,
@@ -1328,6 +2075,7 @@
 	"\/version-2015\/assets\/img\/vine-bg.jpg": {
 		"ft": 16384,
 		"iS": 14135,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/img\/vine-bg.jpg",
 		"oF": 0,
@@ -1346,11 +2094,11 @@
 	"\/version-2015\/assets\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/001-default-switch\/img\/default-switch-bg.gif": {
@@ -1364,6 +2112,7 @@
 	"\/version-2015\/assets\/post-assets\/001-default-switch\/img\/default-switch-cover.jpg": {
 		"ft": 16384,
 		"iS": 15403,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/001-default-switch\/img\/default-switch-cover.jpg",
 		"oF": 0,
@@ -1697,6 +2446,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_erik-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7621,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_erik-120x120.jpg",
 		"oF": 0,
@@ -1707,6 +2457,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_erik-249x300.jpg": {
 		"ft": 16384,
 		"iS": 24869,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_erik-249x300.jpg",
 		"oF": 0,
@@ -1717,6 +2468,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_erik.jpg": {
 		"ft": 16384,
 		"iS": 111094,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_erik.jpg",
 		"oF": 0,
@@ -1727,6 +2479,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_max-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6346,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_max-120x120.jpg",
 		"oF": 0,
@@ -1737,6 +2490,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_max-181x300.jpg": {
 		"ft": 16384,
 		"iS": 23450,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_max-181x300.jpg",
 		"oF": 0,
@@ -1747,6 +2501,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_max.jpg": {
 		"ft": 16384,
 		"iS": 44860,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_max.jpg",
 		"oF": 0,
@@ -1757,6 +2512,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_notes-arrow-120x45.jpg": {
 		"ft": 16384,
 		"iS": 1652,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_notes-arrow-120x45.jpg",
 		"oF": 0,
@@ -1767,6 +2523,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_notes-arrow.jpg": {
 		"ft": 16384,
 		"iS": 2754,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_notes-arrow.jpg",
 		"oF": 0,
@@ -1801,6 +2558,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_thumb-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5939,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_thumb-120x120.jpg",
 		"oF": 0,
@@ -1811,6 +2569,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_thumb.jpg": {
 		"ft": 16384,
 		"iS": 32256,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/neue_thumb.jpg",
 		"oF": 0,
@@ -1854,6 +2613,7 @@
 	"\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/old-versus-neue-cover.jpg": {
 		"ft": 16384,
 		"iS": 38747,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/002-old-versus-neue\/img\/old-versus-neue-cover.jpg",
 		"oF": 0,
@@ -1917,6 +2677,7 @@
 	"\/version-2015\/assets\/post-assets\/003-spheres-of-influence\/img\/sphere-thumb.jpg": {
 		"ft": 16384,
 		"iS": 18045,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/003-spheres-of-influence\/img\/sphere-thumb.jpg",
 		"oF": 0,
@@ -1938,6 +2699,7 @@
 	"\/version-2015\/assets\/post-assets\/003-spheres-of-influence\/img\/spheres-bg.jpg": {
 		"ft": 16384,
 		"iS": 131839,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/003-spheres-of-influence\/img\/spheres-bg.jpg",
 		"oF": 0,
@@ -1948,6 +2710,7 @@
 	"\/version-2015\/assets\/post-assets\/003-spheres-of-influence\/img\/spheres-cover.jpg": {
 		"ft": 16384,
 		"iS": 29331,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/003-spheres-of-influence\/img\/spheres-cover.jpg",
 		"oF": 0,
@@ -2035,6 +2798,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/hero-lincoln.jpg": {
 		"ft": 16384,
 		"iS": 118051,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/hero-lincoln.jpg",
 		"oF": 0,
@@ -2045,6 +2809,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/how-to-use-hashtags.jpg": {
 		"ft": 16384,
 		"iS": 241192,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/how-to-use-hashtags.jpg",
 		"oF": 0,
@@ -2071,6 +2836,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/layer-tennis-title.jpg": {
 		"ft": 16384,
 		"iS": 19500,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/layer-tennis-title.jpg",
 		"oF": 0,
@@ -2081,6 +2847,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/rocket-lincoln.jpg": {
 		"ft": 16384,
 		"iS": 136580,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/rocket-lincoln.jpg",
 		"oF": 0,
@@ -2091,6 +2858,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/space-rock.jpg": {
 		"ft": 16384,
 		"iS": 312041,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/space-rock.jpg",
 		"oF": 0,
@@ -2101,6 +2869,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/space-tweets.jpg": {
 		"ft": 16384,
 		"iS": 244141,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/space-tweets.jpg",
 		"oF": 0,
@@ -2111,6 +2880,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/tennis-cover.jpg": {
 		"ft": 16384,
 		"iS": 40167,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/tennis-cover.jpg",
 		"oF": 0,
@@ -2161,6 +2931,7 @@
 	"\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/using-twitter.jpg": {
 		"ft": 16384,
 		"iS": 121251,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/004-layer-tennis\/img\/using-twitter.jpg",
 		"oF": 0,
@@ -2199,6 +2970,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/insta-cover.jpg": {
 		"ft": 16384,
 		"iS": 48549,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/insta-cover.jpg",
 		"oF": 0,
@@ -2209,6 +2981,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-brand-120x120.jpg": {
 		"ft": 16384,
 		"iS": 4752,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-brand-120x120.jpg",
 		"oF": 0,
@@ -2219,6 +2992,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-brand-200x300.jpg": {
 		"ft": 16384,
 		"iS": 16411,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-brand-200x300.jpg",
 		"oF": 0,
@@ -2229,6 +3003,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-brand.jpg": {
 		"ft": 16384,
 		"iS": 28779,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-brand.jpg",
 		"oF": 0,
@@ -2239,6 +3014,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-camera-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7137,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-camera-120x120.jpg",
 		"oF": 0,
@@ -2249,6 +3025,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-camera-200x300.jpg": {
 		"ft": 16384,
 		"iS": 21331,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-camera-200x300.jpg",
 		"oF": 0,
@@ -2259,6 +3036,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-camera.jpg": {
 		"ft": 16384,
 		"iS": 46435,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-camera.jpg",
 		"oF": 0,
@@ -2444,6 +3222,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-likes-120x120.jpg": {
 		"ft": 16384,
 		"iS": 4860,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-likes-120x120.jpg",
 		"oF": 0,
@@ -2454,6 +3233,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-likes-200x300.jpg": {
 		"ft": 16384,
 		"iS": 17667,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-likes-200x300.jpg",
 		"oF": 0,
@@ -2464,6 +3244,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-likes.jpg": {
 		"ft": 16384,
 		"iS": 28642,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-likes.jpg",
 		"oF": 0,
@@ -2507,6 +3288,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5959,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos-120x120.jpg",
 		"oF": 0,
@@ -2517,6 +3299,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos-300x131.jpg": {
 		"ft": 16384,
 		"iS": 9711,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos-300x131.jpg",
 		"oF": 0,
@@ -2527,6 +3310,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos-620x270.jpg": {
 		"ft": 16384,
 		"iS": 29974,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos-620x270.jpg",
 		"oF": 0,
@@ -2537,6 +3321,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos.jpg": {
 		"ft": 16384,
 		"iS": 146030,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-photos.jpg",
 		"oF": 0,
@@ -2547,6 +3332,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-popular-120x120.jpg": {
 		"ft": 16384,
 		"iS": 9415,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-popular-120x120.jpg",
 		"oF": 0,
@@ -2557,6 +3343,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-popular-200x300.jpg": {
 		"ft": 16384,
 		"iS": 29187,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-popular-200x300.jpg",
 		"oF": 0,
@@ -2567,6 +3354,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-popular.jpg": {
 		"ft": 16384,
 		"iS": 58239,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-popular.jpg",
 		"oF": 0,
@@ -2577,6 +3365,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-reply-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5629,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-reply-120x120.jpg",
 		"oF": 0,
@@ -2587,6 +3376,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-reply-200x300.jpg": {
 		"ft": 16384,
 		"iS": 19165,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-reply-200x300.jpg",
 		"oF": 0,
@@ -2597,6 +3387,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-reply.jpg": {
 		"ft": 16384,
 		"iS": 34458,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-reply.jpg",
 		"oF": 0,
@@ -2655,6 +3446,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-thumb-120x120.jpg": {
 		"ft": 16384,
 		"iS": 3529,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-thumb-120x120.jpg",
 		"oF": 0,
@@ -2665,6 +3457,7 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-thumb.jpg": {
 		"ft": 16384,
 		"iS": 18557,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/img\/instagram-thumb.jpg",
 		"oF": 0,
@@ -2752,11 +3545,11 @@
 	"\/version-2015\/assets\/post-assets\/005-instagram-love\/jquery.idTabs.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/005-instagram-love\/min\/jquery.idTabs.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/006-steve-says\/linen.png": {
@@ -2784,6 +3577,7 @@
 	"\/version-2015\/assets\/post-assets\/006-steve-says\/steve-cover.jpg": {
 		"ft": 16384,
 		"iS": 21849,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/006-steve-says\/steve-cover.jpg",
 		"oF": 0,
@@ -2794,6 +3588,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-1-thumb.jpg": {
 		"ft": 16384,
 		"iS": 11253,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-1-thumb.jpg",
 		"oF": 0,
@@ -2804,6 +3599,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-1.jpg": {
 		"ft": 16384,
 		"iS": 74239,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-1.jpg",
 		"oF": 0,
@@ -2814,6 +3610,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-2-thumb.jpg": {
 		"ft": 16384,
 		"iS": 15218,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-2-thumb.jpg",
 		"oF": 0,
@@ -2824,6 +3621,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-2.jpg": {
 		"ft": 16384,
 		"iS": 88902,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-2.jpg",
 		"oF": 0,
@@ -2834,6 +3632,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-3-thumb.jpg": {
 		"ft": 16384,
 		"iS": 14641,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-3-thumb.jpg",
 		"oF": 0,
@@ -2844,6 +3643,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-3.jpg": {
 		"ft": 16384,
 		"iS": 95550,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-3.jpg",
 		"oF": 0,
@@ -2854,6 +3654,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-4-thumb.jpg": {
 		"ft": 16384,
 		"iS": 13805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-4-thumb.jpg",
 		"oF": 0,
@@ -2864,6 +3665,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-4.jpg": {
 		"ft": 16384,
 		"iS": 64917,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-4.jpg",
 		"oF": 0,
@@ -2874,6 +3676,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-bg-texture.jpg": {
 		"ft": 16384,
 		"iS": 7405,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-bg-texture.jpg",
 		"oF": 0,
@@ -2884,6 +3687,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-cover.jpg": {
 		"ft": 16384,
 		"iS": 50847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-cover.jpg",
 		"oF": 0,
@@ -2894,6 +3698,7 @@
 	"\/version-2015\/assets\/post-assets\/007-function-boards\/boards-title.jpg": {
 		"ft": 16384,
 		"iS": 173952,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/007-function-boards\/boards-title.jpg",
 		"oF": 0,
@@ -2904,6 +3709,7 @@
 	"\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-cover.jpg": {
 		"ft": 16384,
 		"iS": 31726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-cover.jpg",
 		"oF": 0,
@@ -2914,6 +3720,7 @@
 	"\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-to-oak-bg.jpg": {
 		"ft": 16384,
 		"iS": 17628,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-to-oak-bg.jpg",
 		"oF": 0,
@@ -2935,6 +3742,7 @@
 	"\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-to-oak-plate.jpg": {
 		"ft": 16384,
 		"iS": 239100,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-to-oak-plate.jpg",
 		"oF": 0,
@@ -2945,6 +3753,7 @@
 	"\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-to-oak-thumb.jpg": {
 		"ft": 16384,
 		"iS": 60882,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/008-las-to-oak\/img\/las-to-oak-thumb.jpg",
 		"oF": 0,
@@ -2966,6 +3775,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip-33-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7536,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip-33-120x120.jpg",
 		"oF": 0,
@@ -2976,6 +3786,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip-33.jpg": {
 		"ft": 16384,
 		"iS": 22855,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip-33.jpg",
 		"oF": 0,
@@ -2986,6 +3797,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip01-120x120.jpg": {
 		"ft": 16384,
 		"iS": 8940,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip01-120x120.jpg",
 		"oF": 0,
@@ -2996,6 +3808,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip01.jpg": {
 		"ft": 16384,
 		"iS": 59973,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip01.jpg",
 		"oF": 0,
@@ -3006,6 +3819,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip02-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6644,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip02-120x120.jpg",
 		"oF": 0,
@@ -3016,6 +3830,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip02.jpg": {
 		"ft": 16384,
 		"iS": 40673,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip02.jpg",
 		"oF": 0,
@@ -3026,6 +3841,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip03-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6890,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip03-120x120.jpg",
 		"oF": 0,
@@ -3036,6 +3852,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip03.jpg": {
 		"ft": 16384,
 		"iS": 41487,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip03.jpg",
 		"oF": 0,
@@ -3046,6 +3863,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip031-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6882,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip031-120x120.jpg",
 		"oF": 0,
@@ -3056,6 +3874,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip031.jpg": {
 		"ft": 16384,
 		"iS": 41475,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip031.jpg",
 		"oF": 0,
@@ -3066,6 +3885,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip04-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7511,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip04-120x120.jpg",
 		"oF": 0,
@@ -3076,6 +3896,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip04.jpg": {
 		"ft": 16384,
 		"iS": 45288,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip04.jpg",
 		"oF": 0,
@@ -3086,6 +3907,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip05-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7996,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip05-120x120.jpg",
 		"oF": 0,
@@ -3096,6 +3918,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip05.jpg": {
 		"ft": 16384,
 		"iS": 49680,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip05.jpg",
 		"oF": 0,
@@ -3106,6 +3929,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip06-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5464,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip06-120x120.jpg",
 		"oF": 0,
@@ -3116,6 +3940,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip06.jpg": {
 		"ft": 16384,
 		"iS": 33214,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip06.jpg",
 		"oF": 0,
@@ -3126,6 +3951,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip07-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7101,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip07-120x120.jpg",
 		"oF": 0,
@@ -3136,6 +3962,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip07.jpg": {
 		"ft": 16384,
 		"iS": 42860,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip07.jpg",
 		"oF": 0,
@@ -3146,6 +3973,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip08-120x120.jpg": {
 		"ft": 16384,
 		"iS": 4257,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip08-120x120.jpg",
 		"oF": 0,
@@ -3156,6 +3984,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip08.jpg": {
 		"ft": 16384,
 		"iS": 28425,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip08.jpg",
 		"oF": 0,
@@ -3166,6 +3995,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip09-120x120.jpg": {
 		"ft": 16384,
 		"iS": 4785,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip09-120x120.jpg",
 		"oF": 0,
@@ -3176,6 +4006,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip09.jpg": {
 		"ft": 16384,
 		"iS": 31378,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip09.jpg",
 		"oF": 0,
@@ -3186,6 +4017,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip10-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5411,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip10-120x120.jpg",
 		"oF": 0,
@@ -3196,6 +4028,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip10.jpg": {
 		"ft": 16384,
 		"iS": 32916,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip10.jpg",
 		"oF": 0,
@@ -3206,6 +4039,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip11-120x120.jpg": {
 		"ft": 16384,
 		"iS": 2943,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip11-120x120.jpg",
 		"oF": 0,
@@ -3216,6 +4050,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip11.jpg": {
 		"ft": 16384,
 		"iS": 22598,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip11.jpg",
 		"oF": 0,
@@ -3226,6 +4061,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip12-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5894,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip12-120x120.jpg",
 		"oF": 0,
@@ -3236,6 +4072,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip12.jpg": {
 		"ft": 16384,
 		"iS": 37572,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip12.jpg",
 		"oF": 0,
@@ -3246,6 +4083,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip121-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5789,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip121-120x120.jpg",
 		"oF": 0,
@@ -3256,6 +4094,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip121.jpg": {
 		"ft": 16384,
 		"iS": 36958,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip121.jpg",
 		"oF": 0,
@@ -3266,6 +4105,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip13-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6599,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip13-120x120.jpg",
 		"oF": 0,
@@ -3276,6 +4116,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip13.jpg": {
 		"ft": 16384,
 		"iS": 39224,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip13.jpg",
 		"oF": 0,
@@ -3286,6 +4127,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip14-120x120.jpg": {
 		"ft": 16384,
 		"iS": 8191,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip14-120x120.jpg",
 		"oF": 0,
@@ -3296,6 +4138,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip14.jpg": {
 		"ft": 16384,
 		"iS": 47435,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip14.jpg",
 		"oF": 0,
@@ -3306,6 +4149,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip15-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7184,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip15-120x120.jpg",
 		"oF": 0,
@@ -3316,6 +4160,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip15.jpg": {
 		"ft": 16384,
 		"iS": 41800,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip15.jpg",
 		"oF": 0,
@@ -3326,6 +4171,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip16-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6373,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip16-120x120.jpg",
 		"oF": 0,
@@ -3336,6 +4182,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip16.jpg": {
 		"ft": 16384,
 		"iS": 38874,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip16.jpg",
 		"oF": 0,
@@ -3346,6 +4193,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip17-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5893,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip17-120x120.jpg",
 		"oF": 0,
@@ -3356,6 +4204,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip17.jpg": {
 		"ft": 16384,
 		"iS": 35462,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip17.jpg",
 		"oF": 0,
@@ -3366,6 +4215,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip18-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6029,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip18-120x120.jpg",
 		"oF": 0,
@@ -3376,6 +4226,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip18.jpg": {
 		"ft": 16384,
 		"iS": 35427,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip18.jpg",
 		"oF": 0,
@@ -3386,6 +4237,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip19-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6437,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip19-120x120.jpg",
 		"oF": 0,
@@ -3396,6 +4248,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip19.jpg": {
 		"ft": 16384,
 		"iS": 42786,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip19.jpg",
 		"oF": 0,
@@ -3406,6 +4259,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip20-120x120.jpg": {
 		"ft": 16384,
 		"iS": 8166,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip20-120x120.jpg",
 		"oF": 0,
@@ -3416,6 +4270,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip20.jpg": {
 		"ft": 16384,
 		"iS": 51858,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip20.jpg",
 		"oF": 0,
@@ -3426,6 +4281,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip21-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5622,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip21-120x120.jpg",
 		"oF": 0,
@@ -3436,6 +4292,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip21.jpg": {
 		"ft": 16384,
 		"iS": 33600,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip21.jpg",
 		"oF": 0,
@@ -3446,6 +4303,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip22-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6742,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip22-120x120.jpg",
 		"oF": 0,
@@ -3456,6 +4314,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip22.jpg": {
 		"ft": 16384,
 		"iS": 39241,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip22.jpg",
 		"oF": 0,
@@ -3466,6 +4325,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip23-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5123,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip23-120x120.jpg",
 		"oF": 0,
@@ -3476,6 +4336,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip23.jpg": {
 		"ft": 16384,
 		"iS": 28909,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip23.jpg",
 		"oF": 0,
@@ -3486,6 +4347,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip24-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6391,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip24-120x120.jpg",
 		"oF": 0,
@@ -3496,6 +4358,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip24.jpg": {
 		"ft": 16384,
 		"iS": 38979,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip24.jpg",
 		"oF": 0,
@@ -3506,6 +4369,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip25-120x120.jpg": {
 		"ft": 16384,
 		"iS": 4880,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip25-120x120.jpg",
 		"oF": 0,
@@ -3516,6 +4380,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip25.jpg": {
 		"ft": 16384,
 		"iS": 30654,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip25.jpg",
 		"oF": 0,
@@ -3526,6 +4391,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip26-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6216,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip26-120x120.jpg",
 		"oF": 0,
@@ -3536,6 +4402,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip26.jpg": {
 		"ft": 16384,
 		"iS": 41731,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip26.jpg",
 		"oF": 0,
@@ -3546,6 +4413,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip27-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5814,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip27-120x120.jpg",
 		"oF": 0,
@@ -3556,6 +4424,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip27.jpg": {
 		"ft": 16384,
 		"iS": 36977,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip27.jpg",
 		"oF": 0,
@@ -3566,6 +4435,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip28-120x120.jpg": {
 		"ft": 16384,
 		"iS": 7779,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip28-120x120.jpg",
 		"oF": 0,
@@ -3576,6 +4446,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip28.jpg": {
 		"ft": 16384,
 		"iS": 46979,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip28.jpg",
 		"oF": 0,
@@ -3586,6 +4457,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip29-120x120.jpg": {
 		"ft": 16384,
 		"iS": 6848,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip29-120x120.jpg",
 		"oF": 0,
@@ -3596,6 +4468,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip29.jpg": {
 		"ft": 16384,
 		"iS": 16928,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip29.jpg",
 		"oF": 0,
@@ -3606,6 +4479,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip30-120x120.jpg": {
 		"ft": 16384,
 		"iS": 4667,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip30-120x120.jpg",
 		"oF": 0,
@@ -3616,6 +4490,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip30.jpg": {
 		"ft": 16384,
 		"iS": 29594,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip30.jpg",
 		"oF": 0,
@@ -3626,6 +4501,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip31-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5386,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip31-120x120.jpg",
 		"oF": 0,
@@ -3636,6 +4512,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip31.jpg": {
 		"ft": 16384,
 		"iS": 35368,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip31.jpg",
 		"oF": 0,
@@ -3646,6 +4523,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip32-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5966,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip32-120x120.jpg",
 		"oF": 0,
@@ -3656,6 +4534,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip32.jpg": {
 		"ft": 16384,
 		"iS": 37137,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hip32.jpg",
 		"oF": 0,
@@ -3666,6 +4545,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5547,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg-120x120.jpg",
 		"oF": 0,
@@ -3676,6 +4556,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg-249x300.jpg": {
 		"ft": 16384,
 		"iS": 24490,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg-249x300.jpg",
 		"oF": 0,
@@ -3686,6 +4567,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg-516x620.jpg": {
 		"ft": 16384,
 		"iS": 96823,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg-516x620.jpg",
 		"oF": 0,
@@ -3696,6 +4578,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg.jpg": {
 		"ft": 16384,
 		"iS": 248890,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-bg.jpg",
 		"oF": 0,
@@ -3706,6 +4589,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-cover.jpg": {
 		"ft": 16384,
 		"iS": 80123,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-cover.jpg",
 		"oF": 0,
@@ -3804,6 +4688,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-romance-thumb-120x120.jpg": {
 		"ft": 16384,
 		"iS": 5575,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-romance-thumb-120x120.jpg",
 		"oF": 0,
@@ -3814,6 +4699,7 @@
 	"\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-romance-thumb.jpg": {
 		"ft": 16384,
 		"iS": 18504,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/009-my-hipsta-romance\/img\/hipsta-romance-thumb.jpg",
 		"oF": 0,
@@ -3878,6 +4764,7 @@
 	"\/version-2015\/assets\/post-assets\/010-justin-and-the-ipad\/bg.jpg": {
 		"ft": 16384,
 		"iS": 175487,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/010-justin-and-the-ipad\/bg.jpg",
 		"oF": 0,
@@ -3929,6 +4816,7 @@
 	"\/version-2015\/assets\/post-assets\/010-justin-and-the-ipad\/justin-cover.jpg": {
 		"ft": 16384,
 		"iS": 37954,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/010-justin-and-the-ipad\/justin-cover.jpg",
 		"oF": 0,
@@ -3985,6 +4873,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/babyParker.jpg": {
 		"ft": 16384,
 		"iS": 175714,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/babyParker.jpg",
 		"oF": 0,
@@ -3995,6 +4884,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/birdy.jpg": {
 		"ft": 16384,
 		"iS": 340211,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/birdy.jpg",
 		"oF": 0,
@@ -4005,6 +4895,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/cactus.jpg": {
 		"ft": 16384,
 		"iS": 289335,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/cactus.jpg",
 		"oF": 0,
@@ -4015,6 +4906,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/camera-cover.jpg": {
 		"ft": 16384,
 		"iS": 52195,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/camera-cover.jpg",
 		"oF": 0,
@@ -4025,6 +4917,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/chuck.jpg": {
 		"ft": 16384,
 		"iS": 249381,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/chuck.jpg",
 		"oF": 0,
@@ -4035,6 +4928,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/CityOfGod.jpg": {
 		"ft": 16384,
 		"iS": 268288,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/CityOfGod.jpg",
 		"oF": 0,
@@ -4045,6 +4939,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/coldspace.jpg": {
 		"ft": 16384,
 		"iS": 175131,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/coldspace.jpg",
 		"oF": 0,
@@ -4055,6 +4950,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/duck.jpg": {
 		"ft": 16384,
 		"iS": 135177,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/duck.jpg",
 		"oF": 0,
@@ -4075,6 +4971,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/fromo.jpg": {
 		"ft": 16384,
 		"iS": 185074,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/fromo.jpg",
 		"oF": 0,
@@ -4085,6 +4982,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/gladiolas.jpg": {
 		"ft": 16384,
 		"iS": 217760,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/gladiolas.jpg",
 		"oF": 0,
@@ -4095,6 +4993,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/Halloweekend.jpg": {
 		"ft": 16384,
 		"iS": 333455,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/Halloweekend.jpg",
 		"oF": 0,
@@ -4105,6 +5004,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/hardDisk.jpg": {
 		"ft": 16384,
 		"iS": 462139,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/hardDisk.jpg",
 		"oF": 0,
@@ -4115,6 +5015,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/humming-bird.jpg": {
 		"ft": 16384,
 		"iS": 230088,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/humming-bird.jpg",
 		"oF": 0,
@@ -4125,6 +5026,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/jeans.jpg": {
 		"ft": 16384,
 		"iS": 196535,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/jeans.jpg",
 		"oF": 0,
@@ -4135,6 +5037,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/jellyfish.jpg": {
 		"ft": 16384,
 		"iS": 548242,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/jellyfish.jpg",
 		"oF": 0,
@@ -4145,6 +5048,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/knife.jpg": {
 		"ft": 16384,
 		"iS": 110894,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/knife.jpg",
 		"oF": 0,
@@ -4155,6 +5059,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/lake.jpg": {
 		"ft": 16384,
 		"iS": 561524,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/lake.jpg",
 		"oF": 0,
@@ -4165,6 +5070,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/Memory.jpg": {
 		"ft": 16384,
 		"iS": 197185,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/Memory.jpg",
 		"oF": 0,
@@ -4175,6 +5081,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/Plazzo.jpg": {
 		"ft": 16384,
 		"iS": 467570,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/Plazzo.jpg",
 		"oF": 0,
@@ -4185,6 +5092,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/red.jpg": {
 		"ft": 16384,
 		"iS": 206988,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/red.jpg",
 		"oF": 0,
@@ -4195,6 +5103,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/RedRock.jpg": {
 		"ft": 16384,
 		"iS": 463849,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/RedRock.jpg",
 		"oF": 0,
@@ -4205,6 +5114,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/RedSparrow.jpg": {
 		"ft": 16384,
 		"iS": 149675,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/RedSparrow.jpg",
 		"oF": 0,
@@ -4215,6 +5125,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/seriousbroklyn.jpg": {
 		"ft": 16384,
 		"iS": 292706,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/seriousbroklyn.jpg",
 		"oF": 0,
@@ -4225,6 +5136,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/sketchbook.jpg": {
 		"ft": 16384,
 		"iS": 244430,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/sketchbook.jpg",
 		"oF": 0,
@@ -4246,6 +5158,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/sunset.jpg": {
 		"ft": 16384,
 		"iS": 59966,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/sunset.jpg",
 		"oF": 0,
@@ -4256,6 +5169,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/timmytruck.jpg": {
 		"ft": 16384,
 		"iS": 337146,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/timmytruck.jpg",
 		"oF": 0,
@@ -4266,6 +5180,7 @@
 	"\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/trav_face.jpg": {
 		"ft": 16384,
 		"iS": 145179,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/011-as-the-camera-pans\/trav_face.jpg",
 		"oF": 0,
@@ -4315,21 +5230,21 @@
 	"\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/jquery.localscroll-1.2.7-min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/min\/jquery.localscroll-1.2.7-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/jquery.scrollTo-1.4.2-min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/min\/jquery.scrollTo-1.4.2-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/la-carte.css": {
@@ -4362,6 +5277,7 @@
 	"\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/truths-cover.jpg": {
 		"ft": 16384,
 		"iS": 54176,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/012-2-truths-1-lie\/truths-cover.jpg",
 		"oF": 0,
@@ -4602,6 +5518,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover01_darknightreturns.jpg": {
 		"ft": 16384,
 		"iS": 44469,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover01_darknightreturns.jpg",
 		"oF": 0,
@@ -4612,6 +5529,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover02_clonesaga.jpg": {
 		"ft": 16384,
 		"iS": 61645,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover02_clonesaga.jpg",
 		"oF": 0,
@@ -4622,6 +5540,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover03_invincible.jpg": {
 		"ft": 16384,
 		"iS": 41321,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover03_invincible.jpg",
 		"oF": 0,
@@ -4632,6 +5551,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover04_xmen.jpg": {
 		"ft": 16384,
 		"iS": 81518,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover04_xmen.jpg",
 		"oF": 0,
@@ -4642,6 +5562,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover05_x23.jpg": {
 		"ft": 16384,
 		"iS": 51676,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover05_x23.jpg",
 		"oF": 0,
@@ -4652,6 +5573,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover06_scottpilgrim.jpg": {
 		"ft": 16384,
 		"iS": 62179,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover06_scottpilgrim.jpg",
 		"oF": 0,
@@ -4662,6 +5584,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover07_hellspawn.jpg": {
 		"ft": 16384,
 		"iS": 45848,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover07_hellspawn.jpg",
 		"oF": 0,
@@ -4672,6 +5595,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover08_wolverine.jpg": {
 		"ft": 16384,
 		"iS": 68552,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover08_wolverine.jpg",
 		"oF": 0,
@@ -4682,6 +5606,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover09_hush.jpg": {
 		"ft": 16384,
 		"iS": 66848,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover09_hush.jpg",
 		"oF": 0,
@@ -4692,6 +5617,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover10_xforce.jpg": {
 		"ft": 16384,
 		"iS": 61031,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover10_xforce.jpg",
 		"oF": 0,
@@ -4702,6 +5628,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover11_arkhamasylum.jpg": {
 		"ft": 16384,
 		"iS": 35451,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover11_arkhamasylum.jpg",
 		"oF": 0,
@@ -4712,6 +5639,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover12_oldmanlogan.jpg": {
 		"ft": 16384,
 		"iS": 49585,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover12_oldmanlogan.jpg",
 		"oF": 0,
@@ -4722,6 +5650,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover13_galactus.jpg": {
 		"ft": 16384,
 		"iS": 58871,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover13_galactus.jpg",
 		"oF": 0,
@@ -4732,6 +5661,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover14_wolverineorigin.jpg": {
 		"ft": 16384,
 		"iS": 39036,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover14_wolverineorigin.jpg",
 		"oF": 0,
@@ -4742,6 +5672,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover15_batmanandrobin.jpg": {
 		"ft": 16384,
 		"iS": 65379,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover15_batmanandrobin.jpg",
 		"oF": 0,
@@ -4752,6 +5683,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover16_weaponx.jpg": {
 		"ft": 16384,
 		"iS": 65157,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover16_weaponx.jpg",
 		"oF": 0,
@@ -4762,6 +5694,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover17_cable.jpg": {
 		"ft": 16384,
 		"iS": 53390,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover17_cable.jpg",
 		"oF": 0,
@@ -4772,6 +5705,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover18_ageofapocalypse.jpg": {
 		"ft": 16384,
 		"iS": 59441,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/covers\/cover18_ageofapocalypse.jpg",
 		"oF": 0,
@@ -4782,6 +5716,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/dark-knight.jpg": {
 		"ft": 16384,
 		"iS": 23350,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/dark-knight.jpg",
 		"oF": 0,
@@ -4810,11 +5745,11 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/jquery.lettering.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/min\/jquery.lettering-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/letterpress-bastard.css": {
@@ -4852,6 +5787,7 @@
 	"\/version-2015\/assets\/post-assets\/013-bedtime-stories\/wood-bg.jpg": {
 		"ft": 16384,
 		"iS": 234106,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/013-bedtime-stories\/wood-bg.jpg",
 		"oF": 0,
@@ -4967,6 +5903,7 @@
 	"\/version-2015\/assets\/post-assets\/015-digital-dystopia\/img\/digital-dystopia-art.jpg": {
 		"ft": 16384,
 		"iS": 30764,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/015-digital-dystopia\/img\/digital-dystopia-art.jpg",
 		"oF": 0,
@@ -4977,6 +5914,7 @@
 	"\/version-2015\/assets\/post-assets\/015-digital-dystopia\/img\/digital-dystopia-cover.jpg": {
 		"ft": 16384,
 		"iS": 10111,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/015-digital-dystopia\/img\/digital-dystopia-cover.jpg",
 		"oF": 0,
@@ -5030,6 +5968,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/bird.jpg": {
 		"ft": 16384,
 		"iS": 60105,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/bird.jpg",
 		"oF": 0,
@@ -5040,6 +5979,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/board.jpg": {
 		"ft": 16384,
 		"iS": 71726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/board.jpg",
 		"oF": 0,
@@ -5050,6 +5990,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/sam.jpg": {
 		"ft": 16384,
 		"iS": 61749,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/sam.jpg",
 		"oF": 0,
@@ -5060,6 +6001,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/sign.jpg": {
 		"ft": 16384,
 		"iS": 70958,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/sign.jpg",
 		"oF": 0,
@@ -5070,6 +6012,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/surf-day-cover.jpg": {
 		"ft": 16384,
 		"iS": 94828,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/surf-day-cover.jpg",
 		"oF": 0,
@@ -5080,6 +6023,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/surfday-bg.jpg": {
 		"ft": 16384,
 		"iS": 230801,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/surfday-bg.jpg",
 		"oF": 0,
@@ -5090,6 +6034,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/surfday-main.jpg": {
 		"ft": 16384,
 		"iS": 228930,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/surfday-main.jpg",
 		"oF": 0,
@@ -5111,6 +6056,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/trav.jpg": {
 		"ft": 16384,
 		"iS": 50493,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/trav.jpg",
 		"oF": 0,
@@ -5121,6 +6067,7 @@
 	"\/version-2015\/assets\/post-assets\/016-surf-day\/images\/water.jpg": {
 		"ft": 16384,
 		"iS": 61184,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/016-surf-day\/images\/water.jpg",
 		"oF": 0,
@@ -5142,6 +6089,7 @@
 	"\/version-2015\/assets\/post-assets\/017-youve-changed\/change-cover.jpg": {
 		"ft": 16384,
 		"iS": 25969,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/017-youve-changed\/change-cover.jpg",
 		"oF": 0,
@@ -5205,6 +6153,7 @@
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs-bw.jpg": {
 		"ft": 16384,
 		"iS": 89561,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs-bw.jpg",
 		"oF": 0,
@@ -5215,6 +6164,7 @@
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs-house-color.jpg": {
 		"ft": 16384,
 		"iS": 377394,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs-house-color.jpg",
 		"oF": 0,
@@ -5225,6 +6175,7 @@
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs-house.jpg": {
 		"ft": 16384,
 		"iS": 331686,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs-house.jpg",
 		"oF": 0,
@@ -5235,6 +6186,7 @@
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs.jpg": {
 		"ft": 16384,
 		"iS": 148742,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/jobs.jpg",
 		"oF": 0,
@@ -5245,6 +6197,7 @@
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/slide-cover.jpg": {
 		"ft": 16384,
 		"iS": 75127,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/img\/slide-cover.jpg",
 		"oF": 0,
@@ -5266,51 +6219,51 @@
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/functions3.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/min\/functions3-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/jquery-1.6.2.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/min\/jquery-1.6.2.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/jquery-ui-1.8.16.custom.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/min\/jquery-ui-1.8.16.custom.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/jquery.hammer.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/min\/jquery.hammer-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/modernizr-1.7.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/019-slide-to-remember\/js\/min\/modernizr-1.7.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/020-planting-new-roots\/img\/ground.png": {
@@ -5382,11 +6335,11 @@
 	"\/version-2015\/assets\/post-assets\/020-planting-new-roots\/js\/jquery-ui-1.10.3.custom.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/020-planting-new-roots\/js\/min\/jquery-ui-1.10.3.custom.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/020-planting-new-roots\/og.php": {
@@ -5436,6 +6389,7 @@
 	"\/version-2015\/assets\/post-assets\/021-vignettes\/img\/vig-title.jpg": {
 		"ft": 16384,
 		"iS": 8606,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/021-vignettes\/img\/vig-title.jpg",
 		"oF": 0,
@@ -5446,6 +6400,7 @@
 	"\/version-2015\/assets\/post-assets\/021-vignettes\/img\/vignettes-cover.jpg": {
 		"ft": 16384,
 		"iS": 28991,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/021-vignettes\/img\/vignettes-cover.jpg",
 		"oF": 0,
@@ -5733,6 +6688,7 @@
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/img\/dive-in.jpg": {
 		"ft": 16384,
 		"iS": 11962,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/img\/dive-in.jpg",
 		"oF": 0,
@@ -5952,6 +6908,7 @@
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/img\/wall-brite.jpg": {
 		"ft": 16384,
 		"iS": 54542,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/img\/wall-brite.jpg",
 		"oF": 0,
@@ -5962,6 +6919,7 @@
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/img\/wall.jpg": {
 		"ft": 16384,
 		"iS": 33739,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/img\/wall.jpg",
 		"oF": 0,
@@ -5972,41 +6930,41 @@
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/fun.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/min\/fun-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/jquery.1.7.2.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/min\/jquery.1.7.2.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/jquery.event.frame.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/min\/jquery.event.frame-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/jquery.parallax.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/025-rootbeer\/js\/min\/jquery.parallax.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/026-nyc\/css\/fonts.css": {
@@ -6084,6 +7042,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/ny.jpg": {
 		"ft": 16384,
 		"iS": 230783,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/ny.jpg",
 		"oF": 0,
@@ -6094,6 +7053,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/nyc-cover.jpg": {
 		"ft": 16384,
 		"iS": 50697,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/nyc-cover.jpg",
 		"oF": 0,
@@ -6104,6 +7064,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p01.jpg": {
 		"ft": 16384,
 		"iS": 118340,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p01.jpg",
 		"oF": 0,
@@ -6114,6 +7075,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p02.jpg": {
 		"ft": 16384,
 		"iS": 139668,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p02.jpg",
 		"oF": 0,
@@ -6124,6 +7086,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p03.jpg": {
 		"ft": 16384,
 		"iS": 111761,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p03.jpg",
 		"oF": 0,
@@ -6134,6 +7097,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p04.jpg": {
 		"ft": 16384,
 		"iS": 126234,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p04.jpg",
 		"oF": 0,
@@ -6144,6 +7108,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p05.jpg": {
 		"ft": 16384,
 		"iS": 142248,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p05.jpg",
 		"oF": 0,
@@ -6154,6 +7119,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p06.jpg": {
 		"ft": 16384,
 		"iS": 113230,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p06.jpg",
 		"oF": 0,
@@ -6164,6 +7130,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p07.jpg": {
 		"ft": 16384,
 		"iS": 93642,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p07.jpg",
 		"oF": 0,
@@ -6174,6 +7141,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p08.jpg": {
 		"ft": 16384,
 		"iS": 125600,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p08.jpg",
 		"oF": 0,
@@ -6184,6 +7152,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p09.jpg": {
 		"ft": 16384,
 		"iS": 93978,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p09.jpg",
 		"oF": 0,
@@ -6194,6 +7163,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p10.jpg": {
 		"ft": 16384,
 		"iS": 168926,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p10.jpg",
 		"oF": 0,
@@ -6204,6 +7174,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p11.jpg": {
 		"ft": 16384,
 		"iS": 122390,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p11.jpg",
 		"oF": 0,
@@ -6214,6 +7185,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p12.jpg": {
 		"ft": 16384,
 		"iS": 82212,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p12.jpg",
 		"oF": 0,
@@ -6224,6 +7196,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p13.jpg": {
 		"ft": 16384,
 		"iS": 112282,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p13.jpg",
 		"oF": 0,
@@ -6234,6 +7207,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p14.jpg": {
 		"ft": 16384,
 		"iS": 152222,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p14.jpg",
 		"oF": 0,
@@ -6244,6 +7218,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p15.jpg": {
 		"ft": 16384,
 		"iS": 183870,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p15.jpg",
 		"oF": 0,
@@ -6254,6 +7229,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p16.jpg": {
 		"ft": 16384,
 		"iS": 146483,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p16.jpg",
 		"oF": 0,
@@ -6264,6 +7240,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p17.jpg": {
 		"ft": 16384,
 		"iS": 131936,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p17.jpg",
 		"oF": 0,
@@ -6274,6 +7251,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p18.jpg": {
 		"ft": 16384,
 		"iS": 126048,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p18.jpg",
 		"oF": 0,
@@ -6284,6 +7262,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p19.jpg": {
 		"ft": 16384,
 		"iS": 158618,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p19.jpg",
 		"oF": 0,
@@ -6294,6 +7273,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p20.jpg": {
 		"ft": 16384,
 		"iS": 127991,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p20.jpg",
 		"oF": 0,
@@ -6304,6 +7284,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p21.jpg": {
 		"ft": 16384,
 		"iS": 113356,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p21.jpg",
 		"oF": 0,
@@ -6314,6 +7295,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p22.jpg": {
 		"ft": 16384,
 		"iS": 56643,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p22.jpg",
 		"oF": 0,
@@ -6324,6 +7306,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p23.jpg": {
 		"ft": 16384,
 		"iS": 82348,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p23.jpg",
 		"oF": 0,
@@ -6334,6 +7317,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p24.jpg": {
 		"ft": 16384,
 		"iS": 141903,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p24.jpg",
 		"oF": 0,
@@ -6344,6 +7328,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p25.jpg": {
 		"ft": 16384,
 		"iS": 99028,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p25.jpg",
 		"oF": 0,
@@ -6354,6 +7339,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p26.jpg": {
 		"ft": 16384,
 		"iS": 126401,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p26.jpg",
 		"oF": 0,
@@ -6364,6 +7350,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p27.jpg": {
 		"ft": 16384,
 		"iS": 113228,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p27.jpg",
 		"oF": 0,
@@ -6374,6 +7361,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p28.jpg": {
 		"ft": 16384,
 		"iS": 103068,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p28.jpg",
 		"oF": 0,
@@ -6384,6 +7372,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p29.jpg": {
 		"ft": 16384,
 		"iS": 121133,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p29.jpg",
 		"oF": 0,
@@ -6394,6 +7383,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p30.jpg": {
 		"ft": 16384,
 		"iS": 145840,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p30.jpg",
 		"oF": 0,
@@ -6404,6 +7394,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p31.jpg": {
 		"ft": 16384,
 		"iS": 191882,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p31.jpg",
 		"oF": 0,
@@ -6414,6 +7405,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p32.jpg": {
 		"ft": 16384,
 		"iS": 103780,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p32.jpg",
 		"oF": 0,
@@ -6424,6 +7416,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p33.jpg": {
 		"ft": 16384,
 		"iS": 143535,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p33.jpg",
 		"oF": 0,
@@ -6434,6 +7427,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p34.jpg": {
 		"ft": 16384,
 		"iS": 141570,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p34.jpg",
 		"oF": 0,
@@ -6444,6 +7438,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p35.jpg": {
 		"ft": 16384,
 		"iS": 159425,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p35.jpg",
 		"oF": 0,
@@ -6454,6 +7449,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p36.jpg": {
 		"ft": 16384,
 		"iS": 106186,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p36.jpg",
 		"oF": 0,
@@ -6464,6 +7460,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p37.jpg": {
 		"ft": 16384,
 		"iS": 109415,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p37.jpg",
 		"oF": 0,
@@ -6474,6 +7471,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p38.jpg": {
 		"ft": 16384,
 		"iS": 66181,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p38.jpg",
 		"oF": 0,
@@ -6484,6 +7482,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p39.jpg": {
 		"ft": 16384,
 		"iS": 112162,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p39.jpg",
 		"oF": 0,
@@ -6494,6 +7493,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p40.jpg": {
 		"ft": 16384,
 		"iS": 138215,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p40.jpg",
 		"oF": 0,
@@ -6504,6 +7504,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p41.jpg": {
 		"ft": 16384,
 		"iS": 99600,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p41.jpg",
 		"oF": 0,
@@ -6514,6 +7515,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p42.jpg": {
 		"ft": 16384,
 		"iS": 119299,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p42.jpg",
 		"oF": 0,
@@ -6524,6 +7526,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p43.jpg": {
 		"ft": 16384,
 		"iS": 122179,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p43.jpg",
 		"oF": 0,
@@ -6534,6 +7537,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p44.jpg": {
 		"ft": 16384,
 		"iS": 144204,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p44.jpg",
 		"oF": 0,
@@ -6544,6 +7548,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p45.jpg": {
 		"ft": 16384,
 		"iS": 94139,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p45.jpg",
 		"oF": 0,
@@ -6554,6 +7559,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p46.jpg": {
 		"ft": 16384,
 		"iS": 129576,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p46.jpg",
 		"oF": 0,
@@ -6564,6 +7570,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p47.jpg": {
 		"ft": 16384,
 		"iS": 144200,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p47.jpg",
 		"oF": 0,
@@ -6574,6 +7581,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p48.jpg": {
 		"ft": 16384,
 		"iS": 211514,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p48.jpg",
 		"oF": 0,
@@ -6584,6 +7592,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p49.jpg": {
 		"ft": 16384,
 		"iS": 117233,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p49.jpg",
 		"oF": 0,
@@ -6594,6 +7603,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p50.jpg": {
 		"ft": 16384,
 		"iS": 85846,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p50.jpg",
 		"oF": 0,
@@ -6604,6 +7614,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p51.jpg": {
 		"ft": 16384,
 		"iS": 153405,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p51.jpg",
 		"oF": 0,
@@ -6614,6 +7625,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p52.jpg": {
 		"ft": 16384,
 		"iS": 91990,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p52.jpg",
 		"oF": 0,
@@ -6624,6 +7636,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p53.jpg": {
 		"ft": 16384,
 		"iS": 119465,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p53.jpg",
 		"oF": 0,
@@ -6634,6 +7647,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p54.jpg": {
 		"ft": 16384,
 		"iS": 65207,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p54.jpg",
 		"oF": 0,
@@ -6644,6 +7658,7 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p55.jpg": {
 		"ft": 16384,
 		"iS": 105722,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/img\/photos\/p55.jpg",
 		"oF": 0,
@@ -6992,21 +8007,21 @@
 	"\/version-2015\/assets\/post-assets\/026-nyc\/js\/fun.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/js\/min\/fun-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/026-nyc\/js\/jquery.1.7.2.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/026-nyc\/js\/min\/jquery.1.7.2.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/027-train-ride-jams\/css\/base.css": {
@@ -7099,6 +8114,7 @@
 	"\/version-2015\/assets\/post-assets\/027-train-ride-jams\/img\/bg-grain.jpg": {
 		"ft": 16384,
 		"iS": 3541,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/027-train-ride-jams\/img\/bg-grain.jpg",
 		"oF": 0,
@@ -7591,11 +8607,11 @@
 	"\/version-2015\/assets\/post-assets\/027-train-ride-jams\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/027-train-ride-jams\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/028-problem\/bubbble-dribbble.gif": {
@@ -7798,11 +8814,11 @@
 	"\/version-2015\/assets\/post-assets\/028-problem\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/028-problem\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/028-problem\/title.psd": {
@@ -7913,11 +8929,11 @@
 	"\/version-2015\/assets\/post-assets\/029-different-types\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/029-different-types\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/css\/break.css": {
@@ -7943,6 +8959,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/arm-bg-tile.jpg": {
 		"ft": 16384,
 		"iS": 13627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/arm-bg-tile.jpg",
 		"oF": 0,
@@ -7953,6 +8970,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/arm-bg.jpg": {
 		"ft": 16384,
 		"iS": 75927,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/arm-bg.jpg",
 		"oF": 0,
@@ -7974,6 +8992,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/hand-bg-dirt.jpg": {
 		"ft": 16384,
 		"iS": 77720,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/hand-bg-dirt.jpg",
 		"oF": 0,
@@ -7984,6 +9003,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/hand-bg-tile.jpg": {
 		"ft": 16384,
 		"iS": 8046,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/hand-bg-tile.jpg",
 		"oF": 0,
@@ -8005,6 +9025,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/light_wool.jpg": {
 		"ft": 16384,
 		"iS": 14376,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/light_wool.jpg",
 		"oF": 0,
@@ -8015,6 +9036,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/midlife-cover.jpg": {
 		"ft": 16384,
 		"iS": 69471,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/midlife-cover.jpg",
 		"oF": 0,
@@ -8025,6 +9047,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/pills-bg-tile.jpg": {
 		"ft": 16384,
 		"iS": 7523,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/pills-bg-tile.jpg",
 		"oF": 0,
@@ -8035,6 +9058,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/pills-bg.jpg": {
 		"ft": 16384,
 		"iS": 151566,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/pills-bg.jpg",
 		"oF": 0,
@@ -8045,6 +9069,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide1.jpg": {
 		"ft": 16384,
 		"iS": 1107368,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide1.jpg",
 		"oF": 0,
@@ -8055,6 +9080,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide2.jpg": {
 		"ft": 16384,
 		"iS": 756123,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide2.jpg",
 		"oF": 0,
@@ -8065,6 +9091,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide3.jpg": {
 		"ft": 16384,
 		"iS": 1010718,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide3.jpg",
 		"oF": 0,
@@ -8075,6 +9102,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide4-bg.jpg": {
 		"ft": 16384,
 		"iS": 5287,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide4-bg.jpg",
 		"oF": 0,
@@ -8085,6 +9113,7 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide4.jpg": {
 		"ft": 16384,
 		"iS": 713710,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/img\/slide4.jpg",
 		"oF": 0,
@@ -8102,11 +9131,11 @@
 	"\/version-2015\/assets\/post-assets\/030-midlife-crisis\/js\/fun.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/030-midlife-crisis\/js\/min\/fun-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/css\/base.css": {
@@ -8165,6 +9194,7 @@
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/bg-test.jpg": {
 		"ft": 16384,
 		"iS": 30354,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/bg-test.jpg",
 		"oF": 0,
@@ -8175,6 +9205,7 @@
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/bg-test2.jpg": {
 		"ft": 16384,
 		"iS": 59140,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/bg-test2.jpg",
 		"oF": 0,
@@ -8185,6 +9216,7 @@
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/bg-test3.jpg": {
 		"ft": 16384,
 		"iS": 70963,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/bg-test3.jpg",
 		"oF": 0,
@@ -8195,6 +9227,7 @@
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/covers.jpg": {
 		"ft": 16384,
 		"iS": 165229,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/covers.jpg",
 		"oF": 0,
@@ -8216,6 +9249,7 @@
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/pano.jpg": {
 		"ft": 16384,
 		"iS": 57454,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/031-30-year-playlist\/img\/pano.jpg",
 		"oF": 0,
@@ -8259,11 +9293,11 @@
 	"\/version-2015\/assets\/post-assets\/031-30-year-playlist\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/031-30-year-playlist\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/032-music-app\/css\/main.css": {
@@ -8300,6 +9334,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/go-phone.jpg": {
 		"ft": 16384,
 		"iS": 73614,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/go-phone.jpg",
 		"oF": 0,
@@ -8321,6 +9356,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/looks-bg.jpg": {
 		"ft": 16384,
 		"iS": 102050,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/looks-bg.jpg",
 		"oF": 0,
@@ -8353,6 +9389,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/signup-bg.jpg": {
 		"ft": 16384,
 		"iS": 4726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/signup-bg.jpg",
 		"oF": 0,
@@ -8382,6 +9419,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/band-cover1.jpg": {
 		"ft": 16384,
 		"iS": 7920,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/band-cover1.jpg",
 		"oF": 0,
@@ -8392,6 +9430,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/band-cover2.jpg": {
 		"ft": 16384,
 		"iS": 11375,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/band-cover2.jpg",
 		"oF": 0,
@@ -8413,6 +9452,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/bigcover1.jpg": {
 		"ft": 16384,
 		"iS": 77332,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/bigcover1.jpg",
 		"oF": 0,
@@ -8434,6 +9474,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/bigcover2.jpg": {
 		"ft": 16384,
 		"iS": 80830,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/bigcover2.jpg",
 		"oF": 0,
@@ -8444,6 +9485,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/bigcover3.jpg": {
 		"ft": 16384,
 		"iS": 78899,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/bigcover3.jpg",
 		"oF": 0,
@@ -8487,6 +9529,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/tracklist-playlist.jpg": {
 		"ft": 16384,
 		"iS": 82264,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/1-nowplaying\/tracklist-playlist.jpg",
 		"oF": 0,
@@ -8505,6 +9548,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/2-artist\/artist-long.jpg": {
 		"ft": 16384,
 		"iS": 235095,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/2-artist\/artist-long.jpg",
 		"oF": 0,
@@ -8537,6 +9581,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/3-artists\/artists-long.jpg": {
 		"ft": 16384,
 		"iS": 500919,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/3-artists\/artists-long.jpg",
 		"oF": 0,
@@ -8547,6 +9592,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/4-menu\/appmenu.jpg": {
 		"ft": 16384,
 		"iS": 33218,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/4-menu\/appmenu.jpg",
 		"oF": 0,
@@ -8568,6 +9614,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/5-playlist\/playlists-long.jpg": {
 		"ft": 16384,
 		"iS": 364047,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/5-playlist\/playlists-long.jpg",
 		"oF": 0,
@@ -8578,6 +9625,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/iphone.jpg": {
 		"ft": 16384,
 		"iS": 31873,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/tour\/iphone.jpg",
 		"oF": 0,
@@ -8610,6 +9658,7 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/img\/video.jpg": {
 		"ft": 16384,
 		"iS": 12413,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/img\/video.jpg",
 		"oF": 0,
@@ -8620,21 +9669,21 @@
 	"\/version-2015\/assets\/post-assets\/032-music-app\/js\/app-ck.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/js\/min\/app-ck-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/032-music-app\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/032-music-app\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/033-art-directed\/css\/base.css": {
@@ -8736,11 +9785,11 @@
 	"\/version-2015\/assets\/post-assets\/033-art-directed\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/033-art-directed\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/034-show\/css\/show.css": {
@@ -8810,6 +9859,7 @@
 	"\/version-2015\/assets\/post-assets\/034-show\/img\/loupe-base.jpg": {
 		"ft": 16384,
 		"iS": 141000,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/034-show\/img\/loupe-base.jpg",
 		"oF": 0,
@@ -8831,11 +9881,11 @@
 	"\/version-2015\/assets\/post-assets\/034-show\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/034-show\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/035-children\/css\/screen.css": {
@@ -8864,6 +9914,7 @@
 	"\/version-2015\/assets\/post-assets\/035-children\/img\/children-cover.jpg": {
 		"ft": 16384,
 		"iS": 17193,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/035-children\/img\/children-cover.jpg",
 		"oF": 0,
@@ -8874,21 +9925,21 @@
 	"\/version-2015\/assets\/post-assets\/035-children\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/035-children\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/035-children\/js\/jquery-1.9.1.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/035-children\/js\/min\/jquery-1.9.1.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/036-companion\/css\/style.css": {
@@ -8995,6 +10046,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/1.jpg": {
 		"ft": 16384,
 		"iS": 89682,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/1.jpg",
 		"oF": 0,
@@ -9005,6 +10057,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/10.jpg": {
 		"ft": 16384,
 		"iS": 89736,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/10.jpg",
 		"oF": 0,
@@ -9015,6 +10068,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/11.jpg": {
 		"ft": 16384,
 		"iS": 143033,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/11.jpg",
 		"oF": 0,
@@ -9025,6 +10079,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/12.jpg": {
 		"ft": 16384,
 		"iS": 160552,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/12.jpg",
 		"oF": 0,
@@ -9035,6 +10090,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/13.jpg": {
 		"ft": 16384,
 		"iS": 509134,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/13.jpg",
 		"oF": 0,
@@ -9045,6 +10101,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/14.jpg": {
 		"ft": 16384,
 		"iS": 583669,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/14.jpg",
 		"oF": 0,
@@ -9055,6 +10112,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/15.jpg": {
 		"ft": 16384,
 		"iS": 51342,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/15.jpg",
 		"oF": 0,
@@ -9065,6 +10123,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/16.jpg": {
 		"ft": 16384,
 		"iS": 111436,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/16.jpg",
 		"oF": 0,
@@ -9075,6 +10134,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/17.jpg": {
 		"ft": 16384,
 		"iS": 193931,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/17.jpg",
 		"oF": 0,
@@ -9085,6 +10145,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/18.jpg": {
 		"ft": 16384,
 		"iS": 274285,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/18.jpg",
 		"oF": 0,
@@ -9095,6 +10156,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/19.jpg": {
 		"ft": 16384,
 		"iS": 113287,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/19.jpg",
 		"oF": 0,
@@ -9105,6 +10167,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/2.jpg": {
 		"ft": 16384,
 		"iS": 52542,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/2.jpg",
 		"oF": 0,
@@ -9115,6 +10178,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/20.jpg": {
 		"ft": 16384,
 		"iS": 59821,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/20.jpg",
 		"oF": 0,
@@ -9125,6 +10189,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/21.jpg": {
 		"ft": 16384,
 		"iS": 135047,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/21.jpg",
 		"oF": 0,
@@ -9135,6 +10200,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/22.jpg": {
 		"ft": 16384,
 		"iS": 183478,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/22.jpg",
 		"oF": 0,
@@ -9145,6 +10211,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/23.jpg": {
 		"ft": 16384,
 		"iS": 120314,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/23.jpg",
 		"oF": 0,
@@ -9155,6 +10222,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/3.jpg": {
 		"ft": 16384,
 		"iS": 188467,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/3.jpg",
 		"oF": 0,
@@ -9165,6 +10233,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/4.jpg": {
 		"ft": 16384,
 		"iS": 38216,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/4.jpg",
 		"oF": 0,
@@ -9175,6 +10244,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/5.jpg": {
 		"ft": 16384,
 		"iS": 85986,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/5.jpg",
 		"oF": 0,
@@ -9185,6 +10255,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/6.jpg": {
 		"ft": 16384,
 		"iS": 224232,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/6.jpg",
 		"oF": 0,
@@ -9195,6 +10266,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/7.jpg": {
 		"ft": 16384,
 		"iS": 77450,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/7.jpg",
 		"oF": 0,
@@ -9205,6 +10277,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/8.jpg": {
 		"ft": 16384,
 		"iS": 96162,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/8.jpg",
 		"oF": 0,
@@ -9215,6 +10288,7 @@
 	"\/version-2015\/assets\/post-assets\/037-five-lies\/img\/9.jpg": {
 		"ft": 16384,
 		"iS": 220269,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/037-five-lies\/img\/9.jpg",
 		"oF": 0,
@@ -9259,6 +10333,7 @@
 	"\/version-2015\/assets\/post-assets\/038-the-merovingian\/img\/the-merovingian-cover.jpg": {
 		"ft": 16384,
 		"iS": 28873,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/038-the-merovingian\/img\/the-merovingian-cover.jpg",
 		"oF": 0,
@@ -9300,6 +10375,7 @@
 	"\/version-2015\/assets\/post-assets\/039-why-we-create\/img\/chart.jpg": {
 		"ft": 16384,
 		"iS": 22019,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/039-why-we-create\/img\/chart.jpg",
 		"oF": 0,
@@ -9332,11 +10408,11 @@
 	"\/version-2015\/assets\/post-assets\/039-why-we-create\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/039-why-we-create\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/040-up\/css\/style.css": {
@@ -9384,21 +10460,21 @@
 	"\/version-2015\/assets\/post-assets\/040-up\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/040-up\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/040-up\/js\/packery.pkgd.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/040-up\/js\/min\/packery.pkgd.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/041-important-people\/css\/style.css": {
@@ -9438,6 +10514,7 @@
 	"\/version-2015\/assets\/post-assets\/041-important-people\/img\/pic1.jpg": {
 		"ft": 16384,
 		"iS": 385869,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/041-important-people\/img\/pic1.jpg",
 		"oF": 0,
@@ -9448,6 +10525,7 @@
 	"\/version-2015\/assets\/post-assets\/041-important-people\/img\/pic2.jpg": {
 		"ft": 16384,
 		"iS": 342499,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/041-important-people\/img\/pic2.jpg",
 		"oF": 0,
@@ -9466,11 +10544,11 @@
 	"\/version-2015\/assets\/post-assets\/041-important-people\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/041-important-people\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/css\/style.css": {
@@ -9499,6 +10577,7 @@
 	"\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/img\/devtips-cover.jpg": {
 		"ft": 16384,
 		"iS": 59699,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/img\/devtips-cover.jpg",
 		"oF": 0,
@@ -9519,6 +10598,7 @@
 	"\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/img\/pic1.jpg": {
 		"ft": 16384,
 		"iS": 385869,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/img\/pic1.jpg",
 		"oF": 0,
@@ -9529,6 +10609,7 @@
 	"\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/img\/pic2.jpg": {
 		"ft": 16384,
 		"iS": 342499,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/img\/pic2.jpg",
 		"oF": 0,
@@ -9547,21 +10628,21 @@
 	"\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/js\/jquery.fitvids.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/042-dev-tips-for-designers\/js\/min\/jquery.fitvids-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/043-doomsday\/css\/style.css": {
@@ -9590,6 +10671,7 @@
 	"\/version-2015\/assets\/post-assets\/043-doomsday\/img\/doomsday-cover.jpg": {
 		"ft": 16384,
 		"iS": 62253,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/043-doomsday\/img\/doomsday-cover.jpg",
 		"oF": 0,
@@ -9611,6 +10693,7 @@
 	"\/version-2015\/assets\/post-assets\/043-doomsday\/img\/trav.jpg": {
 		"ft": 16384,
 		"iS": 189570,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/043-doomsday\/img\/trav.jpg",
 		"oF": 0,
@@ -9621,11 +10704,11 @@
 	"\/version-2015\/assets\/post-assets\/043-doomsday\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/043-doomsday\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/css\/style.css": {
@@ -9665,6 +10748,7 @@
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/e-all.jpg": {
 		"ft": 16384,
 		"iS": 62522,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/e-all.jpg",
 		"oF": 0,
@@ -9675,6 +10759,7 @@
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/e-bottom.jpg": {
 		"ft": 16384,
 		"iS": 91888,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/e-bottom.jpg",
 		"oF": 0,
@@ -9685,6 +10770,7 @@
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/e-top.jpg": {
 		"ft": 16384,
 		"iS": 92879,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/e-top.jpg",
 		"oF": 0,
@@ -9695,6 +10781,7 @@
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/enders-game-1500.jpg": {
 		"ft": 16384,
 		"iS": 76228,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/enders-game-1500.jpg",
 		"oF": 0,
@@ -9705,6 +10792,7 @@
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/enders-game-cover.jpg": {
 		"ft": 16384,
 		"iS": 6773,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/044-enders-game-poster\/img\/enders-game-cover.jpg",
 		"oF": 0,
@@ -9715,11 +10803,11 @@
 	"\/version-2015\/assets\/post-assets\/044-enders-game-poster\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/044-enders-game-poster\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/css\/style.css": {
@@ -9748,6 +10836,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-1.jpg": {
 		"ft": 16384,
 		"iS": 61338,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-1.jpg",
 		"oF": 0,
@@ -9758,6 +10847,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-2.jpg": {
 		"ft": 16384,
 		"iS": 56603,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-2.jpg",
 		"oF": 0,
@@ -9768,6 +10858,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-3.jpg": {
 		"ft": 16384,
 		"iS": 34929,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-3.jpg",
 		"oF": 0,
@@ -9778,6 +10869,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-4.jpg": {
 		"ft": 16384,
 		"iS": 43203,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-4.jpg",
 		"oF": 0,
@@ -9788,6 +10880,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-5.jpg": {
 		"ft": 16384,
 		"iS": 42903,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-5.jpg",
 		"oF": 0,
@@ -9798,6 +10891,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-6.jpg": {
 		"ft": 16384,
 		"iS": 30762,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/daroz-6.jpg",
 		"oF": 0,
@@ -9808,6 +10902,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/dog.jpg": {
 		"ft": 16384,
 		"iS": 99765,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/dog.jpg",
 		"oF": 0,
@@ -9818,6 +10913,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/dood.jpg": {
 		"ft": 16384,
 		"iS": 514672,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/dood.jpg",
 		"oF": 0,
@@ -9828,6 +10924,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/finger.jpg": {
 		"ft": 16384,
 		"iS": 422759,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/finger.jpg",
 		"oF": 0,
@@ -9838,6 +10935,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/flower.jpg": {
 		"ft": 16384,
 		"iS": 215330,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/flower.jpg",
 		"oF": 0,
@@ -9848,6 +10946,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/gtfo.jpg": {
 		"ft": 16384,
 		"iS": 262025,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/gtfo.jpg",
 		"oF": 0,
@@ -9858,6 +10957,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jon-cover.jpg": {
 		"ft": 16384,
 		"iS": 46536,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jon-cover.jpg",
 		"oF": 0,
@@ -9901,6 +11001,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jon4.jpg": {
 		"ft": 16384,
 		"iS": 259108,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jon4.jpg",
 		"oF": 0,
@@ -9911,6 +11012,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jon5.jpg": {
 		"ft": 16384,
 		"iS": 228557,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jon5.jpg",
 		"oF": 0,
@@ -9921,6 +11023,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jons-mug.jpg": {
 		"ft": 16384,
 		"iS": 110600,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/jons-mug.jpg",
 		"oF": 0,
@@ -9931,6 +11034,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-1.jpg": {
 		"ft": 16384,
 		"iS": 287922,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-1.jpg",
 		"oF": 0,
@@ -9941,6 +11045,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-2.jpg": {
 		"ft": 16384,
 		"iS": 347730,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-2.jpg",
 		"oF": 0,
@@ -9951,6 +11056,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-3.jpg": {
 		"ft": 16384,
 		"iS": 273536,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-3.jpg",
 		"oF": 0,
@@ -9961,6 +11067,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-4.jpg": {
 		"ft": 16384,
 		"iS": 351595,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-4.jpg",
 		"oF": 0,
@@ -9971,6 +11078,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-5.jpg": {
 		"ft": 16384,
 		"iS": 178224,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-5.jpg",
 		"oF": 0,
@@ -9981,6 +11089,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-6.jpg": {
 		"ft": 16384,
 		"iS": 176053,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-6.jpg",
 		"oF": 0,
@@ -9991,6 +11100,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-7.jpg": {
 		"ft": 16384,
 		"iS": 193551,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-7.jpg",
 		"oF": 0,
@@ -10001,6 +11111,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-8.jpg": {
 		"ft": 16384,
 		"iS": 160732,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/left-8.jpg",
 		"oF": 0,
@@ -10044,6 +11155,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/player-4.jpg": {
 		"ft": 16384,
 		"iS": 79109,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/player-4.jpg",
 		"oF": 0,
@@ -10054,6 +11166,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/player-5.jpg": {
 		"ft": 16384,
 		"iS": 35240,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/player-5.jpg",
 		"oF": 0,
@@ -10108,6 +11221,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-1.jpg": {
 		"ft": 16384,
 		"iS": 114119,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-1.jpg",
 		"oF": 0,
@@ -10118,6 +11232,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-2.jpg": {
 		"ft": 16384,
 		"iS": 237112,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-2.jpg",
 		"oF": 0,
@@ -10128,6 +11243,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-3.jpg": {
 		"ft": 16384,
 		"iS": 231192,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-3.jpg",
 		"oF": 0,
@@ -10138,6 +11254,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-4.jpg": {
 		"ft": 16384,
 		"iS": 113650,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set1-4.jpg",
 		"oF": 0,
@@ -10148,6 +11265,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-1.jpg": {
 		"ft": 16384,
 		"iS": 85268,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-1.jpg",
 		"oF": 0,
@@ -10158,6 +11276,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-10.jpg": {
 		"ft": 16384,
 		"iS": 218633,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-10.jpg",
 		"oF": 0,
@@ -10168,6 +11287,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-11.jpg": {
 		"ft": 16384,
 		"iS": 79436,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-11.jpg",
 		"oF": 0,
@@ -10178,6 +11298,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-12.jpg": {
 		"ft": 16384,
 		"iS": 173704,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-12.jpg",
 		"oF": 0,
@@ -10188,6 +11309,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-13.jpg": {
 		"ft": 16384,
 		"iS": 220216,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-13.jpg",
 		"oF": 0,
@@ -10198,6 +11320,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-14.jpg": {
 		"ft": 16384,
 		"iS": 221388,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-14.jpg",
 		"oF": 0,
@@ -10208,6 +11331,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-15.jpg": {
 		"ft": 16384,
 		"iS": 114420,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-15.jpg",
 		"oF": 0,
@@ -10218,6 +11342,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-16.jpg": {
 		"ft": 16384,
 		"iS": 242615,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-16.jpg",
 		"oF": 0,
@@ -10228,6 +11353,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-17.jpg": {
 		"ft": 16384,
 		"iS": 161274,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-17.jpg",
 		"oF": 0,
@@ -10238,6 +11364,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-18.jpg": {
 		"ft": 16384,
 		"iS": 238547,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-18.jpg",
 		"oF": 0,
@@ -10248,6 +11375,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-19.jpg": {
 		"ft": 16384,
 		"iS": 104312,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-19.jpg",
 		"oF": 0,
@@ -10258,6 +11386,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-2.jpg": {
 		"ft": 16384,
 		"iS": 176341,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-2.jpg",
 		"oF": 0,
@@ -10268,6 +11397,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-20.jpg": {
 		"ft": 16384,
 		"iS": 113209,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-20.jpg",
 		"oF": 0,
@@ -10278,6 +11408,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-21.jpg": {
 		"ft": 16384,
 		"iS": 90538,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-21.jpg",
 		"oF": 0,
@@ -10288,6 +11419,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-3.jpg": {
 		"ft": 16384,
 		"iS": 130394,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-3.jpg",
 		"oF": 0,
@@ -10298,6 +11430,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-5.jpg": {
 		"ft": 16384,
 		"iS": 177915,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-5.jpg",
 		"oF": 0,
@@ -10308,6 +11441,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-6.jpg": {
 		"ft": 16384,
 		"iS": 174687,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-6.jpg",
 		"oF": 0,
@@ -10318,6 +11452,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-7.jpg": {
 		"ft": 16384,
 		"iS": 111443,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-7.jpg",
 		"oF": 0,
@@ -10328,6 +11463,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-8.jpg": {
 		"ft": 16384,
 		"iS": 140918,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-8.jpg",
 		"oF": 0,
@@ -10338,6 +11474,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-9.jpg": {
 		"ft": 16384,
 		"iS": 67058,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/poster-set2-9.jpg",
 		"oF": 0,
@@ -10348,6 +11485,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/robot.jpg": {
 		"ft": 16384,
 		"iS": 104968,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/robot.jpg",
 		"oF": 0,
@@ -10358,6 +11496,7 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/sutter.jpg": {
 		"ft": 16384,
 		"iS": 622736,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/img\/sutter.jpg",
 		"oF": 0,
@@ -10368,11 +11507,11 @@
 	"\/version-2015\/assets\/post-assets\/045-jon-haggard\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/045-jon-haggard\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/046-tools\/css\/style.css": {
@@ -10439,6 +11578,7 @@
 	"\/version-2015\/assets\/post-assets\/046-tools\/img\/tools-cover.jpg": {
 		"ft": 16384,
 		"iS": 94149,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/046-tools\/img\/tools-cover.jpg",
 		"oF": 0,
@@ -10449,11 +11589,11 @@
 	"\/version-2015\/assets\/post-assets\/046-tools\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/046-tools\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/047-poems\/css\/animation.scss": {
@@ -10530,11 +11670,11 @@
 	"\/version-2015\/assets\/post-assets\/047-poems\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/assets\/post-assets\/047-poems\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/assets\/post-assets\/047-poems\/sound\/poems_p1.mp3": {
@@ -10837,31 +11977,31 @@
 	"\/version-2015\/dear-spencer\/assets\/js\/functions-ck.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/dear-spencer\/assets\/js\/min\/functions-ck-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/dear-spencer\/assets\/js\/functions.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/dear-spencer\/assets\/js\/min\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/dear-spencer\/assets\/js\/jquery-1.9.1.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 1,
 		"oAP": "\/version-2015\/dear-spencer\/assets\/js\/min\/jquery-1.9.1.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/dear-spencer\/dec-1994.html": {
@@ -11151,6 +12291,7 @@
 	"\/version-2015\/for-googley-eyes-only\/img\/project2b.jpg": {
 		"ft": 16384,
 		"iS": 19876,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/img\/project2b.jpg",
 		"oF": 0,
@@ -11183,6 +12324,7 @@
 	"\/version-2015\/for-googley-eyes-only\/img\/trav.jpg": {
 		"ft": 16384,
 		"iS": 34978,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/img\/trav.jpg",
 		"oF": 0,
@@ -11214,51 +12356,51 @@
 	"\/version-2015\/for-googley-eyes-only\/js\/app-ck.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/js\/min\/app-ck-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/for-googley-eyes-only\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/js\/min\/app-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/for-googley-eyes-only\/js\/jquery-1.9.1.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/js\/min\/jquery-1.9.1.min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/for-googley-eyes-only\/js\/min\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/for-googley-eyes-only\/js\/raphael-min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/version-2015\/for-googley-eyes-only\/js\/min\/raphael-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/version-2015\/index.html": {
@@ -11274,6 +12416,591 @@
 		"oA": 2,
 		"oAP": "\/version-2015\/notes\/index.html",
 		"oF": 0
+		},
+	"\/version-2016\/css\/0-tools\/_normalize.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/0-tools\/_tn-tools.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_tn-tools.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/1-base\/_type.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_type.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/2-modules\/_1-about-section.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_1-about-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/2-modules\/_2-video-section.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_2-video-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/2-modules\/_3-podcast-section.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_3-podcast-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/2-modules\/_4-notes-section.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_4-notes-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/2-modules\/_5-social-section.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_5-social-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/2-modules\/_panels.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_panels.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/3-layouts\/_home.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/css\/css\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/css\/css\/about-panel.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/css\/css\/about-panel-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/version-2016\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/version-2016\/css\/style.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/version-2016\/img\/arrow-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/img\/arrow-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/behance-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/behance-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/behance.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/behance.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/dribbble-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/dribbble-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/dribbble.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/dribbble.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/email-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/email-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/grid-05.png": {
+		"ft": 32768,
+		"iS": 1005,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/grid-05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/img\/grid.png": {
+		"ft": 32768,
+		"iS": 656,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/grid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/img\/instagram-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/instagram-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/logo-tl.png": {
+		"ft": 32768,
+		"iS": 23025,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/logo-tl.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/img\/logo-tl@2x.png": {
+		"ft": 32768,
+		"iS": 52301,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/logo-tl@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/img\/note-img.png": {
+		"ft": 32768,
+		"iS": 55389,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/note-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/img\/note-img@2x.png": {
+		"ft": 32768,
+		"iS": 176695,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/note-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/img\/offsite-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/offsite-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-contact.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/title-contact.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/title-more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-notes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/img\/title-notes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-other.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/title-other.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-podcast.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/img\/title-podcast.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-social.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/img\/title-social.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-tn.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/img\/title-tn.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/title-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/img\/title-video.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/trav2.jpg": {
+		"ft": 16384,
+		"iS": 169188,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/trav2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/version-2016\/img\/trav3.jpg": {
+		"ft": 16384,
+		"iS": 4480473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/trav3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/version-2016\/img\/trav4.jpg": {
+		"ft": 16384,
+		"iS": 4599474,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/trav4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/version-2016\/img\/travis-neilson.jpg": {
+		"ft": 16384,
+		"iS": 940015,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/travis-neilson.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/version-2016\/img\/twitter-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/twitter-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/version-2016\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/version-2016\/img\/yt-play-btn.png": {
+		"ft": 32768,
+		"iS": 3298,
+		"oA": 0,
+		"oAP": "\/version-2016\/img\/yt-play-btn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/version-2016\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/version-2016\/index.html",
+		"oF": 0
+		},
+	"\/version-2016\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/version-2016\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/version-2016\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/version-2016\/js\/jquery-3.1.0.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/version-2016\/js\/min\/jquery-3.1.0.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/version-2016\/js\/min\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/version-2016\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/version-2016\/tn-type.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/version-2016\/tn-type.ai",
+		"oF": 0
+		},
+	"\/videos\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/index.html",
+		"oF": 0
+		},
+	"\/videos\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/videos\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/writings\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/writings\/index.html",
+		"oF": 0
+		},
+	"\/writings\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/writings\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/writings\/thanks.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/writings\/thanks.html",
+		"oF": 0
+		},
+	"\/writings\/thanks.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/writings\/thanks.html",
+		"oF": 0,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -11284,7 +13011,8 @@
 	"creationDate": 502224860,
 	"displayValue": "newtn – v2",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-kanye"
+	"iconImageName": "meme-kanye",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -13087,6 +14815,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -13097,8 +14826,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

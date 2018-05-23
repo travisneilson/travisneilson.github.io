@@ -1,0 +1,149 @@
+$page-color1: #00c9f9
+$page-color: #86e8ff
+
+.page-speaking
+  a
+    color: $page-color
+
+    p
+      color: #00c9f9
+
+  .icon-menu-close
+    background: $page-color
+
+  .site-menu a.special-link
+    box-shadow: 0px -3px 0px 0px $page-color inset
+
+    &:hover
+      box-shadow: 0px -16px 0px 0px $page-color inset
+
+  .breadcrumb
+
+    a
+      color: rgba(0,0,0,0.54)
+      box-shadow: 0px 0px 0px 0px $page-color inset
+
+      &:hover
+        box-shadow: 0px -9.5px 0px 0px $page-color inset
+        color: rgba(0,0,0,0.87)
+
+  .row a.callout-cta
+    background-color: $page-color1
+
+    .mail-icon .social-icon-fill-2
+      fill: $page-color1
+
+  .video-link
+    margin: 8px 35px 47px -80px
+
+
+.page-speaking ul.bulleted
+  @media(max-width: 800px)
+    width: 203px
+
+.stream-this-podcast
+  border: 2px solid #e8e8e8
+  padding: 0px 8px
+  border-radius: 8px
+
+  >  *
+    display: block
+
+
+.organizer-avatar
+  border-radius: 8px
+  position: relative
+  left: 4px
+
+  @media(min-width: 800px)
+    margin-bottom: -120px
+    position: relative
+    top: 50px
+
+.icon-quote-container
+  width: 64px
+  margin: -30px 0px -50px -42px
+
+  .icon-quote-fill
+    fill: $page-color
+
+.organizer-quote
+  background: white
+  position: relative
+  margin-top: -20px
+
+  cite
+    text-align: right
+    display: block
+    font-size: 12px
+    color: rgba(0,0,0,0.54)
+
+
+.fake-ig-post
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif
+  box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+  border-radius: 8px
+  background-color: white
+  float: left
+  margin: 8px 35px 0px -110px
+  width: 185px
+  font-size: 12px
+  line-height: 14px
+
+  @media(min-width: 800px)
+    width: 360px
+    margin-left: -250px
+
+  .ig-head
+    display: flex
+    align-items: center
+    padding: 10px
+    color: #262626
+    text-decoration: none
+
+
+    img
+      width: 30px
+      height: 30px
+      border-radius: 50%
+      margin-right: 10px
+      flex-grow: 0
+
+    .ig-account-title
+
+
+    .strong
+      font-weight: bold
+
+  .ig-body
+    padding: 10px
+    line-height: 16px
+
+    a
+      color: #003569
+      text-decoration: none
+      font-weight: 500
+
+    .icon-block
+      padding-bottom: 6px
+      margin-bottom: 10px
+      border-bottom: 1px solid #efefef
+      display: flex
+      align-items: center
+      justify-content: space-between
+
+      img
+        opacity: 0.4
+
+      svg
+        width: 28px
+        opacity: 0.4
+
+    .social-icon-fill-1
+      fill: none
+
+    .date
+      font-size: 10px
+      letter-spacing: .2px
+      color: #999
+      margin: 4px 0px

@@ -1,27 +1,74 @@
-html.layout-home
-  body
-    font-family: 'Roboto', sans-serif
-    //background-color: hsl(180, 24%, 96%)
-    background-color: hsl(180, 24%, 94%)
-    padding: 44px
-    position: relative
-    @media(min-width: 1048px)
-      background-image: url(../img/grid-05.png)
-      background-repeat: repeat-y
-      background-position: center
+.page-home .title-container
+  margin-bottom: -53px
+  z-index: 2
 
-    &:before
-      content: ''
-      display: block
-      position: absolute
-      top: 0
-      left: 0
-      right: 0
-      bottom: 0
-      border: white solid 24px
-      pointer-events: none
 
-  section
-    max-width: 960px
-    margin: 0 auto
-    padding: 1px 0
+
+.page-home
+  .container
+    margin-top: 65px
+
+    @media(min-height: 700px)
+      margin-top: 0px
+
+.tn-title
+  margin-left: 5px
+
+.tagline-container
+  text-align: right
+  font-size: 7.5px
+  color: rgba(0,0,0,0.54)
+  height: 0px
+  position: relative
+  top: 45px
+
+  @media(min-width: 800px)
+    top: 80px
+    font-size: 9px
+
+.lead
+  font-size: 16px
+  line-height: 38px
+  margin-top: -16px
+  max-width: 234px
+  margin-bottom: 10px
+
+  @media(min-width: 800px)
+    margin-top: -152px
+    margin-left: 15px
+
+  span
+    background: #EDEDED
+    display: inline
+
+.social-icons
+  @media(min-width: 800px)
+    margin-left: 15px
+
+.social-icon
+  width: 24px
+  height: 24px
+  display: inline-block
+  margin-right: 14px
+
+  .social-icon-fill-1
+    fill: none
+
+  .social-icon-fill-2
+    fill: rgba(0,0,0,0.4)
+    // fill: darken(#00FFA7, 10%)
+    transition: fill 200ms ease-in-out
+
+  &:hover .social-icon-fill-2
+    fill: darken(#00FFA7, 10%)
+    // fill: black
+
+  a
+    display: block
+
+@media(min-height: 700px)
+  .flex-floaty
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center

@@ -1,0 +1,56 @@
+.pagination
+
+  .row a
+    text-decoration: none
+    color: #000
+    padding: 16px
+    border-radius: 8px
+    text-transform: uppercase
+    letter-spacing: 2px
+    display: flex
+    align-items: center
+    transition: all 150ms ease-in-out
+    margin: 0px 10px
+
+
+  .next-wrap
+    margin-bottom: -10px
+    z-index: 3
+    position: realative
+
+    &:hover .next
+      box-shadow: 0px 40px 27px -20px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+      top: -5px
+
+  .next
+    box-shadow: 0px 35px 27px -20px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+    background: white
+    position: relative
+    transition: all 150ms ease-in-out
+    top: 0px
+    justify-content: flex-end
+
+    &:hover
+      background: #fff
+
+  .prev
+    background: #EFEFEF
+    background: #f9f9f9
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1) inset
+    justify-content: flex-start
+
+    svg, span
+      position: relative
+      top: 0px
+      transition: top 150ms ease-in-out
+
+    &:hover
+      background: #eee
+      box-shadow: 0px 7px 15px rgba(0,0,0,0.2) inset
+
+      svg, span
+        top: 3px
+
+
+.pagination-label
+  margin-bottom: -20px

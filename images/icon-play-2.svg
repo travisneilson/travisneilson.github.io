@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ff00eb;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_4);
+      }
+    </style>
+    <filter id="Ellipse_4" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#ff00eb" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_38" data-name="Group 38" transform="translate(-15189 -2618)">
+    <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="48" height="48" transform="translate(15197 2621)"/>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 15189, 2618)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-2" cx="20" cy="20" r="20" transform="translate(12 7)"/>
+    </g>
+    <path id="Path_52" data-name="Path 52" class="cls-3" d="M20,33V15l12,9Z" transform="translate(15197 2621)"/>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'more'
+  - var prevlabel = 'writings'
+  - var prevurl = '/writings'
+  - var nextlabel = 'Home'
+  - var nexturl = '/'
+  - var paglabel = 'Other things to see...'
+
+block content
+  
+  .breadcrumb <a href="/">travisneilson.com</a> / #{page}
+  
+  .container
+    
+    .row
+      .col-8.pull-4.title-container
+        include ../images/title-more.svg
+    
+    .row
+      .col-7.push-4.pull-1.col-d-6.push-d-6.pull-d-0
+        .complicated-paragraph
+          p Not better, or even important. Just more things I make that don't fit anywhere else on this website.
+    
+    
+    .section-spacer
+    
+    .row
+      .coll-9.pull-1.push-2.col-d-6.push-d-5.pull-d-1
+        .behind-box
+          .push-3.number-breakout: strong 1
+          p Sometimes I sing really good songs really badly on instagram.
+    
+    .row
+      .col-9.push-1.pull-2
+        a(href="https://www.instagram.com/goodsongssungbad/").callout-box.promo-box.ig-promo
+          
+          .row.thumbs
+            .col-4(style="background-image: url(/images/ig-songs-1.jpg); border-top-left-radius: 8px;")
+            .col-4(style="background-image: url(/images/ig-songs-2.jpg)")
+            .col-4(style="background-image: url(/images/ig-songs-3.jpg); border-top-right-radius: 8px;")
+          
+          .padding-10.account-name
+            include ../images/icon-instagram.svg
+            span /GoodSongsSungBad
+          
+          .read-prompt
+            include ../images/icon-instagram.svg
+    
+    
+    .section-spacer
+    
+    .row
+      .coll-9.pull-2.push-1.col-d-6.push-d-1.pull-d-5
+        //- .coll-9.pull-1.push-2.col-d-6.push-d-5.pull-d-1
+        .behind-box
+          .push-2.number-breakout: strong 2
+          p I had an identity crisis and started painting under the name “Trashcan Hands”. That was a beautiful time in my life.
+    
+    .row
+      .col-9.push-2.pull-1
+        a(href="https://www.instagram.com/trashcan.hands/").callout-box.promo-box.ig-promo
+          
+          .row.thumbs
+            .col-4(style="background-image: url(/images/ig-trash-4.jpg); border-top-left-radius: 8px;")
+            .col-4(style="background-image: url(/images/ig-trash-2.jpg)")
+            .col-4(style="background-image: url(/images/ig-trash-5.jpg); border-top-right-radius: 8px;")
+          
+          .padding-10.account-name
+            include ../images/icon-instagram.svg
+            span /TrashcanHands
+          
+          .read-prompt.reverse-side
+            include ../images/icon-instagram.svg
+    
+    
+    //- .section-spacer
+    
+    //- .row
+      .coll-9.pull-1.push-2.col-d-6.push-d-5.pull-d-1
+        .behind-box
+          .push-6.number-breakout: strong 3
+          p Years ago I would create freshly designed layouts for each blog article I wrote.
+    
+    //- .row
+      .col-9.push-1.pull-2
+        a(href="https://www.instagram.com/trashcan.hands/").callout-box.promo-box.articles-promo
+          
+          .row.thumbs
+            .col-4(style="background-image: url(/images/art-directed-thumbs/post-1.png); border-top-left-radius: 8px;")
+            .col-4(style="background-image: url(/images/art-directed-thumbs/post-6.gif)")
+            .col-4(style="background-image: url(/images/art-directed-thumbs/post-10.jpg); border-top-right-radius: 8px;")
+          
+          .padding-10.account-name
+            p.no-bottom-margin See the archive...
+          
+          .read-prompt
+            include ../images/icon-eye.svg
+    
+    
+    include ../includes/_pagination.jade

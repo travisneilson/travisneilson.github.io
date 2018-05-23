@@ -1,0 +1,112 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'speaking'
+  - var prevurl = '/videos'
+  - var prevlabel = 'videos'
+  - var nexturl = '/podcasts'
+  - var nextlabel = 'podcasts'
+  - var paglabel = 'Other things I make...'
+
+block content
+  
+  .breadcrumb <a href="/">travisneilson.com</a> / #{page}
+  
+  .container
+    
+    .row
+      .col-8.pull-4.title-container
+        include ../images/title-speaking.svg
+    
+    .row
+      .col-7.push-4.pull-1.col-d-6.push-d-6.pull-d-0
+        .complicated-paragraph
+          p <strong>I enjoy presenting and facilitating at large and small events.</strong> Some past partners include:
+          
+          p
+            .fake-ig-post
+              a(href="https://www.instagram.com/p/BfKXGPmB85U/").ig-head
+                img(src="/images/logo-aiga.jpg")
+                .ig-account-title
+                  .strong aigasf
+                  .location AIGA San Francisco
+              .ig-img: img.fit-img(src="/images/ig-trav.png")
+              .ig-body
+                .icon-block
+                  img(src="/images/ig-fake-icons.jpg" style="width: 58px")
+                  include ../images/icon-instagram.svg
+                .text-block 
+                  |<strong>aigasf</strong> <a href="https://www.instagram.com/travisneilson/">@TravisNeilson</a> enthusiastically moderating our event with <a href="https://www.instagram.com/fortpointbeer/">@fortpointbeer</a> tonight!
+                  .date FEBRUARY 13
+          
+            ul.bulleted
+              li InVision
+              li Google
+              li Adobe 
+              li Epicurrence
+              li AIGA SF
+              li UC Berkley
+              li and more!
+    
+    .section-spacer
+    
+    .row
+      .col-4.push-8.pull-0.col-d-2.push-d-10.pull-d-0
+        img(src="/images/dawn.png" style="left: -8px;").organizer-avatar.fit-img
+    .row
+      .col-10.push-1.pull-1.col-d-6.push-d-4.pull-d-2
+        .organizer-quote.callout-box
+          .icon-quote-container
+            include ../images/icon-quote.svg
+          p.no-bottom-margin I ask Travis to speak and host events because of the knowledge and energy he brings.
+          cite – Dawn Zidonis, Executive Director, AIGA SF + SF Design Week
+    
+    .section-spacer
+    
+    .row
+      .col-9.push-2.pull-1.col-d-8.push-d-0.pull-d-4
+        .callout-box
+          p.no-bottom-margin  Listen to a talk I gave recently —
+          p.subtitle "Tools, not rules"
+          <iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.com/e/3eea2a33?style=light' width='100%'></iframe>
+    
+    .section-spacer
+    
+    
+    .row
+      .col-4.push-0.pull-8.col-d-2.push-d-3.pull-d-7
+        img(src="/images/dann-petty.jpg").organizer-avatar.fit-img
+    .row
+      .col-10.push-1.pull-1.col-d-6.push-d-5.pull-d-1
+        .organizer-quote.callout-box
+          .icon-quote-container
+            include ../images/icon-quote.svg
+          p.no-bottom-margin Travis was the opening presenter at 3 of my conferences. It wouldn't have been the same without him.
+          cite – Dann Petty, Epicurrence Organizer
+    
+    
+    .section-spacer
+    
+    .row: .col-5.push-1.pull-6.push-d-1.pull-d-6
+      .box-decoration
+      
+    .row
+      .col-9.push-2.pull-1.col-d-6.push-d-3.pull-d-3
+        p <strong>Topics I often speak about:</strong>
+        ul.bulleted.spaced
+          li UX is a lot more than pixels
+          li Creating a safe space to fail
+          li Relying on good tools, not just following old rules
+          li How I lost my identity in the expectations of others
+          
+          
+  
+    .section-spacer
+    
+    .row
+      .col-8.push-2.pull-2.col-d-4.push-d-4.pull-d-4
+        a(href="mailto:travisneilson@gmail.com").callout-cta Invite me to speak at your event!
+          .mail-icon
+            include ../images/icon-mail.svg
+    
+    include ../includes/_pagination.jade

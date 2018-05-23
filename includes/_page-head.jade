@@ -1,0 +1,20 @@
+block vars
+
+doctype html
+html(class="page-#{page}")
+  head
+    meta(charset='utf-8')
+    title Travis Neilson dot com
+    meta(name='description', content='Travis specializes in making things for human people.')
+    meta(name='author', content='Travis Neilson')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet")
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    .page-border-decoration
+    include ./_menu.jade
+    
+    block content
+
+  script(src="/js/zepto.js")
+  script(src="/js/functions.js")

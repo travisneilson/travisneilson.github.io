@@ -1,0 +1,148 @@
+// MENU ICON
+
+.icon-menu
+  width: 24px
+  height: 24px
+  position: fixed
+  top: 30px
+  left: 30px
+  opacity: 0.7
+  transition: opacity 500ms ease-in-out
+  // background: red
+
+  @media (min-width: 800px)
+    top: 50px
+    left: 50px
+
+.icon-menu:hover
+  cursor: pointer
+  opacity: 1
+
+  .menu-bar-1
+    animation: menu-ani 600ms ease-in-out
+  .menu-bar-2
+    animation: menu-ani 600ms 100ms ease-in-out
+  .menu-bar-3
+    animation: menu-ani-bottom 600ms 200ms ease-in-out
+
+@keyframes menu-ani
+  0%
+    width: 18px
+  20%
+    width: 2px
+  80%
+    width: 21px
+  100%
+    width: 18px
+
+@keyframes menu-ani-bottom
+  0%
+    width: 12px
+  20%
+    width: 2px
+  75%
+    width: 21px
+  100%
+    width: 12px
+
+
+
+// MENU CLOSE
+
+.icon-menu-close
+  width: 24px
+  height: 24px
+  padding: 4px
+  background: #00FFA7
+  position: fixed
+  top: 26px
+  left: 26px
+  cursor: pointer
+  box-shadow: 0px 10px 10px -4px rgba(0,0,0,0.2)
+  z-index: 10
+  animation: bounce-out 400ms ease-in-out
+  transition: transform 150ms ease-in-out
+
+  &:hover
+    transform: scale(1.1)
+
+  &.hidden
+    display: none
+
+  @media (min-width: 800px)
+    top: 46px
+    left: 46px
+
+
+// MENU LIST
+
+.site-menu
+  background: white
+  position: fixed
+  top: 46px
+  left: 46px
+  padding: 16px 50px
+  box-shadow: 0px 2px 12px rgba(0,0,0,0.16)
+  box-shadow: 0px 24px 16px -15px rgba(0, 0, 0, 0.1), 0px 2px 26px rgba(0, 0, 0, 0.16)
+  animation: bounce-out 400ms ease-in-out 100ms
+  animation-fill-mode: forwards
+  transform: scale(0)
+  transform-origin: top left
+  z-index: 9
+
+
+  @media (min-width: 800px)
+    top: 66px
+    left: 66px
+
+  &.hidden
+    display: none
+
+  ul
+    // text-align: center
+
+    li
+      text-align: center
+
+      &.spacer
+        color: #ccc
+
+      a
+        line-height: 50px
+        text-transform: uppercase
+        // text-decoration: none
+        // color: darken(#00FFA7, 10%)
+        letter-spacing: 4px
+
+        span
+          letter-spacing: 0px
+
+        &:hover
+          // color: darken(#00FFA7, 14%)
+          // text-decoration: underline
+
+
+.site-menu-overlay
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: rgba(0,0,0,0.15)
+  z-index: 8
+  transition: background 200ms ease-in-out
+
+  &.hidden
+    background: rgba(0,0,0,0.0)
+    pointer-events: none
+
+
+@keyframes bounce-out
+  0%
+    transform: scale(0)
+
+  75%
+    transform: scale(1.2)
+
+  100%
+    transform: scale(1)

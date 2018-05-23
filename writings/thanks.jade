@@ -1,0 +1,69 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'writings'
+  - var prevlabel = 'podcasts'
+  - var prevurl = '/podcasts'
+  - var nextlabel = '& more'
+  - var nexturl = '/more'
+  - var paglabel = 'Other things to see...'
+
+block content
+  
+  .breadcrumb <a href="/">travisneilson.com</a> / #{page}
+  
+  .container
+    
+    .row
+      .col-8.pull-4.title-container
+        include ../images/title-writings.svg
+    
+    .row
+      .col-9.push-2.pull-1.col-d-6.push-d-6.pull-d-0
+        .complicated-paragraph
+          p <strong>For a year I sent personal “notes” on creative living</strong> to people <span class="d-hide">who are</span> interested in a better way of thinking.
+          
+          p <a class="amazon-link" style="pointer-events: none;" href=""><img class="fit-img" src="/images/book-placeholder-4.png"></a> I’m currently collecting these notes to publish in my first book.
+          
+    .row
+      .col-12.col-d-6.push-d-6
+        .callout-box.mailchimp-callout
+          strong Thank you for signing up to get updates about the book! <br>
+          | Help me out by <a href="https://twitter.com/intent/tweet?text=Excited%20about%20the%20book%20@travisneilson%20is%20writing!%20travisneilson.com/notes">sharing this</a>.
+      
+    
+    
+    // Blocking this out till the video is made
+      .section-spacer
+      
+      .row: .col-7.push-4.pull-1.col-d-4.push-d-1.pull-d-7
+        .box-stripey(style="left: 20px")
+        
+      .row
+        .col-9.push-2.pull-1.col-d-6.push-d-3.pull-d-3
+          p A short video about the notes...
+      
+      .row
+        .col-9.push-2.pull-1.col-d-10.push-d-2.pull-d-0
+          a.video-link(href=""): img.video-thumb(src="/images/notes-vid-cvr1.jpg")
+    
+    
+    .section-spacer
+    
+    
+    .row: .col-5.push-1.pull-6.col-d-5.push-d-1.pull-d-6
+      .box-decoration.past-notes-decoration
+      
+    .row
+      .col-9.push-2.pull-1.col-d-5.push-d-2.pull-d-5
+        p A few of my favorite notes to be included in the book...
+        
+        ul.bulleted.spaced
+          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=d6657a0a85") Ultimate Motivation
+          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=e49e06cdf7&e=[UNIQID]") The Pillars of Creation
+          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=43066ab0cb&e=[UNIQID]") Work-Life Balance is a Joke
+          
+
+    .section-spacer.hide
+    
+    include ../includes/_pagination.jade

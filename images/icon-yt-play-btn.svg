@@ -1,0 +1,52 @@
+<svg id="media" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .icon-yt-play-svg-1 {
+        fill: #e42b26;
+      }
+
+      .icon-yt-play-svg-1, .icon-yt-play-svg-2 {
+        fill-rule: evenodd;
+      }
+
+      .icon-yt-play-svg-2 {
+        fill: #fffffe;
+      }
+
+      .icon-yt-play-svg-3 {
+        fill: none;
+      }
+
+      .icon-yt-play-svg-4 {
+        filter: url(#Path_55);
+      }
+
+      .icon-yt-play-svg-5 {
+        filter: url(#Path_54);
+      }
+    </style>
+    <filter id="Path_54" x="0.984" y="6.253" width="28.031" height="21.495" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_55" x="10.484" y="10.331" width="10.594" height="10.9" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_x0020_1" transform="translate(3.984 7.253)">
+    <g class="icon-yt-play-svg-5" transform="matrix(1, 0, 0, 1, -3.98, -7.25)">
+      <path id="Path_54-2" data-name="Path 54" class="icon-yt-play-svg-1" d="M292.733,496.148a2.888,2.888,0,0,0-1.625-.737c-1.34-.15-2.691-.225-4.047-.263s-2.7-.038-4.051-.037-2.7,0-4.051.037-2.708.113-4.049.263a2.884,2.884,0,0,0-1.624.737,3.015,3.015,0,0,0-.908,1.561,15.278,15.278,0,0,0-.338,2.57c-.049.876-.05,1.741-.05,2.58s0,1.7.048,2.579a15.151,15.151,0,0,0,.335,2.57,3.022,3.022,0,0,0,.909,1.561,2.882,2.882,0,0,0,1.623.737c1.34.15,2.693.225,4.049.263s2.7.038,4.051.037,2.7,0,4.051-.037,2.708-.113,4.048-.263a2.883,2.883,0,0,0,1.622-.737,3.029,3.029,0,0,0,.911-1.561,15.25,15.25,0,0,0,.335-2.57c.047-.86.048-1.732.048-2.579h0v-.042h0a23.108,23.108,0,0,0-.378-5.108,3.019,3.019,0,0,0-.91-1.561Z" transform="translate(-268.01 -487.86)"/>
+    </g>
+    <g class="icon-yt-play-svg-4" transform="matrix(1, 0, 0, 1, -3.98, -7.25)">
+      <path id="Path_55-2" data-name="Path 55" class="icon-yt-play-svg-2" d="M825.312,743.114l-3.747-1.956-3.106-1.621-.342-.179v7.9l.341-.177,3.427-1.776,3.427-1.777.4-.207Z" transform="translate(-806.13 -728.53)"/>
+    </g>
+  </g>
+  <rect id="Rectangle_76" data-name="Rectangle 76" class="icon-yt-play-svg-3" width="30" height="30"/>
+</svg>

@@ -1,0 +1,55 @@
+.container
+  max-width: 360px
+  margin: 0 auto 0
+
+  @media(min-width: 800px)
+    max-width: 648px
+
+.row
+  display: flex
+  box-sizing: border-box
+  display: flex
+  flex: 0 1 auto
+  flex-direction: row
+  flex-wrap: wrap
+
+[class^="col-"]
+  flex: auto
+
+
+// M O B I L E
+@for $i from 0 through 12
+  .col-#{$i}
+    width: percentage( $i / 12 )
+
+@for $i from 0 through 12
+  .push-#{$i}
+    margin-left: percentage( $i / 12 )
+
+@for $i from 0 through 12
+  .pull-#{$i}
+    margin-right: percentage( $i / 12 )
+
+
+
+// D E S K T O P
+@media(min-width: 800px)
+
+  @for $i from 0 through 12
+    .col-d-#{$i}
+      width: percentage( $i / 12 )
+
+  @for $i from 0 through 12
+    .push-d-#{$i}
+      margin-left: percentage( $i / 12 )
+
+  @for $i from 0 through 12
+    .pull-d-#{$i}
+      margin-right: percentage( $i / 12 )
+
+// T O O L S
+
+@media(min-width: 800px)
+  .d-hide
+    display: none
+  

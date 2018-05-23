@@ -1,0 +1,245 @@
+$page-color: #FF00EB
+//$page-color: #ff68f3
+
+.page-podcasts
+  a
+    color: $page-color
+
+    p
+      color: $page-color
+
+  .icon-menu-close
+    background: $page-color
+
+  .site-menu a.special-link
+    box-shadow: 0px -3px 0px 0px $page-color inset
+
+    &:hover
+      box-shadow: 0px -16px 0px 0px $page-color inset
+
+  .breadcrumb
+
+    a
+      color: rgba(0,0,0,0.54)
+      box-shadow: 0px 0px 0px 0px $page-color inset
+
+      &:hover
+        box-shadow: 0px -9.5px 0px 0px $page-color inset
+        color: rgba(0,0,0,0.87)
+
+  .row a.callout-cta
+    background-color: $page-color
+
+    .mail-icon .social-icon-fill-2
+      fill: $page-color
+
+
+.logo-tl
+  width: 150px
+  float: left
+  margin: 20px 20px 0px -90px
+
+  @media(min-width: 800px)
+    width: 200px
+    margin-left: -140px
+
+
+
+// E P I S O D E S
+
+.podcast-episodes
+  position: relative
+  height: 756px
+  margin-top: -30px
+
+  @media(min-width: 800px)
+    height: 432px
+
+  .episode
+    display: block
+    float: left
+    position: absolute
+    transform: scale(1)
+    transition: transform 100ms ease-in-out
+
+    .icon-play
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%) scale(0)
+      transition: transform 200ms ease-in-out
+
+    &:hover
+      transform: scale(1.25)
+      z-index: 3
+
+      .icon-play
+        transform: translate(-50%, -50%) scale(1)
+
+    &:nth-child(1)
+      top: 0px
+      left: 0px
+
+    &:nth-child(2)
+      top: 0px
+      left: 108px
+
+      &:hover
+        transform: scale(1.2)
+
+      img
+        width: 208px
+        height: 208px
+
+    &:nth-child(3)
+      top: 108px
+      left: 0px
+
+    &:nth-child(4)
+      top: 216px
+      left: 0px
+
+      &:hover
+        transform: scale(1.2)
+
+      img
+        width: 208px
+        height: 208px
+
+    &:nth-child(5)
+      top: 216px
+      left: 216px
+
+    &:nth-child(6)
+      top: 324px
+      left: 216px
+
+    &:nth-child(7)
+      top: 432px
+      left: 0px
+
+    &:nth-child(8)
+      top: 432px
+      left: 108px
+
+    &:nth-child(9)
+      top: 432px
+      left: 216px
+
+    &:nth-child(10)
+      top: 540px
+      left: 0px
+
+    &:nth-child(11)
+      top: 540px
+      left: 108px
+
+      &:hover
+        transform: scale(1.2)
+
+      img
+        width: 208px
+        height: 208px
+
+    &:nth-child(12)
+      top: 648px
+      left: 0px
+
+    @media(min-width: 800px)
+
+      &:nth-child(4)
+        top: 0px
+        left: 432px
+
+      &:nth-child(5)
+        top: 0px
+        left: 324px
+
+      &:nth-child(6)
+        top: 108px
+        left: 324px
+
+      &:nth-child(7)
+        top: 216px
+        left: 216px
+
+      &:nth-child(8)
+        top: 324px
+        left: 216px
+
+      &:nth-child(9)
+        top: 216px
+        left: 540px
+
+      &:nth-child(10)
+        top: 324px
+        left: 540px
+
+      &:nth-child(11)
+        top: 216px
+        left: 0px
+
+      &:nth-child(12)
+        top: 216px
+        left: 324px
+
+        &:hover
+          transform: scale(1.2)
+
+        img
+          width: 208px
+          height: 208px
+
+    img
+      width: 100px
+      height: 100px
+      border-radius: 4px
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2)
+      box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+      display: block
+
+  .big-episode img
+    width: 208px
+    height: 208px
+
+
+.icon-play-part-1
+  fill: none
+
+.icon-play-part-2
+  fill: #ff00eb
+
+.icon-play-part-3
+  fill: #fff
+
+.behind-box
+  padding: 16px 16px 30px 16px
+  border: 4px solid #E5E5E5
+  border: 4px dotted #f1f1f1
+  position: relative
+
+
+
+
+
+// A N I M A T I O N S
+
+@keyframes podbounce1
+  0%
+    transform: translate(0px, 0px)
+  40%
+    transform: translate(0px, -12px)
+  80%
+    transform: translate(0px, 2px)
+  100%
+    transform: translate(0px, 0px)
+
+@keyframes podbounce2
+  0%
+    transform: translate(0px, 0px)
+  40%
+    transform: translate(0px, -16px)
+  80%
+    transform: translate(0px, 2px)
+  100%
+    transform: translate(0px, 0px)

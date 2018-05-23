@@ -1,0 +1,119 @@
+.callout-box
+  position: relative
+  background-color: white
+  padding: 20px
+  box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+  border-radius: 8px
+
+.number-breakout
+  color: #CCCCCC
+  font-size: 76px
+  line-height: 0px
+  position: relative
+  top: -35px
+
+.box-decoration
+  border: 4px dotted #f1f1f1
+  height: 120px
+  margin-bottom: -112px
+
+.box-stripey
+  position: relative
+  height: 120px
+  margin-bottom: -100px
+  background-image: url(../images/bg-stripe2.png)
+  z-index: -1
+
+
+.promo-box
+  padding: 0px
+  display: block
+  text-decoration: none
+  color: #000
+
+  &:hover
+    animation: ctabounce1 400ms ease-in-out forwards
+
+    .read-prompt
+      animation: ctabounce2 450ms ease-in-out forwards
+
+.row a.callout-cta
+  position: relative
+  color: white
+  padding: 40px 20px 20px 20px
+  border-radius: 8px
+  display: block
+  text-decoration: none
+  text-align: center
+
+  &:hover
+    animation: ctabounce1 400ms ease-in-out forwards
+
+    .mail-icon
+      animation: ctabounce2 450ms ease-in-out forwards
+
+  .mail-icon
+    background: white
+    width: 50px
+    height: 50px
+    padding: 8px
+    border-radius: 50%
+    position: absolute
+    top: 0px
+    left: 50%
+    margin-left: -33px
+    margin-top: -33px
+    box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1)
+
+    .social-icon-fill-1
+      fill: none
+
+
+
+
+.read-prompt
+  width: 50px
+  height: 50px
+  padding: 8px
+  border-radius: 50%
+  position: absolute
+  top: 50%
+  right: -33px
+  margin-top: -33px
+
+  &.reverse-side
+    right: auto
+    left: -33px
+
+.ig-promo .read-prompt
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+
+.articles-promo .read-prompt
+  background: #333
+  background: #ff0089
+
+
+
+
+
+// A N I M A T I O N S
+
+@keyframes ctabounce1
+  0%
+    transform: translate(0px, 0px)
+  40%
+    transform: translate(0px, -12px)
+  80%
+    transform: translate(0px, 2px)
+  100%
+    transform: translate(0px, 0px)
+
+@keyframes ctabounce2
+  0%
+    transform: translate(0px, 0px)
+  40%
+    transform: translate(0px, -16px)
+  80%
+    transform: translate(0px, 2px)
+  100%
+    transform: translate(0px, 0px)

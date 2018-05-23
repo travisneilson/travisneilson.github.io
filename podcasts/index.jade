@@ -1,0 +1,92 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'podcasts'
+  - var prevurl = '/speaking'
+  - var prevlabel = 'speaking'
+  - var nexturl = '/writings'
+  - var nextlabel = 'writing'
+  - var paglabel = 'Other things I do...'
+
+block content
+  
+  .breadcrumb <a href="/">travisneilson.com</a> / #{page}
+  
+  .container
+    
+    .row
+      .col-8.pull-4.title-container
+        include ../images/title-podcasts.svg
+    
+    .row
+      .col-7.push-4.pull-1.col-d-6.push-d-6.pull-d-0
+        .complicated-paragraph
+          p <strong>I must enjoy the sound of my own voice</strong> because I’ve created hundreds of 
+          
+          p <img class="logo-tl" src="/images/logo-tl.png"></a> podcast episodes, and have been a guest on many more.
+    
+    
+    .section-spacer
+    
+    .row
+      .coll-8.pull-2.push-2.col-d-6.push-d-1.pull-d-5
+        .behind-box 
+          .push-3.number-breakout: strong 1
+          p Selected episodes of my podcast: <a href="http://www.travandlos.com/">Late Nights with Trav and Los</a>
+        
+    .row
+      .col-11.push-1.col-d-12.push-d-0
+        .podcast-episodes
+        
+          mixin episode(href, src)
+            a(href="#{href}" target="_blank").episode
+              img(src="/images/podcast-episodes/#{src}")
+              include ../images/icon-play-3.svg
+              
+          
+          +episode('http://www.travandlos.com/69','2-imposter-syndrome.jpg')
+          +episode('http://www.travandlos.com/31c5eea1','1-tools-not-rules.jpg')
+          +episode('http://www.travandlos.com/124','3-in-defense-of-the-ordinary.jpg')
+          +episode('http://www.travandlos.com/45','4-discover-and-make.jpg')
+          +episode('http://www.travandlos.com/26','9-full-process-designer.jpg')
+          
+          +episode('http://www.travandlos.com/125','7-what-are-you-willing-to-suffer-with.jpg')
+          +episode('http://www.travandlos.com/19','8-a-case-for-bravery.jpg')
+          
+          +episode('http://www.travandlos.com/128','5-pleasure-purpose-happiness.jpg')
+          +episode('http://www.travandlos.com/25','10-sell-yourself.jpg')
+          +episode('http://www.travandlos.com/110','11-the-nothing-word.jpg')
+          +episode('http://www.travandlos.com/115','6-think-to-talk.jpg')
+          +episode('http://www.travandlos.com/121','12-travis-is-a-child.jpg')
+    
+    
+    .section-spacer
+  
+    
+    .row
+      .col-10.push-1.pull-1.col-d-8.push-d-3.pull-d-1
+        .callout-box
+          .push-8.number-breakout: strong 2
+          p Other podcasts I’ve been a guest on:
+            .row
+              .col-6
+                ul
+                  li: a.small-link(href="https://developertea.simplecast.fm/5bfe83ae") Developer Tea
+                  li: a.small-link(href="https://ux.nearsoft.com/blog/podcasts/design-thinking-in-your-work-life/") UX Team
+                  li: a.small-link(href="https://www.thundernerds.io/2016/09/the-innovative-days-late-nights-of-trav-and-los-w-travis-neilson-carlos-montoya/") Thunder Nerds
+              .col-6
+                ul
+                  li: a.small-link(href="https://design.google/library/margaret-urban-vui-google-assistant/") Google Method
+                  li: a.small-link(href="https://www.youtube.com/watch?v=86vZNfb4RDc") Webflow Workshop
+
+    
+    
+    .section-spacer
+
+    .row
+      .col-8.push-2.pull-2.col-d-4.push-d-4.pull-d-4
+        a(href="mailto:travisneilson@gmail.com").callout-cta Invite me to be a guest on your podcast!
+          .mail-icon
+            include ../images/icon-mail.svg
+    
+    include ../includes/_pagination.jade
