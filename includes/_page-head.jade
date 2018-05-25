@@ -11,6 +11,14 @@ html(class="page-#{page}")
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-4841651-7');
+    
+    // Google Tag Manager
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PRF2R2B');
       
     meta(charset='utf-8')
     title Travis Neilson dot com
@@ -20,6 +28,11 @@ html(class="page-#{page}")
     link(href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet")
     link(rel='stylesheet', href='/css/style.css')
   body
+    
+    // Google Tag Manager (noscript)
+    noscript
+      iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-PRF2R2B", height="0", width="0", style="display:none;visibility:hidden")
+
     .page-border-decoration
     include ./_menu.jade
     
