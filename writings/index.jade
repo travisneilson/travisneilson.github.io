@@ -53,7 +53,7 @@ block content
     
     .row
       .col-9.push-2.pull-1.col-d-10.push-d-2.pull-d-0
-        a.video-link( target="_blank" href="https://www.youtube.com/watch?v=wYSNwCNiTOE"): img.video-thumb(src="/images/book-video-cvr.jpg")
+        a.video-link(target="_blank" href="https://www.youtube.com/watch?v=wYSNwCNiTOE" onclick="ga('send', 'event', 'Note Link', 'Click', 'Video - I wrote a book');"): img.video-thumb(src="/images/book-video-cvr.jpg")
     
     
     .section-spacer
@@ -67,9 +67,9 @@ block content
         p A few of my favorite notes to be included in the book...
         
         ul.bulleted.spaced
-          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=d6657a0a85") Ultimate Motivation
-          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=e49e06cdf7&e=[UNIQID]") The Pillars of Creation
-          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=43066ab0cb&e=[UNIQID]") Work-Life Balance is a Joke
+          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=d6657a0a85" onclick="ga('send', 'event', 'Note Link', 'Click', 'Ultimate Motivation');") Ultimate Motivation
+          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=e49e06cdf7&e=[UNIQID]" onclick="ga('send', 'event', 'Note Link', 'Click', 'Pillars of Creation');") The Pillars of Creation
+          li: a( target="_blank" href="https://us6.campaign-archive.com/?u=2abae111d44df144b3b3986bc&id=43066ab0cb&e=[UNIQID]" onclick="ga('send', 'event', 'Note Link', 'Click', 'Work life balance is a joke');") Work-Life Balance is a Joke
           
 
     .section-spacer.hide
