@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html class="page-home">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics-->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-4841651-7"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-4841651-7');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-4841651-7', 'auto');
+      ga('send', 'pageview');
       
       
     </script>
@@ -51,12 +52,12 @@
     </div>
     <div class="site-menu hidden">
       <ul>
-        <li><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home')" class="special-link">Hom<span>e</span></a></li>
-        <li><a href="/videos" class="special-link">Video<span>s</span></a></li>
-        <li><a href="/speaking" class="special-link">Speakin<span>g</span></a></li>
-        <li><a href="/podcasts" class="special-link">Podcast<span>s</span></a></li>
-        <li><a href="/writings" class="special-link">Writing<span>s</span></a></li>
-        <li><a href="/more" class="special-link">Mor<span>e</span></a></li>
+        <li><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
+        <li><a href="/videos" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');" class="special-link">Video<span>s</span></a></li>
+        <li><a href="/speaking" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');" class="special-link">Speakin<span>g</span></a></li>
+        <li><a href="/podcasts" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');" class="special-link">Podcast<span>s</span></a></li>
+        <li><a href="/writings" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');" class="special-link">Writing<span>s</span></a></li>
+        <li><a href="/more" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');" class="special-link">Mor<span>e</span></a></li>
       </ul>
     </div>
     <div class="flex-floaty">
@@ -103,7 +104,7 @@
         </div>
         <div class="row">
           <div class="col-8 push-2 pull-2 col-d-5 push-d-1 pull-d-6">
-            <p class="lead"><span>I design search at Google and try to share what I learn by <a href="/videos" class="special-link">making videos</a>, <a href="/speaking" class="special-link">giving talks</a>, <a href="/podcasts" class="special-link">recording podcasts</a>, &amp; <a href="/writings" class="special-link">writing things down</a>.</span></p>
+            <p class="lead"><span>I design search at Google and try to share what I learn by <a href="/videos" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Videos');">making videos</a>, <a href="/speaking" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Speaking');>giving talks</a>, <a href="/podcasts" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Podcasts');>recording podcasts</a>, &amp; <a href="/writings" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Writings');>writing things down</a>.</span></p>
           </div>
         </div>
         <div class="row">

@@ -7,13 +7,13 @@ block vars
     .col-3.push-2.pull-7.pagination-label #{paglabel}
   .row
     .col-6.push-5.pull-1.next-wrap
-      a(href="#{nexturl}").next
+      a(href="#{nexturl}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Next');").next
         span #{nextlabel}
         include ../images/icon-arrow-right.svg
   
   .row
     .col-6.push-1.pull-5.prev-wrap
-      a(href="#{prevurl}").prev
+      a(href="#{prevurl}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Prev');").prev
         include ../images/icon-arrow-left.svg
         span #{prevlabel}
   
