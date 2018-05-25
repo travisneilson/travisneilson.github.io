@@ -766,7 +766,9 @@ p.no-bottom-margin {
   position: absolute;
   top: 50%;
   right: -33px;
-  margin-top: -33px; }
+  margin-top: -33px;
+  -webkit-box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1); }
   .read-prompt.reverse-side {
     right: auto;
     left: -33px; }
