@@ -11,20 +11,6 @@ html(class="page-#{page}")
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-4841651-7');
-    
-    script(type="text/javascript").
-      var trackClickEvent = function () {
-      var eventCategory = this.getAttribute("data-event-category");
-      var eventAction = this.getAttribute("data-event-action");
-      var eventLabel = this.getAttribute("data-event-label");
-      var eventValue = this.getAttribute("data-event-value");
-      ga('send', 'event', eventCategory, (eventAction != undefined && eventAction != '' ? eventAction : 'click'), eventLabel, eventValue);
-      };
-      var elementsToTrack = document.getElementsByClassName("ga-event");
-      var elementsToTrackLength = elementsToTrack.length;
-      for (var i = 0; i < elementsToTrackLength; i++) {
-      elementsToTrack[i].addEventListener('click', trackClickEvent, false);
-      }
       
     meta(charset='utf-8')
     title Travis Neilson dot com
