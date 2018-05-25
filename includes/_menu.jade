@@ -8,15 +8,9 @@
 
 .site-menu.hidden
   ul
-    li: a(href="/"
-      onclick="ga('send', 'event', 'Top Menu', 'Home');").special-link Hom<span>e</span>
-    li: a(href="/videos"
-      onclick="ga('send', 'event', 'Top Menu', 'Videos');").special-link Video<span>s</span>
-    li: a(href="/speaking"
-      onclick="ga('send', 'event', 'Top Menu', 'Speaking');").special-link Speakin<span>g</span>
-    li: a(href="/podcasts"
-      onclick="ga('send', 'event', 'Top Menu', 'Podcasts');").special-link Podcast<span>s</span>
-    li: a(href="/writings"
-      onclick="ga('send', 'event', 'Top Menu', 'Writings');").special-link Writing<span>s</span>
-    li: a(href="/more"
-      onclick="ga('send', 'event', 'Top Menu', 'More');").special-link Mor<span>e</span>
+    li: a(href="/" class="special-link ga-event" data-event-category="Mobile Menu" data-event-label="Home") Hom<span>e</span>
+    li: a(href="/videos" class="special-link ga-event" data-event-category="Mobile Menu" data-event-label="Videos") Video<span>s</span>
+    li: a(href="/speaking" class="special-link ga-event" data-event-category="Mobile Menu" data-event-label="Speaking") Speakin<span>g</span>
+    li: a(href="/podcasts" class="special-link ga-event" data-event-category="Mobile Menu" data-event-label="Podcasts") Podcast<span>s</span>
+    li: a(href="/writings" class="special-link ga-event" data-event-category="Mobile Menu" data-event-label="Writings") Writing<span>s</span>
+    li: a(href="/more" class="special-link ga-event" data-event-category="Mobile Menu" data-event-label="More") Mor<span>e</span>
