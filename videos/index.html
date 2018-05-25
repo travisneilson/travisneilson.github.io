@@ -8,6 +8,7 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-4841651-7');
+      
     </script>
     <meta charset="utf-8">
     <title>Travis Neilson dot com</title>
@@ -49,12 +50,12 @@
     </div>
     <div class="site-menu hidden">
       <ul>
-        <li><a href="/" class="special-link">Hom<span>e</span></a></li>
-        <li><a href="/videos" class="special-link">Video<span>s</span></a></li>
-        <li><a href="/speaking" class="special-link">Speakin<span>g</span></a></li>
-        <li><a href="/podcasts" class="special-link">Podcast<span>s</span></a></li>
-        <li><a href="/writings" class="special-link">Writing<span>s</span></a></li>
-        <li><a href="/more" class="special-link">Mor<span>e</span></a></li>
+        <li><a href="/" onclick="ga('send', 'event', 'Top Menu', 'Home');" class="special-link">Hom<span>e</span></a></li>
+        <li><a href="/videos" onclick="ga('send', 'event', 'Top Menu', 'Videos');" class="special-link">Video<span>s</span></a></li>
+        <li><a href="/speaking" onclick="ga('send', 'event', 'Top Menu', 'Speaking');" class="special-link">Speakin<span>g</span></a></li>
+        <li><a href="/podcasts" onclick="ga('send', 'event', 'Top Menu', 'Podcasts');" class="special-link">Podcast<span>s</span></a></li>
+        <li><a href="/writings" onclick="ga('send', 'event', 'Top Menu', 'Writings');" class="special-link">Writing<span>s</span></a></li>
+        <li><a href="/more" onclick="ga('send', 'event', 'Top Menu', 'More');" class="special-link">Mor<span>e</span></a></li>
       </ul>
     </div>
     <div class="breadcrumb"><a href="/">travisneilson.com</a> / video</div>

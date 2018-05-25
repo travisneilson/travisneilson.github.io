@@ -3,6 +3,7 @@ block vars
 doctype html
 html(class="page-#{page}")
   head
+    
     // Global site tag (gtag.js) - Google Analytics
     script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-4841651-7')
     script.
@@ -10,6 +11,7 @@ html(class="page-#{page}")
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-4841651-7');
+      
     meta(charset='utf-8')
     title Travis Neilson dot com
     meta(name='description', content='Travis specializes in making things for human people.')
