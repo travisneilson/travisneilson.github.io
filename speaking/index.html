@@ -22,7 +22,20 @@
   </head>
   <body>
     <div class="page-border-decoration"></div>
-    <div class="icon-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <!--.menu-desktop.hide.d-show-->
+    <div class="menu-desktop hide">
+      <ul>
+            <li><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
+            <li><a href="/videos" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');" class="special-link">Video<span>s</span></a></li>
+            <li><a href="/speaking" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');" class="special-link">Speakin<span>g</span></a></li>
+            <li><a href="/podcasts" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');" class="special-link">Podcast<span>s</span></a></li>
+            <li><a href="/writings" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');" class="special-link">Writing<span>s</span></a></li>
+            <li><a href="/more" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');" class="special-link">Mor<span>e</span></a></li>
+      </ul>
+    </div>
+    <!--.menu-mobile.d-hide-->
+    <div class="menu-mobile">
+      <div class="icon-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
   <defs>
     <style>
       .cls-1 {
@@ -42,23 +55,24 @@
   </g>
 </svg>
 
-    </div>
-    <div class="site-menu-overlay hidden"></div>
-    <div class="icon-menu-close hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
+      </div>
+      <div class="site-menu-overlay hidden"></div>
+      <div class="icon-menu-close hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
     <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
 </svg>
 
-    </div>
-    <div class="site-menu hidden">
-      <ul>
-        <li><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
-        <li><a href="/videos" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');" class="special-link">Video<span>s</span></a></li>
-        <li><a href="/speaking" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');" class="special-link">Speakin<span>g</span></a></li>
-        <li><a href="/podcasts" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');" class="special-link">Podcast<span>s</span></a></li>
-        <li><a href="/writings" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');" class="special-link">Writing<span>s</span></a></li>
-        <li><a href="/more" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');" class="special-link">Mor<span>e</span></a></li>
-      </ul>
+      </div>
+      <div class="site-menu hidden">
+        <ul>
+              <li><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
+              <li><a href="/videos" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');" class="special-link">Video<span>s</span></a></li>
+              <li><a href="/speaking" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');" class="special-link">Speakin<span>g</span></a></li>
+              <li><a href="/podcasts" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');" class="special-link">Podcast<span>s</span></a></li>
+              <li><a href="/writings" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');" class="special-link">Writing<span>s</span></a></li>
+              <li><a href="/more" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');" class="special-link">Mor<span>e</span></a></li>
+        </ul>
+      </div>
     </div>
     <div class="breadcrumb"><a href="/">travisneilson.com</a> / speaking</div>
     <div class="container">
@@ -119,7 +133,7 @@
                 <li>Adobe </li>
                 <li>Epicurrence</li>
                 <li>AIGA SF</li>
-                <li>UC Berkley</li>
+                <li>UC Berkeley</li>
                 <li>and more!</li>
               </ul>
             </p>

@@ -1,16 +1,28 @@
-.icon-menu
-  include ../images/menu-icon.svg
+mixin menu
+  li: a(href="/" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');") Hom<span>e</span>
+  li: a(href="/videos" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');") Video<span>s</span>
+  li: a(href="/speaking" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');") Speakin<span>g</span>
+  li: a(href="/podcasts" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');") Podcast<span>s</span>
+  li: a(href="/writings" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');") Writing<span>s</span>
+  li: a(href="/more" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');") Mor<span>e</span>
 
-.site-menu-overlay.hidden
 
-.icon-menu-close.hidden
-  include ../images/icon-close.svg
-
-.site-menu.hidden
+//.menu-desktop.hide.d-show
+.menu-desktop.hide
   ul
-    li: a(href="/" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');") Hom<span>e</span>
-    li: a(href="/videos" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');") Video<span>s</span>
-    li: a(href="/speaking" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');") Speakin<span>g</span>
-    li: a(href="/podcasts" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');") Podcast<span>s</span>
-    li: a(href="/writings" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');") Writing<span>s</span>
-    li: a(href="/more" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');") Mor<span>e</span>
+    +menu
+
+//.menu-mobile.d-hide
+.menu-mobile
+
+  .icon-menu
+    include ../images/menu-icon.svg
+
+  .site-menu-overlay.hidden
+
+  .icon-menu-close.hidden
+    include ../images/icon-close.svg
+
+  .site-menu.hidden
+    ul
+      +menu

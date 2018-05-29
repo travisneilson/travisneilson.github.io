@@ -368,9 +368,26 @@ textarea {
   .pull-d-12 {
     margin-right: 100%; } }
 
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+.show-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 @media (min-width: 800px) {
   .d-hide {
-    display: none; } }
+    display: none; }
+  .d-show {
+    display: block; }
+  .d-show-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
 
 .x {
   outline: red 1px solid; }
@@ -392,9 +409,6 @@ textarea {
 
 .section-spacer {
   height: 100px; }
-
-.hide {
-  display: none !important; }
 
 .padding-10 {
   padding: 10px; }
@@ -662,6 +676,21 @@ p.no-bottom-margin {
   100% {
     -webkit-transform: scale(1);
             transform: scale(1); } }
+
+.menu-desktop {
+  position: absolute;
+  top: 50px;
+  left: 60px; }
+  .menu-desktop ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .menu-desktop ul li {
+      margin-right: 30px; }
+      .menu-desktop ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px; }
 
 .breadcrumb {
   text-align: right;

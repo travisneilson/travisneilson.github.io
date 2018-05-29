@@ -47,9 +47,26 @@
     .pull-d-#{$i}
       margin-right: percentage( $i / 12 )
 
-// T O O L S
+
+// SHOW & HIDE
+
+.hide
+  display: none
+
+.show
+  display: block
+
+.show-flex
+  display: flex
+
+
 
 @media(min-width: 800px)
   .d-hide
     display: none
-  
+
+  .d-show
+    display: block
+
+  .d-show-flex
+    display: flex
