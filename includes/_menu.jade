@@ -1,19 +1,17 @@
-mixin menu
-  li: a(href="/" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');") Hom<span>e</span>
-  li: a(href="/videos" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Videos');") Video<span>s</span>
-  li: a(href="/speaking" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Speaking');") Speakin<span>g</span>
-  li: a(href="/podcasts" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Podcasts');") Podcast<span>s</span>
-  li: a(href="/writings" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Writings');") Writing<span>s</span>
-  li: a(href="/more" class="special-link" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'More');") Mor<span>e</span>
+mixin menu(menuplace)
+  li.menu-name-home: a(href="/" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Home');") Hom<span>e</span>
+  li.menu-name-videos: a(href="/videos" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Videos');") Video<span>s</span>
+  li.menu-name-speaking: a(href="/speaking" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Speaking');") Speakin<span>g</span>
+  li.menu-name-podcasts: a(href="/podcasts" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Podcasts');") Podcast<span>s</span>
+  li.menu-name-writings: a(href="/writings" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Writings');") Writing<span>s</span>
+  li.menu-name-more: a(href="/more" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'More');") Mor<span>e</span>
 
 
-//.menu-desktop.hide.d-show
-.menu-desktop.hide
+.menu-desktop.hide.d-show
   ul
-    +menu
+    +menu('Desktop Menu')
 
-//.menu-mobile.d-hide
-.menu-mobile
+.menu-mobile.d-hide
 
   .icon-menu
     include ../images/menu-icon.svg
@@ -25,4 +23,4 @@ mixin menu
 
   .site-menu.hidden
     ul
-      +menu
+      +menu('Mobile Menu')

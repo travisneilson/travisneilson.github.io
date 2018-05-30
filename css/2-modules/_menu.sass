@@ -151,17 +151,43 @@
 
 // DESKTOP MENU
 
+@media (min-width: 800px)
+  .breadcrumb
+    display: none
+
 .menu-desktop
-  position: absolute
-  top: 50px
-  left: 60px
+  text-transform: uppercase
+  color: rgba(0,0,0,0.54)
+  position: relative
+  margin: 30px
+  line-height: 1
+  letter-spacing: 1.5px
+  margin: 50px
 
   ul
     display: flex
-    li
-      margin-right: 30px
+    justify-content: center
 
-      a
-        text-transform: uppercase
-        font-size: 14px
-        letter-spacing: 1px
+  li
+    margin-right: 30px
+
+    &:last-child
+      margin-right: 0px
+
+  a.special-link
+    text-transform: uppercase
+    font-size: 13px
+    letter-spacing: 3px
+    padding: 0px 4px
+
+    color: rgba(0,0,0,0.3)
+    text-decoration: none
+    box-shadow: 0px 0px 0px 0px #00FFA7 inset
+    transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out
+
+    &:hover
+      box-shadow: 0px -17px 0px 0px #00FFA7 inset
+      color: rgba(0,0,0,0.87)
+
+    span
+      letter-spacing: 0px
