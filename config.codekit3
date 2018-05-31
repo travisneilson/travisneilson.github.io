@@ -16,6 +16,22 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
+	"\/404.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/404.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/book\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -169,6 +185,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/css\/_video-link.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/3-layouts\/_404.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_404.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

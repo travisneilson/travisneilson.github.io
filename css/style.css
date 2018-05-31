@@ -1718,3 +1718,29 @@ p.no-bottom-margin {
     width: 24px; }
   .page-more .account-name .social-icon-fill-2 {
     fill: #aaa; }
+
+.wrap-404 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media (min-width: 800px) {
+  .wrap-404 {
+    height: calc(100vh - 114px);
+    margin: 0; } }
+
+.content-404 {
+  width: 255px; }
+  .content-404 h1 {
+    font-size: 42px;
+    line-height: 1.2; }
+    .content-404 h1 span {
+      color: #00FFA7; }
