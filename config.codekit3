@@ -938,6 +938,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new-travis-face.jpg": {
+		"ft": 16384,
+		"iS": 25606,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/new-travis-face.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/new-travis-face@2x.jpg": {
+		"ft": 16384,
+		"iS": 66172,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/new-travis-face@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/notes-vid-cvr1.jpg": {
 		"ft": 16384,
 		"iS": 23299,
@@ -1345,6 +1367,13 @@
 		"oAP": "\/speaking\/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/ux-source\/tn9.xd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ux-source\/tn9.xd",
+		"oF": 0
 		},
 	"\/version-2015\/2010\/01\/07\/default-switch.html": {
 		"cB": 0,
@@ -13083,8 +13112,8 @@
 	"creationDate": 502224860,
 	"displayValue": "newtn – v2",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-kanye",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "brackets_teal",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
