@@ -1,0 +1,76 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'prompts'
+  - var prevurl = '/videos'
+  - var prevlabel = 'videos'
+  - var nexturl = '/writings'
+  - var nextlabel = 'writings'
+  - var paglabel = 'Other things...'
+
+block content
+  
+  .breadcrumb <a href="/">travisneilson.com</a> / #{page}
+  
+  .container
+    
+    .row
+      .col-8.pull-4.title-container
+        img(src="/images/prompts-title.png").fit-img
+    
+    .row
+      .col-9.push-2.pull-1
+        .prompts-lead
+          p: span Hey! It looks like I'm up on stage making a fool of myself. You can help me out by engaging in the conversation.
+          p: span Use one of these prompts to inspire a question for this AMA session.
+    
+    .row
+      .col-9.pull-2.push-1.callout-box
+        h2 Career
+        ul
+          li Working at Google, startups, and design agencies.
+          li Should you go to design school?
+          li What is a UX designer?
+          li How can a designer get a seat at the table?
+    
+    
+    .section-spacer
+    
+    .row
+      .col-9.pull-1.push-2.callout-box
+        h2 UX Design
+        ul
+          li Proving an idea
+          li Creating tools, not rules
+          li Think to talk
+          li Imposter syndrome
+          li Design thinking
+          li UX Sprints
+          li UX Design vs UI Design
+    
+    
+    .section-spacer
+    
+    .row
+      .col-9.pull-2.push-1.callout-box
+        h2 Personal Growth
+        ul
+          li Dealing with burnout
+          li Overcoming fear
+          li Finding your voice
+          li Finding perspective and peace
+          li "Feel it to heal it"
+    
+    
+    .section-spacer
+    
+    .row
+      .col-9.pull-1.push-2.callout-box
+        h2 Publishing
+        ul
+          li Growing a YouTube channel
+          li Personal branding strategies
+          li Starting a podcast
+    
+    
+    include ../includes/_pagination.jade

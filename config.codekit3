@@ -254,6 +254,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/3-layouts\/_prompts.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_prompts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/3-layouts\/_speaking.sass": {
 		"aP": 1,
 		"bl": 0,
@@ -1103,6 +1116,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/prompts-title.png": {
+		"ft": 32768,
+		"iS": 19485,
+		"oA": 0,
+		"oAP": "\/images\/prompts-title.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/reacting to notes-cvr.psd": {
 		"cB": 0,
 		"ft": 8192,
@@ -1331,6 +1355,22 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/podcasts\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/prompts\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prompts\/index.html",
+		"oF": 0
+		},
+	"\/prompts\/index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/prompts\/index.html",
 		"oF": 0,
 		"oS": 0
 		},

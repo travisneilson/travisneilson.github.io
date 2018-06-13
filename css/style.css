@@ -1744,3 +1744,22 @@ p.no-bottom-margin {
     line-height: 1.2; }
     .content-404 h1 span {
       color: #00FFA7; }
+
+.page-prompts {
+  margin-bottom: 70px; }
+  .page-prompts .prompts-lead {
+    margin-bottom: 50px; }
+    .page-prompts .prompts-lead p {
+      font-size: 16px;
+      line-height: 1.8; }
+      .page-prompts .prompts-lead p span {
+        background-color: #EDEDED; }
+  .page-prompts h2 {
+    font-size: 24px;
+    margin: 0px 0 20px 0;
+    line-height: 1; }
+  .page-prompts .container li {
+    margin-bottom: 10px;
+    list-style-type: square;
+    margin-left: 20px;
+    padding-left: 5px; }
