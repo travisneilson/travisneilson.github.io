@@ -1,5 +1,6 @@
 extends ../includes/_page-head
 
+
 block vars
   - var page = 'video'
   - var prevurl = '/'
@@ -9,35 +10,35 @@ block vars
   - var paglabel = 'Other things...'
 
 block content
-  
+
   .breadcrumb <a href="/">travisneilson.com</a> / #{page}
-  
+
   .container
-    
+
     .row(style="margin-bottom: -10px")
       .col-6.pull-6.title-container
         include ../images/title-videos.svg
-    
+
     .row
       .col-7.push-4.pull-1.col-d-6.push-d-6.pull-d-0
         .complicated-paragraph
           p <strong>Over 300 videos and 12 million views.</strong> I’ve been using video as a way to
-          
+
           p <a class="video-link" href="https://www.youtube.com/watch?v=v2xMWIFMWDE"><img class="video-thumb" src="/images/thumb-videos.jpg"></a> teach and connect with people around the world.
-    
+
     .section-spacer
-    
+
     .row
       .col-5.push-6.pull-1(style="margin-bottom: -8px")
         img.fit-img(src="/images/yt_logo.png")
-    
+
     .row
       .col-7.push-1.pull-4
         .callout-box
           .push-3.number-breakout: strong 1
           p.no-bottom-margin My YouTube channel, where I talk about the things that I am learning.
           p.no-bottom-margin: a.small-link(href="https://www.youtube.com/travisneilson") YouTube.com/TravisNeilson
-    
+
     .section-spacer
 
 
@@ -47,32 +48,31 @@ block content
           .push-8.number-breakout: strong 2
           p.no-bottom-margin I’ve partnered with Adobe to make educational content.
           p.no-bottom-margin: a.small-link(href="https://www.youtube.com/watch?v=v2xMWIFMWDE") YouTube.com/AdobeCreativeCloud
-    
+
     .row
       .col-3.push-1.pull-8.push-d-3.pull-d-6(style="margin-top: -50px")
         img.fit-img(src="/images/adobe-logo.png")
-    
+
     .section-spacer(style="height: 60px")
-    
+
     .row
       .col-3.push-8.pull-1(style="margin-bottom: -24px")
         img.fit-img(src="/images/logo-dt.jpg" style="border-radius: 10px")
-        
+
     .row
       .col-7.push-2.pull-3
         .callout-box
           .push-2.number-breakout: strong 3
           p.no-bottom-margin I founded one of the most successful design and coding channels on YouTube.
           p.no-bottom-margin: a.small-link(href="https://www.youtube.com/user/DevTipsForDesigners") YouTube.com/DevTips
-  
-  
+
+
     .section-spacer
-    
+
     .row
       .col-8.push-2.pull-2.col-d-4.push-d-4.pull-d-4
         a(href="mailto:travisneilson@gmail.com").callout-cta Partner with me to produce a video!
           .mail-icon
             include ../images/icon-mail.svg
-    
-    include ../includes/_pagination.jade
-    
+
+    include ../includes/_pagination.pug

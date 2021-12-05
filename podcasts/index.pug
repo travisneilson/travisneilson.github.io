@@ -1,0 +1,116 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'podcasts'
+  - var prevurl = '/speaking'
+  - var prevlabel = 'speaking'
+  - var nexturl = '/'
+  - var nextlabel = 'home'
+  - var paglabel = 'Other things I do...'
+
+
+block content
+
+  .container
+
+    .row
+      .col-8.pull-4.title-container
+        include ../images/title-podcasts.svg
+
+    .row
+      .col-7.push-4.pull-1.col-d-6.push-d-6.pull-d-0
+        .complicated-paragraph
+          p <strong>I must enjoy the sound of my own voice</strong> because I’ve created hundreds of podcast episodes, and have been a guest on many more.
+          // p <img class="logo-tl" src="/images/logo-tl.png"></a> podcast episodes, and have been a guest on many more.
+
+
+    .section-spacer
+
+    .row: .col-7.push-4.pull-1.col-d-4.push-d-1.pull-d-7
+      .box-stripey(style="left: 20px")
+
+    .row
+      .col-9.push-2.pull-1.col-d-5.push-d-3.pull-d-4
+        .push-8.number-breakout: strong 1
+        p While I hosted Google's Design Podcast, <a href="https://open.spotify.com/show/0cIzGlabCGYsPz333wTmtK">The Google Method</a>, I interviewed designers and creative teams across all Google products.
+
+
+
+
+    .row
+      .col-12.push-1.pull-1.col-d-12
+        .row
+          .col-10.pull-2(style="margin-bottom: 24px;") <iframe src="https://open.spotify.com/embed/episode/1dysFg84323mPZaxnwQpAd?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          .col-10.pull-1.push-1 <iframe src="https://open.spotify.com/embed/episode/5CAt5lcB6D6GQUl0tKlyqb?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            .box-stripey.push-1(style="left: 20px; top: -60px; height: 200px; margin-bottom:-164px;")
+          .col-10.pull-2 <iframe src="https://open.spotify.com/embed/episode/5q1n4dP5zf7iYNcvfA3QD0?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+    .section-spacer
+
+    .row
+      .coll-8.pull-2.push-2.col-d-6.push-d-1.pull-d-5
+        .behind-box
+          .push-3.number-breakout: strong 2
+          p Selected episodes of my previous podcast: <a href="http://travandlos.simplecast.com/">Late Nights With...</a>
+
+    .row
+      .col-11.push-1.col-d-12.push-d-0
+        .podcast-episodes
+
+          mixin episode(href, src)
+            a(href=href target="_blank").episode
+              img(src='/images/podcast-episodes/'+src)
+              include ../images/icon-play-3.svg
+
+
+          +episode('https://travandlos.simplecast.com/episodes/69','2-imposter-syndrome.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/31c5eea1','1-tools-not-rules.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/124','3-in-defense-of-the-ordinary.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/45','4-discover-and-make.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/26','9-full-process-designer.jpg')
+
+          +episode('http://travandlos.simplecast.com/episodes/125','7-what-are-you-willing-to-suffer-with.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/19','8-a-case-for-bravery.jpg')
+
+          +episode('http://travandlos.simplecast.com/episodes/128','5-pleasure-purpose-happiness.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/25','10-sell-yourself.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/110','11-the-nothing-word.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/115','6-think-to-talk.jpg')
+          +episode('http://travandlos.simplecast.com/episodes/121','12-travis-is-a-child.jpg')
+
+
+    .section-spacer
+
+
+    .row
+      .col-10.push-1.pull-1.col-d-8.push-d-3.pull-d-1
+        .callout-box
+          .push-8.number-breakout: strong 3
+          p Other podcasts I’ve been a guest on:
+            .row.podcast-guest-list
+              .col-6
+                ul.bulleted
+                  li: a.small-link(href="https://developertea.simplecast.fm/5bfe83ae" target="_blank") Developer Tea
+                  li: a.small-link(href="https://ux.nearsoft.com/blog/podcasts/design-thinking-in-your-work-life/" target="_blank") UX Team
+                  li: a.small-link(href="https://www.thundernerds.io/2016/09/the-innovative-days-late-nights-of-trav-and-los-w-travis-neilson-carlos-montoya/" target="_blank") Thunder Nerds
+                  li: a.small-link(href="https://techjr.dev/episodes/2019/travis-neilson-talks-ux-ui-and-the-design-process/") Tech JR
+              .col-6
+                ul.bulleted
+                  //li: a.small-link(href="https://design.google/library/google-design-ux-research-august-de-los-reyes/" target="_blank") Google Method
+                  li: a.small-link(href="https://anchor.fm/scad-flux/episodes/Travis-Neilson-S2-EP1-e17oe91") inFLUX
+                  li: a.small-link(href="https://www.youtube.com/watch?v=86vZNfb4RDc" target="_blank") Webflow Workshop
+                  li: a.small-link(href="https://syntax.fm/show/142/travis-neilson-on-skills-gap-design-focus-and-working-at-google") Syntax
+
+
+
+    .section-spacer
+
+    .row
+      .col-8.push-2.pull-2.col-d-4.push-d-4.pull-d-4
+        a(href="mailto:travisneilson@gmail.com").callout-cta Invite me to be a guest on your podcast!
+          .mail-icon
+            include ../images/icon-mail.svg
+
+    include ../includes/_pagination.pug
