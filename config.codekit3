@@ -261,6 +261,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/css\/3-layouts\/_music.sass" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/css\/_music.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/css\/3-layouts\/_podcasts_old.sass" : {
       "aP" : 1,
       "bl" : 0,
@@ -1675,6 +1690,94 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/notes\/index.html",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/1-imposter-syndrome.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/1-imposter-syndrome.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/2-tools-not-rules.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/2-tools-not-rules.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/3-in-defense-of-the-ordinary.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/3-in-defense-of-the-ordinary.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/4-discover-and-make.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/4-discover-and-make.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/5-full-process.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/5-full-process.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/6-struggle-with.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/6-struggle-with.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/8-case-for-bravery.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/8-case-for-bravery.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/9-pleasure-and-purpose.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/9-pleasure-and-purpose.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/10-child.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/10-child.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/11-sell-yourself.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/11-sell-yourself.mp3",
+      "oF" : 0
+    },
+    "\/podcasts\/audio\/recovered-from-an-asshole\/12-nothing-word.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/podcasts\/audio\/recovered-from-an-asshole\/12-nothing-word.mp3",
       "oF" : 0
     },
     "\/podcasts\/index.html" : {
