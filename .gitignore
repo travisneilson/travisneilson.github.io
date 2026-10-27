@@ -55,3 +55,4 @@ site/_site/
 coverage
 .ruby-version
 *.codekit
+node_modules/
