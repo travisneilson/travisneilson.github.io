@@ -59,26 +59,44 @@ block content
       .col-11.push-1.col-d-12.push-d-0
         .podcast-episodes
 
-          mixin episode(href, src)
-            a(href=href target="_blank").episode
-              img(src='/images/podcast-episodes/'+src)
+          mixin episode(href, src, title)
+            a(href=href target="_blank" data-title=title).episode
+              img(src='/images/podcast-episodes/'+src alt=title)
               include ../images/icon-play-3.svg
 
 
-          +episode('https://travandlos.simplecast.com/episodes/69','2-imposter-syndrome.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/31c5eea1','1-tools-not-rules.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/124','3-in-defense-of-the-ordinary.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/45','4-discover-and-make.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/26','9-full-process-designer.jpg')
+          +episode('/podcasts/audio/recovered-from-an-asshole/1-imposter-syndrome.mp3','2-imposter-syndrome.jpg','Imposter Syndrome')
+          +episode('/podcasts/audio/recovered-from-an-asshole/2-tools-not-rules.mp3','1-tools-not-rules.jpg','Tools, Not Rules')
+          +episode('/podcasts/audio/recovered-from-an-asshole/3-in-defense-of-the-ordinary.mp3','3-in-defense-of-the-ordinary.jpg','In Defense of the Ordinary')
+          +episode('/podcasts/audio/recovered-from-an-asshole/4-discover-and-make.mp3','4-discover-and-make.jpg','Discover and Make')
+          +episode('/podcasts/audio/recovered-from-an-asshole/5-full-process.mp3','9-full-process-designer.jpg','Full Process Designer')
 
-          +episode('http://travandlos.simplecast.com/episodes/125','7-what-are-you-willing-to-suffer-with.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/19','8-a-case-for-bravery.jpg')
+          +episode('/podcasts/audio/recovered-from-an-asshole/6-struggle-with.mp3','7-what-are-you-willing-to-suffer-with.jpg','What Are You Willing to Suffer With?')
+          +episode('/podcasts/audio/recovered-from-an-asshole/8-case-for-bravery.mp3','8-a-case-for-bravery.jpg','A Case for Bravery')
 
-          +episode('http://travandlos.simplecast.com/episodes/128','5-pleasure-purpose-happiness.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/25','10-sell-yourself.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/110','11-the-nothing-word.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/115','6-think-to-talk.jpg')
-          +episode('http://travandlos.simplecast.com/episodes/121','12-travis-is-a-child.jpg')
+          +episode('/podcasts/audio/recovered-from-an-asshole/9-pleasure-and-purpose.mp3','5-pleasure-purpose-happiness.jpg','Pleasure, Purpose, Happiness')
+          +episode('/podcasts/audio/recovered-from-an-asshole/11-sell-yourself.mp3','10-sell-yourself.jpg','Sell Yourself')
+          +episode('/podcasts/audio/recovered-from-an-asshole/12-nothing-word.mp3','11-the-nothing-word.jpg','The Nothing Word')
+          +episode('/podcasts/audio/recovered-from-an-asshole/7-think-to-talk.mp3','6-think-to-talk.jpg','Think to Talk')
+          +episode('/podcasts/audio/recovered-from-an-asshole/10-child.mp3','12-travis-is-a-child.jpg','Travis is a Child')
+
+        #lnw-player.lnw-player.callout-box.hidden
+          button#lnw-play-btn.lnw-play-btn(type="button" aria-label="Play or pause")
+            svg.lnw-icon-play(viewBox="0 0 24 24" width="18" height="18")
+              path(fill="#fff" d="M8 5v14l11-7z")
+            svg.lnw-icon-pause.hidden(viewBox="0 0 24 24" width="18" height="18")
+              path(fill="#fff" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z")
+          img#lnw-art.lnw-art(src="/images/podcast-episodes/1-tools-not-rules.jpg" alt="")
+          .lnw-body
+            .lnw-header
+              .lnw-titles
+                span.lnw-kicker LATE NIGHTS WITH TRAV &amp; LOS
+                span#lnw-title.lnw-title Select an episode
+              span#lnw-time.lnw-time 0:00 / 0:00
+            #lnw-scrub.lnw-scrub
+              #lnw-progress.lnw-progress
+          button#lnw-close.lnw-close(type="button" aria-label="Close player") &times;
+          audio#lnw-audio(preload="metadata")
 
 
     .section-spacer

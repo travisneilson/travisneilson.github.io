@@ -1493,6 +1493,138 @@ p.no-bottom-margin {
   fill: #fff;
 }
 
+.episode.is-playing img {
+  outline: 3px solid #FF00EB;
+  outline-offset: 2px;
+}
+
+.lnw-player {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 316px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 18px 0 0 0;
+  padding: 28px 18px;
+  border: 2px solid #f1f1f1;
+  font-size: 12px;
+  line-height: 1.3;
+}
+@media (min-width: 800px) {
+  .lnw-player {
+    width: 640px;
+  }
+}
+.lnw-player.hidden {
+  display: none;
+}
+
+.lnw-play-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #FF00EB;
+  border: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px -4px rgba(255, 0, 235, 0.45);
+  transition: transform 150ms ease;
+}
+.lnw-play-btn:hover {
+  transform: scale(1.08);
+}
+.lnw-play-btn:focus {
+  outline: none;
+}
+.lnw-play-btn svg.hidden {
+  display: none;
+}
+
+.lnw-art {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.lnw-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.lnw-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.lnw-titles {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lnw-kicker {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.6px;
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 1px;
+}
+
+.lnw-title {
+  font-weight: 700;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.lnw-time {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.45);
+  flex-shrink: 0;
+}
+
+.lnw-scrub {
+  height: 6px;
+  background: #efefef;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.lnw-progress {
+  width: 0%;
+  height: 100%;
+  background: #FF00EB;
+  border-radius: 3px;
+  transition: width 100ms linear;
+}
+
+.lnw-close {
+  background: transparent;
+  border: 0;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 20px;
+  line-height: 1;
+  padding: 2px 4px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.lnw-close:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
 .behind-box {
   padding: 16px 16px 30px 16px;
   border: 4px solid #E5E5E5;
